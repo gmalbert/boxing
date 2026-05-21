@@ -17,8 +17,8 @@ build/
 .vscode/
 
 # Database (rebuilt from APIs via fetch script)
-data_files/knockoutiq.db
 data_files/*.db
+!data_files/knockoutiq.db
 
 # Trained ML models (rebuilt via scripts/train_models.py)
 data_files/models/
