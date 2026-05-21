@@ -1,0 +1,39 @@
+Total tables on page: 7
+
+Table 0: id='<no id>'  class='profileTable'  rows=26
+  Row 0: ['Naoya Inoue']
+  Row 1: ['330027 KOs0 KOsunsubscribed5,738\n\t\t\t\t\t\t\t', '33', '0', '0', '27 KOs', '0 KOs', '', 'Box-proBox-amAll Boutsdivisionsuper bant', 'division', 'super bantam', 'rating', '', '', '#1 / 1,469#1 / 163', 'bouts', '33', 'rounds', '217', 'KOs', '81.82%', 'career', '2012-2026', 'debut', '2012-10-02', 'titles', 'IBF World Super BantamWBC World Super Ba', 'ID#', '628407', 'birth name', '井上尚弥', 'sex', 'male', 'alias', 'Monster', 'age', '33', 'nationality', 'Japan', 'stance', 'orthodox', 'height', '5′ 5″ \xa0 / \xa0 165cm', 'reach', '67½″ \xa0 / \xa0 171cm', 'residence', 'Yokohama, Kanagawa, Japan', 'birth place', 'Zama, Kanagawa, Japan', 'club/gym', 'Ohashi Boxing Gym', 'wiki', '']
+  Row 2: ['33', '0', '0']
+  ... (23 more rows)
+
+Table 1: id='<no id>'  class='profileWLD'  rows=2
+  Row 0: ['33', '0', '0']
+  Row 1: ['27 KOs', '0 KOs', '']
+
+Table 2: id='<no id>'  class='rowTable'  rows=9
+  Row 0: ['division', 'super bantam']
+  Row 1: ['rating', '']
+  Row 2: ['', '#1 / 1,469#1 / 163']
+  ... (6 more rows)
+
+Table 3: id='<no id>'  class='rowTable'  rows=13
+  Row 0: ['ID#', '628407']
+  Row 1: ['birth name', '井上尚弥']
+  Row 2: ['sex', 'male']
+  ... (10 more rows)
+
+Table 4: id='humanExtraTable'  class='eventExtraTable'  rows=0
+
+Table 5: id='<no id>'  class=''  rows=1
+  Row 0: ['Box-pro\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t33\n\t\t\t\t\t\t\tbouts', '']
+
+Table 6: id='dvdccHMwP'  class='dataTable'  rows=69
+  Row 0: ['', 'date ↕', 'lbs ↓kilosstns', '', '', 'lbs ↓kilosstns', 'w-l-d', 'last 6', '', 'result', 'rounds', '', '']
+  Row 1: ['', '2026-05-02', '122', '', 'Junto Nakatani', '121½', '3200', '', 'Tokyo Dome', 'W-UD', '12/12', '', 'eventboutscorewiki']
+  Row 2: ['ref:Robert HoyleRaul Caiz Sr115-113Patri']
+  ... (66 more rows)
+
+
+WARNING: #listBouts table NOT FOUND in page source
+  Page h1: Naoya Inoue
+  Page title: BoxRec: Naoya Inoue

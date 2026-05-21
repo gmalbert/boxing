@@ -1,0 +1,36 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.Python
+
+# VS Code
+*.code-workspace
+.vscode/
+
+# Database (rebuilt from APIs via fetch script)
+data_files/knockoutiq.db
+data_files/*.db
+
+# Trained ML models (rebuilt via scripts/train_models.py)
+data_files/models/
+*.pkl
+*.joblib
+
+# Streamlit cache
+.streamlit/cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

@@ -1,0 +1,148 @@
+name: KnockOutIQ — Data Refresh
+
+on:
+  schedule:
+    # Daily at 8:00 AM UTC — fetch current odds and upcoming schedule
+    - cron: "0 8 * * *"
+    # Weekly on Monday at 6:00 AM UTC — full fight results + Elo recalc
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Fetch mode"
+        required: true
+        default: "daily"
+        type: choice
+        options:
+          - daily
+          - weekly
+          - backfill
+
+jobs:
+  daily-odds-update:
+    name: Daily Odds & Schedule Update
+    runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'schedule' && contains(github.event.schedule, '0 8'))
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore database from artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: knockoutiq-db
+          path: data_files/
+        continue-on-error: true   # first run: no artifact yet
+
+      - name: Run daily data update
+        env:
+          RAPID_API_KEY: ${{ secrets.RAPID_API_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ODDSPAPI_API_KEY: ${{ secrets.ODDSPAPI_API_KEY }}
+        run: |
+          MODE=${{ github.event.inputs.mode || 'daily' }}
+          python scripts/fetch_historical_data.py $MODE
+
+      - name: Pre-compute model predictions
+        run: python scripts/precache_predictions.py
+
+      - name: Upload updated database
+        uses: actions/upload-artifact@v4
+        with:
+          name: knockoutiq-db
+          path: data_files/knockoutiq.db
+          retention-days: 30
+          overwrite: true
+
+  weekly-results-update:
+    name: Weekly Results & Elo Recalculation
+    runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'schedule' && contains(github.event.schedule, '0 6'))
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore database from artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: knockoutiq-db
+          path: data_files/
+        continue-on-error: true
+
+      - name: Run weekly update
+        env:
+          RAPID_API_KEY: ${{ secrets.RAPID_API_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ODDSPAPI_API_KEY: ${{ secrets.ODDSPAPI_API_KEY }}
+        run: python scripts/fetch_historical_data.py weekly
+
+      - name: Pre-compute model predictions
+        run: python scripts/precache_predictions.py
+
+      - name: Upload updated database
+        uses: actions/upload-artifact@v4
+        with:
+          name: knockoutiq-db
+          path: data_files/knockoutiq.db
+          retention-days: 30
+          overwrite: true
+
+  backfill:
+    name: Full 10-Year Backfill (manual only)
+    runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'workflow_dispatch' &&
+      github.event.inputs.mode == 'backfill'
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run full backfill
+        env:
+          RAPID_API_KEY: ${{ secrets.RAPID_API_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ODDSPAPI_API_KEY: ${{ secrets.ODDSPAPI_API_KEY }}
+        run: python scripts/fetch_historical_data.py backfill
+
+      - name: Upload populated database
+        uses: actions/upload-artifact@v4
+        with:
+          name: knockoutiq-db
+          path: data_files/knockoutiq.db
+          retention-days: 90
+          overwrite: true

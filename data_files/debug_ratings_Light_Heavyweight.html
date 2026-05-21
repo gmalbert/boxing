@@ -1,0 +1,136 @@
+<html><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <title>BoxRec: Too many requests</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/build/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/build/images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/build/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/build/images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/build/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/build/images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/build/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/build/images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/build/images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/build/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/build/images/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/build/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/build/images/favicons/favicon-16x16.png" sizes="16x16">
+    <meta name="msapplication-TileColor" content="#af0a00">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="/build/images/favicons/favicon.ico">
+
+    <style>
+      body {background-color:#fff;margin:0;}
+      body, p,ol, ul, td, div,h1,h2,h3 { font-family:sans-serif,verdana,arial,helvetica;color:black;}
+      .link {color:#a10200;}
+
+
+        .logo {width:40%;}
+        h1 {font-size:5vw;}
+      
+
+      .submitButton {
+          color: #fff;
+          background-color:#c70300;
+          border:1px solid #a10200;
+          padding:8px;
+          font-size:1.1em;
+          font-weight:bold;
+          cursor:pointer;
+          border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;
+      }
+      .submitButton:hover {
+          background-color: #000;
+          border-color:#888;
+      }
+    </style>
+  </head>
+
+  <body>
+      <script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-os1oE9riCJnxvhNQ7O/WqU9GwWx5mE1SEyqiRc2BLb3uEMbNuxEJKZIGYbcNwpF3"></script><script type="text/javascript">
+    var onloadCallback = function() {
+      var element = document.getElementById('g-recaptcha-container');
+      var errorElement = document.getElementById('error-text');
+      var refreshButton = document.getElementById('refresh-button');
+      var siteKey = element.attributes['data-g-recaptcha-site-key'].value;
+      var unlockUrl = element.attributes['data-unlock-url'].value;
+      var safeToRefresh = element.attributes['data-safe-to-refresh'].value;
+      refreshButton.addEventListener('click', function() {
+          document.location.reload(true);
+      });
+      var xhttp = new XMLHttpRequest();
+      xhttp.open("GET", "/captcha", true);
+      xhttp.send();
+
+      grecaptcha.render('g-recaptcha-container', {
+          'sitekey': siteKey,
+          'callback': function(gRecaptchaResponse) {
+              postAjax(
+                  unlockUrl,
+                  'g-recaptcha-response=' + encodeURIComponent(gRecaptchaResponse),
+                  function() {
+                      if (safeToRefresh) {
+                          document.location.reload(true);
+                      } else {
+                          element.classList.add('hidden');
+                          refreshButton.classList.remove('hidden');
+                      }
+                  },
+                  function() {
+                      errorElement.classList.remove('hidden');
+                  }
+              );
+              errorElement.classList.add('hidden');
+          },
+          'expired-callback': function() {
+              grecaptcha.reset();
+          }
+      });
+      function postAjax(url, params, success, failure) {
+          var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+          xhr.open('POST', url);
+          xhr.onreadystatechange = function() {
+              if (xhr.readyState > 3) {
+                  xhr.status === 200 ? success(xhr.responseText) : failure(xhr.responseText);
+              }
+          };
+          xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+          xhr.send(params);
+          return xhr;
+      }
+    };
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&amp;render=explicit&amp;hl=en" async="" defer="">
+  </script>
+
+
+  <div style="width:100%;text-align:center;padding-top:20px;">
+    <img src="/build/images/main/logo.svg" class="logo" style="width:300px;">
+    <br>
+
+    <p>
+      Please complete the form below to continue...
+      <br>
+      </p><div style="display:inline-block;">
+        <form action="/en" method="POST">
+          <div data-g-recaptcha-site-key="6Ldt7asUAAAAAOA-PRGb-kSJAWN8scrfpi4ZM8hT" data-unlock-url="/recaptcha_unlock" data-safe-to-refresh="" id="g-recaptcha-container" class="recaptcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-gipjlrmewgmn" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ldt7asUAAAAAOA-PRGb-kSJAWN8scrfpi4ZM8hT&amp;co=aHR0cHM6Ly9ib3hyZWMuY29tOjQ0Mw..&amp;hl=en&amp;v=Br0hYqpfWeFzYCAXLD4UuCIV&amp;size=normal&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=h0slx2hsbad1"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+
+          <br>
+          <input type="submit" value="Submit" class="submitButton">
+        </form>
+      </div>
+    <p></p>
+
+    <div id="error-text" style="display:none;color:red;font-weight:bold;text-align:center;">Some error occured, please try again</div>
+
+    <br><br>
+    <button id="refresh-button" class="submitButton" style="display:none;">Refresh page</button>
+  </div>
+
+
+  
+
+<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" name="c-gipjlrmewgmn" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=Br0hYqpfWeFzYCAXLD4UuCIV&amp;k=6Ldt7asUAAAAAOA-PRGb-kSJAWN8scrfpi4ZM8hT&amp;bft=0dAFcWeA4c26AsvGCpw9-xVNC9T7rprCVTCun-t8z5yNCjgtE46DnYH1gNl7MP9ctReOwhCObq0icD2OLAtPSg-ABPdsOoBvocbw" style="width: 100%; height: 100%;"></iframe></div></div></body></html>
