@@ -16,8 +16,11 @@ sys.path.insert(0, str(Path(__file__).parent))
 import streamlit as st
 
 from config import APP_ICON, APP_TITLE, APP_SUBTITLE
+from data.db import Fight, Fighter, OddsSnapshot, get_session, get_upcoming_fights
 from footer import add_betting_oracle_footer
 from pathlib import Path
+from models import logistic_model as lm
+from utils.odds_utils import fmt_american
 
 _LOGO_PATH = Path(__file__).parent / "data_files" / "logo.png"
 
@@ -187,6 +190,89 @@ st.markdown("""
 
 # ─── Home Page Content ────────────────────────────────────────────────────────
 
+def _home_win_pct(fighter: Fighter) -> float:
+    total = (fighter.wins or 0) + (fighter.losses or 0)
+    return (fighter.wins / total) if total else 0.5
+
+
+def _home_ko_pct(fighter: Fighter) -> float:
+    wins = fighter.wins or 0
+    return (fighter.ko_wins or 0) / wins if wins else 0.0
+
+
+def _home_fight_features(fighter_a: Fighter, fighter_b: Fighter) -> dict:
+    return {
+        "reach_diff": 0,
+        "height_diff": 0,
+        "age_diff": 0,
+        "win_pct_diff": _home_win_pct(fighter_a) - _home_win_pct(fighter_b),
+        "ko_pct_diff": _home_ko_pct(fighter_a) - _home_ko_pct(fighter_b),
+        "elo_diff": (fighter_a.elo_rating or 1500) - (fighter_b.elo_rating or 1500),
+        "days_since_last_fight_diff": 0,
+        "opposition_quality_diff": 0,
+        "is_southpaw_matchup": int(
+            (fighter_a.stance or "").lower() != (fighter_b.stance or "").lower()
+        ),
+    }
+
+
+def _home_fighter_label(name: str, prob: float, odds: int | None) -> str:
+    label = f"{name} ({prob:.0%})"
+    if odds is not None:
+        label += f" ({fmt_american(odds)})"
+    return label
+
+
+@st.cache_data(ttl=120, show_spinner=False)
+def load_home_upcoming_fights(limit: int = 4) -> list[dict]:
+    session = get_session()
+    try:
+        fights = get_upcoming_fights(session)[:limit]
+        rows = []
+        for fight in fights:
+            boxer_a = session.get(Fighter, fight.fighter_a_id)
+            boxer_b = session.get(Fighter, fight.fighter_b_id)
+            if not boxer_a or not boxer_b:
+                continue
+
+            snaps = (
+                session.query(OddsSnapshot)
+                .filter(OddsSnapshot.fight_id == fight.id)
+                .order_by(OddsSnapshot.snapshot_time.desc())
+                .limit(50)
+                .all()
+            )
+            odds_a = _extract_dk_odds(snaps, boxer_a.name)
+            odds_b = _extract_dk_odds(snaps, boxer_b.name)
+
+            features = _home_fight_features(boxer_a, boxer_b)
+            prob_a = lm.predict_proba(features)
+            prob_b = 1 - prob_a
+
+            rows.append({
+                "fighter_a": boxer_a.name,
+                "fighter_b": boxer_b.name,
+                "prob_a": prob_a,
+                "prob_b": prob_b,
+                "odds_a": odds_a,
+                "odds_b": odds_b,
+                "weight_class": fight.weight_class or "",
+                "date": fight.fight_date.strftime("%b %d") if fight.fight_date else "",
+                "title_fight": fight.title_fight,
+            })
+        return rows
+    finally:
+        session.close()
+
+
+@st.cache_data(ttl=120, show_spinner=False)
+def _extract_dk_odds(_snaps: list, fighter_name: str) -> int | None:
+    for s in _snaps:
+        if s.bookmaker == "draftkings" and s.fighter_name == fighter_name:
+            return s.american_odds
+    return None
+
+
 def home_page():
     """Dashboard landing page."""
 
@@ -198,11 +284,12 @@ def home_page():
         with title_col:
             st.markdown(
                 f"<h1 style='font-size:2.8rem;margin-bottom:0;padding-top:0.4rem'>"
-                f"{APP_TITLE}"
-                f"</h1>"
-                f"<p style='color:#9ca3af;font-size:1.1rem;margin-top:4px'>"
                 f"{APP_SUBTITLE}"
-                f"</p>",
+                f"</h1>"
+                # f"<p style='color:#9ca3af;font-size:1.1rem;margin-top:4px'>"
+                # f"{APP_SUBTITLE}"
+                # f"</p>"
+                ,
                 unsafe_allow_html=True,
             )
     else:
@@ -217,56 +304,50 @@ def home_page():
         )
     st.markdown("---")
 
-    # Quick-nav cards
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        with st.container(border=True):
-            st.markdown("### 📅 Fight Card")
-            st.caption("Upcoming fights with DraftKings odds and model edge signals.")
-            if st.button("Go to Fight Card", key="nav_fc"):
-                st.switch_page("pages/01_Fight_Card.py")
-    with col2:
-        with st.container(border=True):
-            st.markdown("### 🥊 Fighter Profiles")
-            st.caption("Career records, Elo ratings, punch stats, and style breakdowns.")
-            if st.button("Go to Fighter Profile", key="nav_fp"):
-                st.switch_page("pages/02_Fighter_Profile.py")
-    with col3:
-        with st.container(border=True):
-            st.markdown("### ⚔️ Matchup Analyzer")
-            st.caption("Head-to-head fighter comparison with win probability and style matchup.")
-            if st.button("Go to Matchup Analyzer", key="nav_ma"):
-                st.switch_page("pages/03_Matchup_Analyzer.py")
-    with col4:
-        with st.container(border=True):
-            st.markdown("### 📈 Odds Tracker")
-            st.caption("DraftKings vs. Pinnacle line movement and sharp money signals.")
-            if st.button("Go to Odds Tracker", key="nav_ot"):
-                st.switch_page("pages/04_Odds_Tracker.py")
+    upcoming_fights = load_home_upcoming_fights()
 
-    col5, col6, col7, _ = st.columns(4)
-    with col5:
-        with st.container(border=True):
-            st.markdown("### 🤖 Model Dashboard")
-            st.caption("All upcoming fights ranked by edge magnitude.")
-            if st.button("Go to Model Dashboard", key="nav_md"):
-                st.switch_page("pages/05_Model_Dashboard.py")
-    with col6:
-        with st.container(border=True):
-            st.markdown("### 💰 Bet Tracker")
-            st.caption("Log bets, track CLV, and measure long-run edge.")
-            if st.button("Go to Bet Tracker", key="nav_bt"):
-                st.switch_page("pages/06_Bet_Tracker.py")
-    with col7:
-        with st.container(border=True):
-            st.markdown("### 📚 Fight Database")
-            st.caption("Search 10 years of boxing history with trends and analytics.")
-            if st.button("Go to Fight Database", key="nav_fd"):
-                st.switch_page("pages/07_Fight_Database.py")
+    with st.container(border=True):
+        st.markdown("### 🔥 Upcoming Matches")
+        if not upcoming_fights:
+            st.info("No upcoming fights are currently available.", icon="ℹ️")
+        else:
+            for fight in upcoming_fights:
+                title_flag = " 🏆" if fight["title_fight"] else ""
+                a_label = _home_fighter_label(fight["fighter_a"], fight["prob_a"], fight["odds_a"])
+                b_label = _home_fighter_label(fight["fighter_b"], fight["prob_b"], fight["odds_b"])
+                details = " · ".join(
+                    part for part in [fight["date"], fight["weight_class"]] if part
+                )
+                if details:
+                    st.markdown(
+                        f"**{a_label} vs {b_label}**{title_flag}<br>"
+                        f"{details}",
+                        unsafe_allow_html=True,
+                    )
+                else:
+                    st.markdown(
+                        f"**{a_label} vs {b_label}**{title_flag}",
+                        unsafe_allow_html=True,
+                    )
+            st.caption("These are the next scheduled fights in your database.")
+        if st.button("View Fight Card", key="home_fc"):
+            st.switch_page("pages/01_Fight_Card.py")
 
     st.markdown("---")
+    st.markdown("### Quick links")
+    c1, c2, c3 = st.columns(3)
+    with c1:
+        if st.button("Fight Card", key="home_fc2"):
+            st.switch_page("pages/01_Fight_Card.py")
+    with c2:
+        if st.button("Model Dashboard", key="home_md2"):
+            st.switch_page("pages/05_Model_Dashboard.py")
+    with c3:
+        if st.button("Fight Database", key="home_fd2"):
+            st.switch_page("pages/07_Fight_Database.py")
+    st.markdown("---")
 
-    # ── How This Works ─────────────────────────────────────────────────────
+    # ── How This Works ────────────────────────────────────────────────────────
     with st.expander("📖 How KnockOutIQ Works", expanded=False):
         st.markdown("""
 **KnockOutIQ** uses a three-layer approach to find value in boxing betting markets:
@@ -287,13 +368,13 @@ def home_page():
    Pinnacle's (the sharpest book) line is used as a secondary reference.
 
 **Closing Line Value (CLV)** is tracked for every logged bet — if you consistently beat
-the closing line, you're making +EV decisions regardless of short-term results.
+ the closing line, you're making +EV decisions regardless of short-term results.
 
 > *All content is for informational purposes only. Wager responsibly.*
         """)
 
-    # ── Setup Status ───────────────────────────────────────────────────────
-    _show_setup_status()
+    with st.expander("⚙️ Setup Status", expanded=False):
+        _show_setup_status()
 
     add_betting_oracle_footer()
 
