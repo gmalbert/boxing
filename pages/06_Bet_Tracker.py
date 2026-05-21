@@ -204,9 +204,9 @@ def _tab_bet_log():
     # Charts
     ch1, ch2 = st.columns(2)
     with ch1:
-        st.plotly_chart(_cumulative_clv_chart(df), use_container_width=True)
+        st.plotly_chart(_cumulative_clv_chart(df), width="stretch")
     with ch2:
-        st.plotly_chart(_pnl_chart(df), use_container_width=True)
+        st.plotly_chart(_pnl_chart(df), width="stretch")
 
     # Table
     display_cols = ["Fight", "Fighter", "Book", "Odds Obtained", "Stake (units)",
@@ -234,7 +234,7 @@ def _tab_bet_log():
         return ""
 
     styled = show_df.style.map(highlight_result, subset=["Result"])
-    st.dataframe(styled, use_container_width=True, hide_index=True)
+    st.dataframe(styled, width="stretch", hide_index=True)
 
 
 def _demo_log():
@@ -248,7 +248,7 @@ def _demo_log():
          "CLV": "+0.5%", "Result": "win"},
     ]
     st.caption("Demo data — your real bets will appear here once logged")
-    st.dataframe(pd.DataFrame(demo_data), use_container_width=True, hide_index=True)
+    st.dataframe(pd.DataFrame(demo_data), width="stretch", hide_index=True)
 
 
 def _tab_add_bet():

@@ -383,7 +383,7 @@ def show_edge_table(fights_with_model_probs: pd.DataFrame):
     
     st.dataframe(
         fights_with_model_probs.style.apply(highlight_edge, axis=1),
-        use_container_width=True
+        width="stretch"
     )
 ```
 
@@ -407,7 +407,7 @@ def show_line_movement(odds_history: pd.DataFrame, fighter_name: str):
         yaxis_title="American Odds",
         template="plotly_dark"
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 ```
 
 **Auto-refresh for live odds** (during fight night):

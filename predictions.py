@@ -194,7 +194,7 @@ def home_page():
     if _LOGO_PATH.exists():
         logo_col, title_col = st.columns([1, 5])
         with logo_col:
-            st.image(str(_LOGO_PATH), use_container_width=True)
+            st.image(str(_LOGO_PATH), width="stretch")
         with title_col:
             st.markdown(
                 f"<h1 style='font-size:2.8rem;margin-bottom:0;padding-top:0.4rem'>"

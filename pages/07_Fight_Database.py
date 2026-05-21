@@ -255,7 +255,7 @@ def _tab_search():
         return ""
 
     styled = display_df.style.map(color_method, subset=["Method"])
-    st.dataframe(styled, use_container_width=True, hide_index=True)
+    st.dataframe(styled, width="stretch", hide_index=True)
 
     # Download
     csv = display_df.to_csv(index=False)
@@ -280,7 +280,7 @@ def _demo_fights_table():
          "Weight Class": "Welterweight", "Title 🏆": "Yes", "Event": "Crawford vs. Spence"},
     ]
     st.caption("Demo data — run backfill to load real fights")
-    st.dataframe(pd.DataFrame(demo), use_container_width=True, hide_index=True)
+    st.dataframe(pd.DataFrame(demo), width="stretch", hide_index=True)
 
 
 def _tab_trends():
@@ -303,12 +303,12 @@ def _tab_trends():
                          color_discrete_sequence=px.colors.qualitative.Bold)
         fig_pie.update_layout(height=300, template="plotly_dark",
                                paper_bgcolor="rgba(0,0,0,0)")
-        st.plotly_chart(fig_pie, use_container_width=True)
+        st.plotly_chart(fig_pie, width="stretch")
     with t2:
-        st.plotly_chart(_method_trend(df), use_container_width=True)
+        st.plotly_chart(_method_trend(df), width="stretch")
 
-    st.plotly_chart(_ko_rate_by_weight(df), use_container_width=True)
-    st.plotly_chart(_avg_rounds_chart(df), use_container_width=True)
+    st.plotly_chart(_ko_rate_by_weight(df), width="stretch")
+    st.plotly_chart(_avg_rounds_chart(df), width="stretch")
 
     # Title fight stats
     title_pct = df["title_fight"].mean() * 100 if not df.empty else 0
@@ -333,9 +333,9 @@ def _demo_trends():
         fig = px.pie(method_counts, names="Method", values="Count",
                      title="Fight Result Methods (Demo)")
         fig.update_layout(height=280, template="plotly_dark", paper_bgcolor="rgba(0,0,0,0)")
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
     with t2:
-        st.plotly_chart(_ko_rate_by_weight(df_demo), use_container_width=True)
+        st.plotly_chart(_ko_rate_by_weight(df_demo), width="stretch")
     st.caption("Demo data — connect APIs and run backfill for real trends")
 
 

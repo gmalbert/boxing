@@ -260,7 +260,7 @@ def model_dashboard_page():
         _tab_signals(signals)
 
     with tab_chart:
-        st.plotly_chart(_edge_scatter(signals), use_container_width=True)
+        st.plotly_chart(_edge_scatter(signals), width="stretch")
         st.caption("Points **above** the diagonal = model is more confident than DK's price. Potential +EV.")
 
     with tab_accuracy:
@@ -327,12 +327,12 @@ def _tab_accuracy():
     m2.metric("Accuracy", f"{acc:.1%}")
     m3.metric("Win Rate vs. Random", f"{acc - 0.5:+.1%}")
 
-    st.plotly_chart(_calibration_chart(df), use_container_width=True)
+    st.plotly_chart(_calibration_chart(df), width="stretch")
 
     by_version = df.groupby("model_version")["correct"].agg(["mean", "count"]).reset_index()
     by_version.columns = ["Model Version", "Accuracy", "# Predictions"]
     by_version["Accuracy"] = by_version["Accuracy"].map("{:.1%}".format)
-    st.dataframe(by_version, use_container_width=True, hide_index=True)
+    st.dataframe(by_version, width="stretch", hide_index=True)
 
 
 def _demo_accuracy():

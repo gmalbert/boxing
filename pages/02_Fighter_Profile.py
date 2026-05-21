@@ -240,9 +240,9 @@ def fighter_profile_page():
     # ── Win Breakdown + Elo Chart ─────────────────────────────────────────
     ch1, ch2 = st.columns(2)
     with ch1:
-        st.plotly_chart(_win_breakdown_chart(detail), use_container_width=True)
+        st.plotly_chart(_win_breakdown_chart(detail), width="stretch")
     with ch2:
-        st.plotly_chart(_elo_chart(detail["elo_history"]), use_container_width=True)
+        st.plotly_chart(_elo_chart(detail["elo_history"]), width="stretch")
 
     # ── Record Details ────────────────────────────────────────────────────
     st.markdown("### Win Statistics")
@@ -274,7 +274,7 @@ def fighter_profile_page():
             return "color: #facc15; font-weight: bold"
 
         styled = df.style.map(style_result, subset=["W/L/D"])
-        st.dataframe(styled, use_container_width=True, hide_index=True)
+        st.dataframe(styled, width="stretch", hide_index=True)
 
 
 fighter_profile_page()
