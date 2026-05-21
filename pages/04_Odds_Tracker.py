@@ -241,7 +241,7 @@ def _tab_live_odds():
         })
 
     df = pd.DataFrame(df_rows)
-    st.dataframe(df, use_container_width=True, hide_index=True)
+    st.dataframe(df, width="stretch", hide_index=True)
 
 
 def _demo_odds_board():
@@ -254,7 +254,7 @@ def _demo_odds_board():
          "Pin Edge": "+4.2% 🟢"},
     ]
     st.caption("Demo data — connect APIs to see live odds")
-    st.dataframe(pd.DataFrame(demo), use_container_width=True, hide_index=True)
+    st.dataframe(pd.DataFrame(demo), width="stretch", hide_index=True)
 
 
 def _tab_line_movement():
@@ -263,7 +263,7 @@ def _tab_line_movement():
 
     if not rows:
         st.info("No historical odds data. Showing demo movement chart.", icon="ℹ️")
-        st.plotly_chart(_demo_line_movement(), use_container_width=True)
+        st.plotly_chart(_demo_line_movement(), width="stretch")
         return
 
     fight_labels = [f"{r['fighter_a']} vs. {r['fighter_b']}" for r in rows]
@@ -283,10 +283,10 @@ def _tab_line_movement():
 
     if not dk_hist and not pin_hist:
         st.info("Not enough history to plot movement yet.")
-        st.plotly_chart(_demo_line_movement(), use_container_width=True)
+        st.plotly_chart(_demo_line_movement(), width="stretch")
     else:
-        st.plotly_chart(_line_movement_chart(dk_hist, pin_hist, fighter_choice), use_container_width=True)
-        st.plotly_chart(_multi_book_bar(selected_row), use_container_width=True)
+        st.plotly_chart(_line_movement_chart(dk_hist, pin_hist, fighter_choice), width="stretch")
+        st.plotly_chart(_multi_book_bar(selected_row), width="stretch")
 
 
 def _tab_odds_calculator():

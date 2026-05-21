@@ -232,9 +232,9 @@ def matchup_analyzer_page():
     # ── Probability Gauge ─────────────────────────────────────────────────
     g1, g2 = st.columns(2)
     with g1:
-        st.plotly_chart(_gauge_chart(prob_a, fa["name"], fb["name"]), use_container_width=True)
+        st.plotly_chart(_gauge_chart(prob_a, fa["name"], fb["name"]), width="stretch")
     with g2:
-        st.plotly_chart(_radar_chart(fa, fb), use_container_width=True)
+        st.plotly_chart(_radar_chart(fa, fb), width="stretch")
 
     # ── Model Results ─────────────────────────────────────────────────────
     st.markdown("### Model Predictions")
@@ -282,7 +282,7 @@ def matchup_analyzer_page():
             pass
         return styles
 
-    st.dataframe(df.style.apply(highlight_diff, axis=1), use_container_width=True, hide_index=True)
+    st.dataframe(df.style.apply(highlight_diff, axis=1), width="stretch", hide_index=True)
 
     # ── Stance Matchup Note ───────────────────────────────────────────────
     if fa["stance"] != fb["stance"]:

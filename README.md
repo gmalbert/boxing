@@ -21,42 +21,6 @@ A full-stack Streamlit application that combines historical boxing fight data, l
 
 ---
 
-## Architecture
-
-```
-predictions.py          ← Streamlit entry point (st.navigation, st.set_page_config)
-pages/
-  01_Fight_Card.py
-  02_Fighter_Profile.py
-  03_Matchup_Analyzer.py
-  04_Odds_Tracker.py
-  05_Model_Dashboard.py
-  06_Bet_Tracker.py
-  07_Fight_Database.py
-config.py               ← Env vars, app constants
-data/
-  db.py                 ← SQLAlchemy ORM (SQLite), session management
-  boxing_data.py        ← boxing-data.com RapidAPI client
-  odds_api.py           ← The Odds API client (primary live source)
-  oddspapi.py           ← OddsPapi / Pinnacle reference lines
-  sports_db.py          ← TheSportsDB free metadata
-models/
-  elo.py                ← Dynamic Elo rating system (KO bonus, novice K-factor)
-  logistic_model.py     ← Logistic regression baseline (scikit-learn)
-  xgboost_model.py      ← XGBoost ensemble primary model
-utils/
-  odds_utils.py         ← American ↔ implied prob, CLV, Kelly fraction, edge labels
-scripts/
-  fetch_historical_data.py  ← Seed DB + live odds fetch (backfill / daily / weekly)
-data_files/
-  knockoutiq.db         ← SQLite database (gitignored, rebuilt from fetch script)
-  models/               ← Serialised ML model files (gitignored)
-.github/workflows/
-  fetch_data.yml        ← GitHub Actions: daily odds, weekly results, manual backfill
-```
-
----
-
 ## Tech Stack
 
 - **Python 3.11**
@@ -66,53 +30,6 @@ data_files/
 - **scikit-learn + XGBoost** — win-probability models
 - **The Odds API** — live boxing moneylines (DraftKings, FanDuel, BetMGM, etc.)
 - **python-dotenv** — `.env` key management
-
----
-
-## Quick Start
-
-### 1. Clone & set up environment
-
-```bash
-git clone <your-repo-url>
-cd boxing
-python -m venv venv
-# Windows
-.\venv\Scripts\activate
-# macOS / Linux
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-### 2. Configure API keys
-
-```bash
-cp .env.example .env
-# Edit .env with your actual keys
-```
-
-**Required key:**
-- `ODDS_API_KEY` — [The Odds API](https://the-odds-api.com) (free tier: 500 req/month)
-
-**Optional (gracefully degraded if missing):**
-- `RAPID_API_KEY` — [boxing-data.com on RapidAPI](https://rapidapi.com/bengroves1993/api/boxing-data-api)
-- `ODDSPAPI_API_KEY` — [OddsPapi](https://oddspapi.io) for Pinnacle sharp lines
-
-### 3. Seed the database
-
-```bash
-python scripts/fetch_historical_data.py backfill
-```
-
-This seeds ~90 fighters, ~73 curated historical fights (2016–2026), pulls 52 live upcoming fights with odds from The Odds API, and calculates Elo ratings — all in under 5 seconds.
-
-### 4. Launch the app
-
-```bash
-streamlit run predictions.py
-```
-
-Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
@@ -142,14 +59,6 @@ Interpretable baseline using 9 features: reach differential, height, age, win %,
 
 ### XGBoost (`models/xgboost_model.py`)
 Ensemble primary model extending the logistic features with rolling stats. Returns `(win_prob, confidence)` tuple. Falls back to heuristic until trained on sufficient historical data.
-
-### Training Models
-Once you have sufficient historical data in the DB:
-```python
-# (coming soon — training script)
-from models.logistic_model import LogisticBoxingModel
-from models.xgboost_model import XGBoostBoxingModel
-```
 
 ---
 
