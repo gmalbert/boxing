@@ -53,13 +53,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Restore database from artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: knockoutiq-db
-          path: data_files/
-        continue-on-error: true   # first run: no artifact yet
-
       - name: Run daily data update
         env:
           RAPID_API_KEY: ${{ secrets.RAPID_API_KEY }}
@@ -123,13 +116,6 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
-
-      - name: Restore database from artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: knockoutiq-db
-          path: data_files/
-        continue-on-error: true
 
       - name: Run weekly update
         env:
