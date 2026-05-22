@@ -1,5 +1,8 @@
 name: KnockOutIQ — Data Refresh
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # Daily at 8:00 AM UTC — fetch current odds and upcoming schedule
@@ -29,6 +32,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -70,10 +76,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git pull --ff-only origin main
           git add data_files/knockoutiq.db
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh KnockOutIQ database snapshot [skip ci]"
-            git push
+            git push origin HEAD:main
           else
             echo "No database changes to commit."
           fi
@@ -88,6 +96,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -127,10 +138,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git pull --ff-only origin main
           git add data_files/knockoutiq.db
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh KnockOutIQ database snapshot [skip ci]"
-            git push
+            git push origin HEAD:main
           else
             echo "No database changes to commit."
           fi
@@ -146,6 +159,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -175,10 +191,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git pull --ff-only origin main
           git add data_files/knockoutiq.db
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh KnockOutIQ database snapshot [skip ci]"
-            git push
+            git push origin HEAD:main
           else
             echo "No database changes to commit."
           fi
