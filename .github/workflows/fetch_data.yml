@@ -77,10 +77,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          cp data_files/knockoutiq.db /tmp/knockoutiq_new.db
+          git fetch origin main
+          git reset --hard origin/main
+          cp /tmp/knockoutiq_new.db data_files/knockoutiq.db
           git add data_files/knockoutiq.db
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh KnockOutIQ database snapshot [skip ci]"
-            git pull --rebase --autostash origin main
             git push origin HEAD:main
           else
             echo "No database changes to commit."
@@ -139,10 +142,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          cp data_files/knockoutiq.db /tmp/knockoutiq_new.db
+          git fetch origin main
+          git reset --hard origin/main
+          cp /tmp/knockoutiq_new.db data_files/knockoutiq.db
           git add data_files/knockoutiq.db
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh KnockOutIQ database snapshot [skip ci]"
-            git pull --rebase --autostash origin main
             git push origin HEAD:main
           else
             echo "No database changes to commit."
@@ -199,10 +205,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          cp data_files/knockoutiq.db /tmp/knockoutiq_new.db
+          git fetch origin main
+          git reset --hard origin/main
+          cp /tmp/knockoutiq_new.db data_files/knockoutiq.db
           git add data_files/knockoutiq.db
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh KnockOutIQ database snapshot [skip ci]"
-            git pull --rebase --autostash origin main
             git push origin HEAD:main
           else
             echo "No database changes to commit."
