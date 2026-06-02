@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "sport": "Boxing",
+    "generated_at": "2026-06-01T10:31:54.630789+00:00",
+    "model_version": "1.0.0",
+    "season": "2026"
+  },
+  "bets": [
+    {
+      "game_date": "2026-06-05",
+      "game": "Albert Ramirez vs Lerrone Richards",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Lerrone Richards",
+      "confidence": 0.3641,
+      "edge": 0.2078,
+      "odds": 540,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-06",
+      "game": "Jack Massey vs Cheavon Clarke",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Cheavon Clarke",
+      "confidence": 0.6759,
+      "edge": 0.0547,
+      "odds": -164,
+      "tier": "Strong",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-13",
+      "game": "Antonio Vargas vs Jesse Rodriguez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Antonio Vargas",
+      "confidence": 0.2091,
+      "edge": 0.1503,
+      "odds": 1600,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-13",
+      "game": "Arturo Cardenas vs Jordan Martinez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Arturo Cardenas",
+      "confidence": 0.7406,
+      "edge": 0.1042,
+      "odds": -175,
+      "tier": "Elite",
+      "notes": ""
+    }
+  ]
+}

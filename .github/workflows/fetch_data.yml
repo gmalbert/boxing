@@ -89,6 +89,21 @@ jobs:
             echo "No database changes to commit."
           fi
 
+      - name: Export best bets for Sports Picks Grid
+        run: python scripts/export_best_bets.py
+        continue-on-error: true
+
+      - name: Commit best_bets_today.json
+        run: |
+          git add data_files/best_bets_today.json || true
+          if git diff --staged --quiet; then
+            echo "No best_bets changes to commit."
+          else
+            git commit -m "chore: update best_bets_today [skip ci]"
+            git push origin HEAD:main
+          fi
+        continue-on-error: true
+
   weekly-results-update:
     name: Weekly Results & Elo Recalculation
     runs-on: ubuntu-latest
