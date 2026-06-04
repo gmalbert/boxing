@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-03T09:41:17.189928+00:00",
+    "generated_at": "2026-06-04T09:23:35.736854+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Cheavon Clarke",
       "confidence": 0.6759,
-      "edge": 0.1637,
-      "odds": -105,
+      "edge": 0.1881,
+      "odds": 105,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Daniel Lugo",
       "confidence": 0.509,
-      "edge": 0.2868,
-      "odds": 350,
+      "edge": 0.2817,
+      "odds": 340,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "John Riel Casimero",
       "confidence": 0.4259,
-      "edge": 0.0798,
-      "odds": 189,
+      "edge": 0.075,
+      "odds": 185,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +97,32 @@
       "bet_type": "moneyline",
       "pick": "Aqib Fiaz",
       "confidence": 0.5,
+      "edge": 0.2797,
+      "odds": 354,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-06",
+      "game": "Lee Cutler vs Aaron Sutton",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Aaron Sutton",
+      "confidence": 0.5,
       "edge": 0.2727,
       "odds": 340,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-06",
+      "game": "Stephen Mckenna vs Casey James Streeter",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Casey James Streeter",
+      "confidence": 0.5,
+      "edge": 0.3571,
+      "odds": 600,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Troy Coleman",
       "confidence": 0.5,
-      "edge": 0.25,
-      "odds": 300,
+      "edge": 0.2579,
+      "odds": 313,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Jesus Carrasco",
       "confidence": 0.5,
-      "edge": 0.4524,
-      "odds": 2000,
+      "edge": 0.4474,
+      "odds": 1800,
       "tier": "Elite",
       "notes": ""
     },
