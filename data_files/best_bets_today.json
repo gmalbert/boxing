@@ -1,47 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-05T09:13:07.910094+00:00",
+    "generated_at": "2026-06-06T08:57:24.327424+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-06-05",
-      "game": "Albert Ramirez vs Lerrone Richards",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Lerrone Richards",
-      "confidence": 0.3641,
-      "edge": 0.1786,
-      "odds": 439,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-05",
-      "game": "Dzmitry Asanau vs Roger Gutierrez",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Roger Gutierrez",
-      "confidence": 0.5,
-      "edge": 0.4,
-      "odds": 900,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-05",
-      "game": "Jhon Orobio vs Jonathan Montrel",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jonathan Montrel",
-      "confidence": 0.4896,
-      "edge": 0.437,
-      "odds": 1800,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-06-06",
       "game": "Jack Massey vs Cheavon Clarke",
@@ -97,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Aqib Fiaz",
       "confidence": 0.5,
-      "edge": 0.2854,
-      "odds": 366,
+      "edge": 0.2963,
+      "odds": 391,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Aaron Sutton",
       "confidence": 0.5,
-      "edge": 0.2963,
-      "odds": 391,
+      "edge": 0.3285,
+      "odds": 483,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Casey James Streeter",
       "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
+      "edge": 0.375,
+      "odds": 700,
       "tier": "Elite",
       "notes": ""
     },
@@ -151,6 +115,18 @@
       "notes": ""
     },
     {
+      "game_date": "2026-06-12",
+      "game": "Wilkens Mathieu vs Esquiva Falcao",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Esquiva Falcao",
+      "confidence": 0.4931,
+      "edge": 0.3044,
+      "odds": 430,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-06-13",
       "game": "Antonio Vargas vs Jesse Rodriguez",
       "game_time": "",
@@ -171,6 +147,18 @@
       "confidence": 0.7406,
       "edge": 0.1952,
       "odds": -120,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Ryan Garner vs Michael Magnesi",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Michael Magnesi",
+      "confidence": 0.5087,
+      "edge": 0.3051,
+      "odds": 391,
       "tier": "Elite",
       "notes": ""
     }
