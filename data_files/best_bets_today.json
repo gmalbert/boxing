@@ -1,119 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-06T08:57:24.327424+00:00",
+    "generated_at": "2026-06-07T09:07:06.470342+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-06-06",
-      "game": "Jack Massey vs Cheavon Clarke",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Cheavon Clarke",
-      "confidence": 0.6759,
-      "edge": 0.2064,
-      "odds": 113,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-06",
-      "game": "Edward Vazquez vs Daniel Lugo",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Daniel Lugo",
-      "confidence": 0.509,
-      "edge": 0.2817,
-      "odds": 340,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-06",
-      "game": "Masamichi Yabuki vs Rene Calixto Bibiano",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Rene Calixto Bibiano",
-      "confidence": 0.2684,
-      "edge": 0.1434,
-      "odds": 700,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-06",
-      "game": "Luis Nery vs John Riel Casimero",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "John Riel Casimero",
-      "confidence": 0.4259,
-      "edge": 0.0306,
-      "odds": 153,
-      "tier": "Strong",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-06",
-      "game": "Joshua Padley vs Aqib Fiaz",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Aqib Fiaz",
-      "confidence": 0.5,
-      "edge": 0.2963,
-      "odds": 391,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-06",
-      "game": "Lee Cutler vs Aaron Sutton",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Aaron Sutton",
-      "confidence": 0.5,
-      "edge": 0.3285,
-      "odds": 483,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-06",
-      "game": "Stephen Mckenna vs Casey James Streeter",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Casey James Streeter",
-      "confidence": 0.5,
-      "edge": 0.375,
-      "odds": 700,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-06",
-      "game": "Aaron Bowen vs Troy Coleman",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Troy Coleman",
-      "confidence": 0.5,
-      "edge": 0.2579,
-      "odds": 313,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-06",
-      "game": "Connor Mitchell vs Jesus Carrasco",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jesus Carrasco",
-      "confidence": 0.5,
-      "edge": 0.4474,
-      "odds": 1800,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-06-12",
       "game": "Wilkens Mathieu vs Esquiva Falcao",
@@ -133,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Antonio Vargas",
       "confidence": 0.2091,
-      "edge": 0.1503,
-      "odds": 1600,
+      "edge": 0.1564,
+      "odds": 1800,
       "tier": "Elite",
       "notes": ""
     },
