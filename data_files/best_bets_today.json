@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-07T09:07:06.470342+00:00",
+    "generated_at": "2026-06-08T09:40:42.596236+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -37,8 +37,20 @@
       "bet_type": "moneyline",
       "pick": "Arturo Cardenas",
       "confidence": 0.7406,
-      "edge": 0.1952,
-      "odds": -120,
+      "edge": 0.1851,
+      "odds": -125,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-14",
+      "game": "Oshae Jones vs Elia Carranza",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Elia Carranza",
+      "confidence": 0.5,
+      "edge": 0.2143,
+      "odds": 250,
       "tier": "Elite",
       "notes": ""
     },
