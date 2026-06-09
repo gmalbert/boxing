@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-08T09:40:42.596236+00:00",
+    "generated_at": "2026-06-09T09:13:15.678173+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -19,7 +19,7 @@
       "notes": ""
     },
     {
-      "game_date": "2026-06-13",
+      "game_date": "2026-06-14",
       "game": "Antonio Vargas vs Jesse Rodriguez",
       "game_time": "",
       "bet_type": "moneyline",
@@ -31,7 +31,7 @@
       "notes": ""
     },
     {
-      "game_date": "2026-06-13",
+      "game_date": "2026-06-14",
       "game": "Arturo Cardenas vs Jordan Martinez",
       "game_time": "",
       "bet_type": "moneyline",
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Michael Magnesi",
       "confidence": 0.5087,
-      "edge": 0.3051,
-      "odds": 391,
+      "edge": 0.2778,
+      "odds": 333,
       "tier": "Elite",
       "notes": ""
     }
