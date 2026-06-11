@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-10T09:18:52.009582+00:00",
+    "generated_at": "2026-06-11T09:34:18.465826+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Esquiva Falcao",
       "confidence": 0.4931,
-      "edge": 0.3681,
-      "odds": 700,
+      "edge": 0.3502,
+      "odds": 600,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Jonathan Gonzalez",
       "confidence": 0.5,
-      "edge": 0.3909,
-      "odds": 817,
+      "edge": 0.3333,
+      "odds": 500,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Antonio Vargas",
       "confidence": 0.2091,
-      "edge": 0.1564,
-      "odds": 1800,
+      "edge": 0.1091,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Elia Carranza",
       "confidence": 0.5,
-      "edge": 0.2143,
-      "odds": 250,
+      "edge": 0.2561,
+      "odds": 310,
       "tier": "Elite",
       "notes": ""
     },
