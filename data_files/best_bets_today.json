@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-11T09:34:18.465826+00:00",
+    "generated_at": "2026-06-12T09:29:04.445040+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Arturo Cardenas",
       "confidence": 0.7406,
-      "edge": 0.2057,
-      "odds": -115,
+      "edge": 0.2168,
+      "odds": -110,
       "tier": "Elite",
       "notes": ""
     },
@@ -63,6 +63,18 @@
       "confidence": 0.5,
       "edge": 0.2561,
       "odds": 310,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-14",
+      "game": "Brandon Moore vs Don Haynesworth",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Don Haynesworth",
+      "confidence": 0.4978,
+      "edge": 0.4075,
+      "odds": 1008,
       "tier": "Elite",
       "notes": ""
     },
