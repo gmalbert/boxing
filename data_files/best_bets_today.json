@@ -1,35 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-12T09:29:04.445040+00:00",
+    "generated_at": "2026-06-13T09:08:23.332015+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-06-12",
-      "game": "Wilkens Mathieu vs Esquiva Falcao",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Esquiva Falcao",
-      "confidence": 0.4931,
-      "edge": 0.3502,
-      "odds": 600,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-12",
-      "game": "Moreno Fendero vs Jonathan Gonzalez",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jonathan Gonzalez",
-      "confidence": 0.5,
-      "edge": 0.3333,
-      "odds": 500,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-06-14",
       "game": "Antonio Vargas vs Jesse Rodriguez",
@@ -61,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Elia Carranza",
       "confidence": 0.5,
-      "edge": 0.2561,
-      "odds": 310,
+      "edge": 0.2143,
+      "odds": 250,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Don Haynesworth",
       "confidence": 0.4978,
-      "edge": 0.4075,
-      "odds": 1008,
+      "edge": 0.3978,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
@@ -87,6 +63,18 @@
       "confidence": 0.5087,
       "edge": 0.2778,
       "odds": 333,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-27",
+      "game": "Xander Zayas vs Jaron Ennis",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Xander Zayas",
+      "confidence": 0.3018,
+      "edge": 0.0637,
+      "odds": 320,
       "tier": "Elite",
       "notes": ""
     }
