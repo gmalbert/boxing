@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-13T09:08:23.332015+00:00",
+    "generated_at": "2026-06-14T09:09:49.071083+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -55,6 +55,18 @@
       "notes": ""
     },
     {
+      "game_date": "2026-06-14",
+      "game": "Shannel Butler vs Mayerlin Rivas",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Mayerlin Rivas",
+      "confidence": 0.5,
+      "edge": 0.2561,
+      "odds": 310,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-06-20",
       "game": "Ryan Garner vs Michael Magnesi",
       "game_time": "",
@@ -67,6 +79,54 @@
       "notes": ""
     },
     {
+      "game_date": "2026-06-20",
+      "game": "Taylor Bevan vs Ryszard Lewicki",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ryszard Lewicki",
+      "confidence": 0.5,
+      "edge": 0.3684,
+      "odds": 660,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Lasha Guruli vs Liam Dillon",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Liam Dillon",
+      "confidence": 0.4833,
+      "edge": 0.2507,
+      "odds": 330,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Brad Pauls vs Bradley Goldsmith",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Bradley Goldsmith",
+      "confidence": 0.5,
+      "edge": 0.2436,
+      "odds": 290,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Lewis Edmondson vs Lyndon Arthur",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Lewis Edmondson",
+      "confidence": 0.5,
+      "edge": 0.0495,
+      "odds": 122,
+      "tier": "Strong",
+      "notes": ""
+    },
+    {
       "game_date": "2026-06-27",
       "game": "Xander Zayas vs Jaron Ennis",
       "game_time": "",
@@ -75,6 +135,30 @@
       "confidence": 0.3018,
       "edge": 0.0637,
       "odds": 320,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-28",
+      "game": "Jahi Tucker vs Euri Cedeno",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Euri Cedeno",
+      "confidence": 0.545,
+      "edge": 0.1026,
+      "odds": 126,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-28",
+      "game": "Emiliano Vargas vs Bryce Mills",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Bryce Mills",
+      "confidence": 0.7238,
+      "edge": 0.5277,
+      "odds": 410,
       "tier": "Elite",
       "notes": ""
     }
