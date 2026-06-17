@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-16T09:51:37.032381+00:00",
+    "generated_at": "2026-06-17T09:43:21.624839+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Liam Dillon",
       "confidence": 0.4833,
-      "edge": 0.2507,
-      "odds": 330,
+      "edge": 0.1865,
+      "odds": 237,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,13 +61,13 @@
       "bet_type": "moneyline",
       "pick": "Lewis Edmondson",
       "confidence": 0.5,
-      "edge": 0.0495,
-      "odds": 122,
+      "edge": 0.037,
+      "odds": 116,
       "tier": "Strong",
       "notes": ""
     },
     {
-      "game_date": "2026-06-21",
+      "game_date": "2026-06-20",
       "game": "Oscar Collazo vs Joey Canoy",
       "game_time": "",
       "bet_type": "moneyline",
@@ -75,6 +75,42 @@
       "confidence": 0.4859,
       "edge": 0.395,
       "odds": 1000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Ernesto Mercado vs Juan Carlos Burgos",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Juan Carlos Burgos",
+      "confidence": 0.4834,
+      "edge": 0.3925,
+      "odds": 1000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Yair Gallardo vs Buneet Bisla",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Buneet Bisla",
+      "confidence": 0.5,
+      "edge": 0.2727,
+      "odds": 340,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Ruslan Abdullaev vs Orestes Velazquez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Orestes Velazquez",
+      "confidence": 0.5,
+      "edge": 0.377,
+      "odds": 713,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Bryce Mills",
       "confidence": 0.7238,
-      "edge": 0.5277,
-      "odds": 410,
+      "edge": 0.5543,
+      "odds": 490,
       "tier": "Elite",
       "notes": ""
     },
