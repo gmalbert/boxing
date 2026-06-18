@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-17T09:43:21.624839+00:00",
+    "generated_at": "2026-06-18T09:34:21.295890+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Michael Magnesi",
       "confidence": 0.5087,
-      "edge": 0.2778,
-      "odds": 333,
+      "edge": 0.2865,
+      "odds": 350,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Ryszard Lewicki",
       "confidence": 0.5,
-      "edge": 0.3684,
-      "odds": 660,
+      "edge": 0.375,
+      "odds": 700,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Liam Dillon",
       "confidence": 0.4833,
-      "edge": 0.1865,
-      "odds": 237,
+      "edge": 0.2333,
+      "odds": 300,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,21 +49,9 @@
       "bet_type": "moneyline",
       "pick": "Bradley Goldsmith",
       "confidence": 0.5,
-      "edge": 0.2436,
-      "odds": 290,
+      "edge": 0.25,
+      "odds": 300,
       "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-20",
-      "game": "Lewis Edmondson vs Lyndon Arthur",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Lewis Edmondson",
-      "confidence": 0.5,
-      "edge": 0.037,
-      "odds": 116,
-      "tier": "Strong",
       "notes": ""
     },
     {
@@ -85,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Juan Carlos Burgos",
       "confidence": 0.4834,
-      "edge": 0.3925,
-      "odds": 1000,
+      "edge": 0.3735,
+      "odds": 810,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Buneet Bisla",
       "confidence": 0.5,
-      "edge": 0.2727,
-      "odds": 340,
+      "edge": 0.2826,
+      "odds": 360,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +97,32 @@
       "bet_type": "moneyline",
       "pick": "Orestes Velazquez",
       "confidence": 0.5,
-      "edge": 0.377,
-      "odds": 713,
+      "edge": 0.378,
+      "odds": 720,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-24",
+      "game": "Lewis Crocker vs Liam Paro",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Lewis Crocker",
+      "confidence": 0.5,
+      "edge": 0.0556,
+      "odds": 125,
+      "tier": "Strong",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-24",
+      "game": "Demsey McKean vs Liam Talivaa",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Liam Talivaa",
+      "confidence": 0.4976,
+      "edge": 0.1899,
+      "odds": 225,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Xander Zayas",
       "confidence": 0.3018,
-      "edge": 0.0637,
-      "odds": 320,
+      "edge": 0.0746,
+      "odds": 340,
       "tier": "Elite",
       "notes": ""
     },
@@ -133,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Euri Cedeno",
       "confidence": 0.545,
-      "edge": 0.1026,
-      "odds": 126,
+      "edge": 0.1213,
+      "odds": 136,
       "tier": "Elite",
       "notes": ""
     },
@@ -145,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Bryce Mills",
       "confidence": 0.7238,
-      "edge": 0.5543,
-      "odds": 490,
+      "edge": 0.5598,
+      "odds": 510,
       "tier": "Elite",
       "notes": ""
     },
