@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-18T09:34:21.295890+00:00",
+    "generated_at": "2026-06-19T09:39:27.787531+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -85,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Buneet Bisla",
       "confidence": 0.5,
-      "edge": 0.2826,
-      "odds": 360,
+      "edge": 0.2691,
+      "odds": 333,
       "tier": "Elite",
       "notes": ""
     },
@@ -99,6 +99,90 @@
       "confidence": 0.5,
       "edge": 0.378,
       "odds": 720,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Amir Anderson vs Jonas Sylvain",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jonas Sylvain",
+      "confidence": 0.5,
+      "edge": 0.3901,
+      "odds": 810,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "J'Hon Ingram vs Devin Cushing",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Devin Cushing",
+      "confidence": 0.5,
+      "edge": 0.1503,
+      "odds": 186,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Iman Zahmatkesh vs Franklin Arinze",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Franklin Arinze",
+      "confidence": 0.5,
+      "edge": 0.2674,
+      "odds": 330,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Cayden Griffiths vs Alan Crisosto",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Alan Crisosto",
+      "confidence": 0.5,
+      "edge": 0.4038,
+      "odds": 940,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Daniel Garcia vs Christopher Rodriguez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Christopher Rodriguez",
+      "confidence": 0.5,
+      "edge": 0.4038,
+      "odds": 940,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Joshua Edwards vs Garreth Payton",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Garreth Payton",
+      "confidence": 0.5,
+      "edge": 0.4333,
+      "odds": 1400,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-20",
+      "game": "Oscar Collazo vs Neider Valdez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Neider Valdez",
+      "confidence": 0.4557,
+      "edge": 0.3723,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
