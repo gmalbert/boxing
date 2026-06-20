@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-19T09:39:27.787531+00:00",
+    "generated_at": "2026-06-20T09:07:34.840110+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -181,8 +181,8 @@
       "bet_type": "moneyline",
       "pick": "Neider Valdez",
       "confidence": 0.4557,
-      "edge": 0.3723,
-      "odds": 1100,
+      "edge": 0.403,
+      "odds": 1800,
       "tier": "Elite",
       "notes": ""
     },
