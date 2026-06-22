@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-21T09:19:20.688256+00:00",
+    "generated_at": "2026-06-22T10:05:44.639108+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Liam Talivaa",
       "confidence": 0.4976,
-      "edge": 0.1899,
-      "odds": 225,
+      "edge": 0.1202,
+      "odds": 165,
       "tier": "Elite",
       "notes": ""
     },
