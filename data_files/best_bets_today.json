@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-22T10:05:44.639108+00:00",
+    "generated_at": "2026-06-23T09:12:54.688926+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,9 +13,9 @@
       "bet_type": "moneyline",
       "pick": "Lewis Crocker",
       "confidence": 0.5,
-      "edge": 0.0556,
-      "odds": 125,
-      "tier": "Strong",
+      "edge": 0.0798,
+      "odds": 138,
+      "tier": "Elite",
       "notes": ""
     },
     {
@@ -37,9 +37,9 @@
       "bet_type": "moneyline",
       "pick": "Xander Zayas",
       "confidence": 0.3018,
-      "edge": 0.0637,
-      "odds": 320,
-      "tier": "Elite",
+      "edge": 0.0421,
+      "odds": 285,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -73,8 +73,20 @@
       "bet_type": "moneyline",
       "pick": "Richard Rivera",
       "confidence": 0.5,
-      "edge": 0.3551,
-      "odds": 590,
+      "edge": 0.378,
+      "odds": 720,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-29",
+      "game": "Omar Cande Trinidad vs Jerwin Ancanjas",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jerwin Ancanjas",
+      "confidence": 0.5,
+      "edge": 0.2455,
+      "odds": 293,
       "tier": "Elite",
       "notes": ""
     },
