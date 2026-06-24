@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-23T09:12:54.688926+00:00",
+    "generated_at": "2026-06-24T09:10:43.631002+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Lewis Crocker",
       "confidence": 0.5,
-      "edge": 0.0798,
-      "odds": 138,
+      "edge": 0.1,
+      "odds": 150,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Liam Talivaa",
       "confidence": 0.4976,
-      "edge": 0.1202,
-      "odds": 165,
+      "edge": 0.1417,
+      "odds": 181,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,9 +37,33 @@
       "bet_type": "moneyline",
       "pick": "Xander Zayas",
       "confidence": 0.3018,
-      "edge": 0.0421,
-      "odds": 285,
-      "tier": "Strong",
+      "edge": 0.0796,
+      "odds": 350,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-27",
+      "game": "Dennis Thompson vs Edwin Rodriguez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Edwin Rodriguez",
+      "confidence": 0.5,
+      "edge": 0.3654,
+      "odds": 643,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-27",
+      "game": "Juanma Lopez De Jesus vs Alberto Motos",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Alberto Motos",
+      "confidence": 0.5,
+      "edge": 0.4195,
+      "odds": 1143,
+      "tier": "Elite",
       "notes": ""
     },
     {
@@ -49,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Euri Cedeno",
       "confidence": 0.545,
-      "edge": 0.1213,
-      "odds": 136,
+      "edge": 0.0842,
+      "odds": 117,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Bryce Mills",
       "confidence": 0.7238,
-      "edge": 0.5598,
-      "odds": 510,
+      "edge": 0.5892,
+      "odds": 643,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Richard Rivera",
       "confidence": 0.5,
-      "edge": 0.378,
-      "odds": 720,
+      "edge": 0.401,
+      "odds": 910,
       "tier": "Elite",
       "notes": ""
     },
