@@ -1,35 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-24T09:10:43.631002+00:00",
+    "generated_at": "2026-06-25T09:10:34.866949+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-06-24",
-      "game": "Lewis Crocker vs Liam Paro",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Lewis Crocker",
-      "confidence": 0.5,
-      "edge": 0.1,
-      "odds": 150,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-24",
-      "game": "Demsey McKean vs Liam Talivaa",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Liam Talivaa",
-      "confidence": 0.4976,
-      "edge": 0.1417,
-      "odds": 181,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-06-27",
       "game": "Xander Zayas vs Jaron Ennis",
@@ -49,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Edwin Rodriguez",
       "confidence": 0.5,
-      "edge": 0.3654,
-      "odds": 643,
+      "edge": 0.3438,
+      "odds": 540,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Alberto Motos",
       "confidence": 0.5,
-      "edge": 0.4195,
-      "odds": 1143,
+      "edge": 0.4057,
+      "odds": 960,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,9 +49,9 @@
       "bet_type": "moneyline",
       "pick": "Euri Cedeno",
       "confidence": 0.545,
-      "edge": 0.0842,
-      "odds": 117,
-      "tier": "Elite",
+      "edge": 0.045,
+      "odds": 100,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -85,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Bryce Mills",
       "confidence": 0.7238,
-      "edge": 0.5892,
-      "odds": 643,
+      "edge": 0.6238,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Jerwin Ancanjas",
       "confidence": 0.5,
-      "edge": 0.2455,
-      "odds": 293,
+      "edge": 0.2579,
+      "odds": 313,
       "tier": "Elite",
       "notes": ""
     },
@@ -133,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Joe Cordina",
       "confidence": 0.4357,
-      "edge": 0.269,
-      "odds": 500,
+      "edge": 0.2818,
+      "odds": 550,
       "tier": "Elite",
       "notes": ""
     }
