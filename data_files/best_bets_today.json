@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-25T09:10:34.866949+00:00",
+    "generated_at": "2026-06-26T09:10:27.847572+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Xander Zayas",
       "confidence": 0.3018,
-      "edge": 0.0796,
-      "odds": 350,
+      "edge": 0.0978,
+      "odds": 390,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Edwin Rodriguez",
       "confidence": 0.5,
-      "edge": 0.3438,
-      "odds": 540,
+      "edge": 0.3462,
+      "odds": 550,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Euri Cedeno",
       "confidence": 0.545,
-      "edge": 0.045,
-      "odds": 100,
+      "edge": 0.0572,
+      "odds": 105,
       "tier": "Strong",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Bryce Mills",
       "confidence": 0.7238,
-      "edge": 0.6238,
-      "odds": 900,
+      "edge": 0.5904,
+      "odds": 650,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Jerwin Ancanjas",
       "confidence": 0.5,
-      "edge": 0.2579,
-      "odds": 313,
+      "edge": 0.2396,
+      "odds": 284,
       "tier": "Elite",
       "notes": ""
     },
