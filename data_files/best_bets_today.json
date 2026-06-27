@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-26T09:10:27.847572+00:00",
+    "generated_at": "2026-06-27T08:59:06.639983+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -15,6 +15,30 @@
       "confidence": 0.3018,
       "edge": 0.0978,
       "odds": 390,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-27",
+      "game": "Jahi Tucker vs Euri Cedeno",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Euri Cedeno",
+      "confidence": 0.545,
+      "edge": 0.0352,
+      "odds": -104,
+      "tier": "Strong",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-27",
+      "game": "Ben Whittaker vs Richard Rivera",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Richard Rivera",
+      "confidence": 0.5,
+      "edge": 0.3919,
+      "odds": 825,
       "tier": "Elite",
       "notes": ""
     },
@@ -44,18 +68,6 @@
     },
     {
       "game_date": "2026-06-28",
-      "game": "Jahi Tucker vs Euri Cedeno",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Euri Cedeno",
-      "confidence": 0.545,
-      "edge": 0.0572,
-      "odds": 105,
-      "tier": "Strong",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-28",
       "game": "Emiliano Vargas vs Bryce Mills",
       "game_time": "",
       "bet_type": "moneyline",
@@ -68,13 +80,61 @@
     },
     {
       "game_date": "2026-06-28",
-      "game": "Ben Whittaker vs Richard Rivera",
+      "game": "Quincey Williams vs Jerome Baxter",
       "game_time": "",
       "bet_type": "moneyline",
-      "pick": "Richard Rivera",
+      "pick": "Jerome Baxter",
       "confidence": 0.5,
-      "edge": 0.401,
-      "odds": 910,
+      "edge": 0.3667,
+      "odds": 650,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-28",
+      "game": "Cain Sandoval vs Brandun Lee",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Cain Sandoval",
+      "confidence": 0.5,
+      "edge": 0.0305,
+      "odds": 113,
+      "tier": "Strong",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-28",
+      "game": "Brady Ochoa vs Adrian Serrano",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Adrian Serrano",
+      "confidence": 0.5,
+      "edge": 0.1364,
+      "odds": 175,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-28",
+      "game": "Damoni Cato-Cain vs Vernon Brown",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Vernon Brown",
+      "confidence": 0.5,
+      "edge": 0.1047,
+      "odds": 153,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-28",
+      "game": "Jakhongir Zokirov vs Zachary Spiller",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Zachary Spiller",
+      "confidence": 0.5,
+      "edge": 0.4231,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Jerwin Ancanjas",
       "confidence": 0.5,
-      "edge": 0.2396,
-      "odds": 284,
+      "edge": 0.2579,
+      "odds": 313,
       "tier": "Elite",
       "notes": ""
     },
