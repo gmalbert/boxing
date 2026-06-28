@@ -1,71 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-27T08:59:06.639983+00:00",
+    "generated_at": "2026-06-28T09:06:52.335663+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-06-27",
-      "game": "Xander Zayas vs Jaron Ennis",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Xander Zayas",
-      "confidence": 0.3018,
-      "edge": 0.0978,
-      "odds": 390,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-27",
-      "game": "Jahi Tucker vs Euri Cedeno",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Euri Cedeno",
-      "confidence": 0.545,
-      "edge": 0.0352,
-      "odds": -104,
-      "tier": "Strong",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-27",
-      "game": "Ben Whittaker vs Richard Rivera",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Richard Rivera",
-      "confidence": 0.5,
-      "edge": 0.3919,
-      "odds": 825,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-27",
-      "game": "Dennis Thompson vs Edwin Rodriguez",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Edwin Rodriguez",
-      "confidence": 0.5,
-      "edge": 0.3462,
-      "odds": 550,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-27",
-      "game": "Juanma Lopez De Jesus vs Alberto Motos",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Alberto Motos",
-      "confidence": 0.5,
-      "edge": 0.4057,
-      "odds": 960,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-06-28",
       "game": "Emiliano Vargas vs Bryce Mills",
@@ -80,6 +20,18 @@
     },
     {
       "game_date": "2026-06-28",
+      "game": "Tony Hirsch Jr vs Jaybrio Pe Benito",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jaybrio Pe Benito",
+      "confidence": 0.5,
+      "edge": 0.0652,
+      "odds": 130,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-28",
       "game": "Quincey Williams vs Jerome Baxter",
       "game_time": "",
       "bet_type": "moneyline",
@@ -88,18 +40,6 @@
       "edge": 0.3667,
       "odds": 650,
       "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-28",
-      "game": "Cain Sandoval vs Brandun Lee",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Cain Sandoval",
-      "confidence": 0.5,
-      "edge": 0.0305,
-      "odds": 113,
-      "tier": "Strong",
       "notes": ""
     },
     {
@@ -145,8 +85,20 @@
       "bet_type": "moneyline",
       "pick": "Jerwin Ancanjas",
       "confidence": 0.5,
-      "edge": 0.2579,
-      "odds": 313,
+      "edge": 0.2487,
+      "odds": 298,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-06-29",
+      "game": "Cain Sandoval vs Brandun Lee",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Cain Sandoval",
+      "confidence": 0.5,
+      "edge": 0.0614,
+      "odds": 128,
       "tier": "Elite",
       "notes": ""
     },
