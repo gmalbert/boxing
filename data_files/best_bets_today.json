@@ -1,83 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-28T09:06:52.335663+00:00",
+    "generated_at": "2026-06-29T09:40:11.464751+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-06-28",
-      "game": "Emiliano Vargas vs Bryce Mills",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Bryce Mills",
-      "confidence": 0.7238,
-      "edge": 0.5904,
-      "odds": 650,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-28",
-      "game": "Tony Hirsch Jr vs Jaybrio Pe Benito",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jaybrio Pe Benito",
-      "confidence": 0.5,
-      "edge": 0.0652,
-      "odds": 130,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-28",
-      "game": "Quincey Williams vs Jerome Baxter",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jerome Baxter",
-      "confidence": 0.5,
-      "edge": 0.3667,
-      "odds": 650,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-28",
-      "game": "Brady Ochoa vs Adrian Serrano",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Adrian Serrano",
-      "confidence": 0.5,
-      "edge": 0.1364,
-      "odds": 175,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-28",
-      "game": "Damoni Cato-Cain vs Vernon Brown",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Vernon Brown",
-      "confidence": 0.5,
-      "edge": 0.1047,
-      "odds": 153,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-28",
-      "game": "Jakhongir Zokirov vs Zachary Spiller",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Zachary Spiller",
-      "confidence": 0.5,
-      "edge": 0.4231,
-      "odds": 1200,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-06-29",
       "game": "Omar Cande Trinidad vs Jerwin Ancanjas",
