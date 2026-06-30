@@ -384,6 +384,7 @@ def fetch_upcoming_fights(session: Session) -> None:
         )
         resp.raise_for_status()
         events = resp.json()
+        current_event_ids = {e.get("id", "") for e in events}
         log.info(f"Fetched {len(events)} upcoming events from The Odds API.")
         log.info(f"  API credits remaining: {resp.headers.get('x-requests-remaining', '?')}")
     except Exception as exc:
@@ -450,6 +451,23 @@ def fetch_upcoming_fights(session: Session) -> None:
                         american_odds=_safe_int(outcome.get("price")),
                     )
                     session.add(snap)
+
+    # Mark Odds API fights that are no longer in the current response as not upcoming.
+    # This handles opponent changes, cancellations, and removed events.
+    if current_event_ids:
+        stale = (
+            session.query(Fight)
+            .filter(
+                Fight.is_upcoming == True,
+                Fight.external_id.like("odds_%"),
+            )
+            .all()
+        )
+        for fight in stale:
+            event_id = fight.external_id.replace("odds_", "", 1)
+            if event_id and event_id not in current_event_ids:
+                fight.is_upcoming = False
+                log.info(f"Marked stale fight as not upcoming: {fight.external_id}")
 
     session.commit()
     log.info("Upcoming fights and odds snapshots saved.")

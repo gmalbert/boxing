@@ -53,9 +53,11 @@ def load_upcoming_fights() -> list[dict]:
                 continue
             snaps = (
                 session.query(OddsSnapshot)
-                .filter(OddsSnapshot.external_fight_id.isnot(None))
+                .filter(
+                    OddsSnapshot.fight_id == fight.id,
+                    OddsSnapshot.bookmaker == "draftkings",
+                )
                 .order_by(OddsSnapshot.snapshot_time.desc())
-                .limit(20)
                 .all()
             )
             dk_odds_a = _extract_dk_odds(snaps, fa.name)
