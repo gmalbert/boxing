@@ -1,32 +1,20 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-29T09:40:11.464751+00:00",
+    "generated_at": "2026-06-30T09:11:11.040135+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
     {
-      "game_date": "2026-06-29",
-      "game": "Omar Cande Trinidad vs Jerwin Ancanjas",
+      "game_date": "2026-07-05",
+      "game": "Delante Johnson vs Christopher Gurrero",
       "game_time": "",
       "bet_type": "moneyline",
-      "pick": "Jerwin Ancanjas",
-      "confidence": 0.5,
-      "edge": 0.2487,
-      "odds": 298,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-06-29",
-      "game": "Cain Sandoval vs Brandun Lee",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Cain Sandoval",
-      "confidence": 0.5,
-      "edge": 0.0614,
-      "odds": 128,
+      "pick": "Christopher Gurrero",
+      "confidence": 0.2729,
+      "edge": 0.1014,
+      "odds": 483,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Rene Osvaldo Palacios Galvan",
       "confidence": 0.2611,
-      "edge": 0.1096,
-      "odds": 560,
+      "edge": 0.15,
+      "odds": 800,
       "tier": "Elite",
       "notes": ""
     },
