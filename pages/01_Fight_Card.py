@@ -10,6 +10,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+from datetime import date
+
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
@@ -37,7 +39,10 @@ def load_upcoming_fights() -> list[dict]:
     try:
         fights = (
             session.query(Fight)
-            .filter(Fight.is_upcoming == True)
+            .filter(
+                Fight.is_upcoming == True,
+                Fight.fight_date >= date.today(),
+            )
             .order_by(Fight.fight_date)
             .all()
         )
