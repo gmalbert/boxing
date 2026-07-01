@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-06-30T09:11:11.040135+00:00",
+    "generated_at": "2026-07-01T09:12:48.099036+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Christopher Gurrero",
       "confidence": 0.2729,
-      "edge": 0.1014,
-      "odds": 483,
+      "edge": 0.0825,
+      "odds": 425,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,20 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Rene Osvaldo Palacios Galvan",
       "confidence": 0.2611,
-      "edge": 0.15,
-      "odds": 800,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-05",
-      "game": "Abdullah Mason vs Joe Cordina",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Joe Cordina",
-      "confidence": 0.4357,
-      "edge": 0.2818,
-      "odds": 550,
+      "edge": 0.1702,
+      "odds": 1000,
       "tier": "Elite",
       "notes": ""
     }
