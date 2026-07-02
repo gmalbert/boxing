@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-01T09:12:48.099036+00:00",
+    "generated_at": "2026-07-02T09:07:46.164835+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Christopher Gurrero",
       "confidence": 0.2729,
-      "edge": 0.0825,
-      "odds": 425,
+      "edge": 0.0884,
+      "odds": 442,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Rene Osvaldo Palacios Galvan",
       "confidence": 0.2611,
-      "edge": 0.1702,
-      "odds": 1000,
+      "edge": 0.1381,
+      "odds": 713,
       "tier": "Elite",
       "notes": ""
     }
