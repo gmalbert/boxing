@@ -1,94 +1,9 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-04T08:56:26.522481+00:00",
+    "generated_at": "2026-07-05T09:04:47.186450+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
-  "bets": [
-    {
-      "game_date": "2026-07-04",
-      "game": "Khalil El Hadri vs Liborio Solis",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Liborio Solis",
-      "confidence": 0.5062,
-      "edge": 0.4474,
-      "odds": 1600,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-04",
-      "game": "Estelle Mossely vs Karen Elizabeth Carabajal",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Karen Elizabeth Carabajal",
-      "confidence": 0.5,
-      "edge": 0.1047,
-      "odds": 153,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-05",
-      "game": "Delante Johnson vs Christopher Gurrero",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Christopher Gurrero",
-      "confidence": 0.2729,
-      "edge": 0.0884,
-      "odds": 442,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-05",
-      "game": "Bruce Carrington vs Rene Osvaldo Palacios Galvan",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Rene Osvaldo Palacios Galvan",
-      "confidence": 0.2611,
-      "edge": 0.1237,
-      "odds": 628,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-05",
-      "game": "Abdurrahman Mason vs Alvaro Huizar",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Alvaro Huizar",
-      "confidence": 0.5,
-      "edge": 0.4231,
-      "odds": 1200,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-05",
-      "game": "Deric Davis vs Carlos Ramos",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Carlos Ramos",
-      "confidence": 0.5,
-      "edge": 0.3901,
-      "odds": 810,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-05",
-      "game": "Ibrahim Mason vs Erik Hanley",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Erik Hanley",
-      "confidence": 0.5,
-      "edge": 0.4057,
-      "odds": 960,
-      "tier": "Elite",
-      "notes": ""
-    }
-  ]
+  "bets": []
 }
