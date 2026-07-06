@@ -1,9 +1,22 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-05T09:04:47.186450+00:00",
+    "generated_at": "2026-07-06T09:25:37.917719+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
-  "bets": []
+  "bets": [
+    {
+      "game_date": "2026-07-12",
+      "game": "Megan Redstall vs Maisey Rose Courtney",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Maisey Rose Courtney",
+      "confidence": 0.5,
+      "edge": 0.1,
+      "odds": 150,
+      "tier": "Elite",
+      "notes": ""
+    }
+  ]
 }
