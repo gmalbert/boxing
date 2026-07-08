@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-07T09:10:24.154989+00:00",
+    "generated_at": "2026-07-08T08:55:00.829285+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -15,6 +15,102 @@
       "confidence": 0.5,
       "edge": 0.1078,
       "odds": 155,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-12",
+      "game": "George Crotty vs Boris Crighton",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Boris Crighton",
+      "confidence": 0.5,
+      "edge": 0.3654,
+      "odds": 643,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-12",
+      "game": "Taiwo Mosuro vs Germaine Brown",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Germaine Brown",
+      "confidence": 0.5,
+      "edge": 0.2487,
+      "odds": 298,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-12",
+      "game": "Shauna Browne vs Lilia Cherifi",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Lilia Cherifi",
+      "confidence": 0.5,
+      "edge": 0.3869,
+      "odds": 784,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-12",
+      "game": "Tiago Muxanga vs Tunde Segun Adeyemi",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Tunde Segun Adeyemi",
+      "confidence": 0.5,
+      "edge": 0.3654,
+      "odds": 643,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-19",
+      "game": "Albert Gonzalez vs Aar\u00f3n Alameda",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Aar\u00f3n Alameda",
+      "confidence": 0.5,
+      "edge": 0.3658,
+      "odds": 645,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-19",
+      "game": "Diego Pacheco vs Immanuwel Aleem",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Immanuwel Aleem",
+      "confidence": 0.1987,
+      "edge": 0.1078,
+      "odds": 1000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-20",
+      "game": "Shokichi Iwata vs Erik Badillo",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Erik Badillo",
+      "confidence": 0.5,
+      "edge": 0.1377,
+      "odds": 176,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-20",
+      "game": "Kenshiro Teraji vs Israel Gonzalez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Israel Gonzalez",
+      "confidence": 0.4553,
+      "edge": 0.1775,
+      "odds": 260,
       "tier": "Elite",
       "notes": ""
     }
