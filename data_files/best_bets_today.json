@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-08T08:55:00.829285+00:00",
+    "generated_at": "2026-07-09T09:10:01.033528+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Maisey Rose Courtney",
       "confidence": 0.5,
-      "edge": 0.1078,
-      "odds": 155,
+      "edge": 0.0614,
+      "odds": 128,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Boris Crighton",
       "confidence": 0.5,
-      "edge": 0.3654,
-      "odds": 643,
+      "edge": 0.3529,
+      "odds": 580,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Germaine Brown",
       "confidence": 0.5,
-      "edge": 0.2487,
-      "odds": 298,
+      "edge": 0.2436,
+      "odds": 290,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Lilia Cherifi",
       "confidence": 0.5,
-      "edge": 0.3869,
-      "odds": 784,
+      "edge": 0.375,
+      "odds": 700,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,32 @@
       "bet_type": "moneyline",
       "pick": "Tunde Segun Adeyemi",
       "confidence": 0.5,
-      "edge": 0.3654,
-      "odds": 643,
+      "edge": 0.3667,
+      "odds": 650,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-14",
+      "game": "Takara Kawaguchi vs Shota Kajino",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Shota Kajino",
+      "confidence": 0.5,
+      "edge": 0.1047,
+      "odds": 153,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-14",
+      "game": "Hayato Tsutsumi vs Felix Batista San Juan",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Felix Batista San Juan",
+      "confidence": 0.5,
+      "edge": 0.4333,
+      "odds": 1400,
       "tier": "Elite",
       "notes": ""
     },
