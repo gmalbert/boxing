@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-09T09:10:01.033528+00:00",
+    "generated_at": "2026-07-10T09:08:55.312113+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,9 +13,9 @@
       "bet_type": "moneyline",
       "pick": "Maisey Rose Courtney",
       "confidence": 0.5,
-      "edge": 0.0614,
-      "odds": 128,
-      "tier": "Elite",
+      "edge": 0.0556,
+      "odds": 125,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Boris Crighton",
       "confidence": 0.5,
-      "edge": 0.3529,
-      "odds": 580,
+      "edge": 0.3571,
+      "odds": 600,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Germaine Brown",
       "confidence": 0.5,
-      "edge": 0.2436,
-      "odds": 290,
+      "edge": 0.25,
+      "odds": 300,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Tunde Segun Adeyemi",
       "confidence": 0.5,
-      "edge": 0.3667,
-      "odds": 650,
+      "edge": 0.3571,
+      "odds": 600,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Felix Batista San Juan",
       "confidence": 0.5,
-      "edge": 0.4333,
-      "odds": 1400,
+      "edge": 0.4231,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -135,6 +135,18 @@
       "confidence": 0.4553,
       "edge": 0.1775,
       "odds": 260,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-24",
+      "game": "Tyson Fury vs Mariusz Wach",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Mariusz Wach",
+      "confidence": 0.2944,
+      "edge": 0.2417,
+      "odds": 1800,
       "tier": "Elite",
       "notes": ""
     }
