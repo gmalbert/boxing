@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-10T09:08:55.312113+00:00",
+    "generated_at": "2026-07-11T08:36:28.773617+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,9 +13,9 @@
       "bet_type": "moneyline",
       "pick": "Maisey Rose Courtney",
       "confidence": 0.5,
-      "edge": 0.0556,
-      "odds": 125,
-      "tier": "Strong",
+      "edge": 0.1,
+      "odds": 150,
+      "tier": "Elite",
       "notes": ""
     },
     {
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Lilia Cherifi",
       "confidence": 0.5,
-      "edge": 0.375,
-      "odds": 700,
+      "edge": 0.3824,
+      "odds": 750,
       "tier": "Elite",
       "notes": ""
     },
@@ -147,6 +147,18 @@
       "confidence": 0.2944,
       "edge": 0.2417,
       "odds": 1800,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-25",
+      "game": "Anthony Joshua vs Kristian Prenga",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Kristian Prenga",
+      "confidence": 0.3418,
+      "edge": 0.2585,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     }
