@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-11T08:36:28.773617+00:00",
+    "generated_at": "2026-07-12T08:46:59.349713+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Germaine Brown",
       "confidence": 0.5,
-      "edge": 0.25,
-      "odds": 300,
+      "edge": 0.2333,
+      "odds": 275,
       "tier": "Elite",
       "notes": ""
     },
@@ -87,6 +87,18 @@
       "confidence": 0.5,
       "edge": 0.4231,
       "odds": 1200,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-18",
+      "game": "Kieran Molloy vs Sean Noakes",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Sean Noakes",
+      "confidence": 0.5,
+      "edge": 0.0902,
+      "odds": 144,
       "tier": "Elite",
       "notes": ""
     },
