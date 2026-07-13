@@ -1,71 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-12T08:46:59.349713+00:00",
+    "generated_at": "2026-07-13T09:09:00.962242+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-07-12",
-      "game": "Megan Redstall vs Maisey Rose Courtney",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Maisey Rose Courtney",
-      "confidence": 0.5,
-      "edge": 0.1,
-      "odds": 150,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-12",
-      "game": "George Crotty vs Boris Crighton",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Boris Crighton",
-      "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-12",
-      "game": "Taiwo Mosuro vs Germaine Brown",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Germaine Brown",
-      "confidence": 0.5,
-      "edge": 0.2333,
-      "odds": 275,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-12",
-      "game": "Shauna Browne vs Lilia Cherifi",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Lilia Cherifi",
-      "confidence": 0.5,
-      "edge": 0.3824,
-      "odds": 750,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-12",
-      "game": "Tiago Muxanga vs Tunde Segun Adeyemi",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Tunde Segun Adeyemi",
-      "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-07-14",
       "game": "Takara Kawaguchi vs Shota Kajino",
@@ -73,9 +13,9 @@
       "bet_type": "moneyline",
       "pick": "Shota Kajino",
       "confidence": 0.5,
-      "edge": 0.1047,
-      "odds": 153,
-      "tier": "Elite",
+      "edge": 0.0392,
+      "odds": 117,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -85,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Felix Batista San Juan",
       "confidence": 0.5,
-      "edge": 0.4231,
-      "odds": 1200,
+      "edge": 0.4,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +37,20 @@
       "bet_type": "moneyline",
       "pick": "Sean Noakes",
       "confidence": 0.5,
-      "edge": 0.0902,
-      "odds": 144,
+      "edge": 0.1,
+      "odds": 150,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-18",
+      "game": "Joshua Kevin Anton vs Vladimir Hernandez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Vladimir Hernandez",
+      "confidence": 0.5,
+      "edge": 0.2674,
+      "odds": 330,
       "tier": "Elite",
       "notes": ""
     },
@@ -123,6 +75,30 @@
       "confidence": 0.1987,
       "edge": 0.1078,
       "odds": 1000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-19",
+      "game": "Bryan Flores vs Jonathan Navarro",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jonathan Navarro",
+      "confidence": 0.5,
+      "edge": 0.342,
+      "odds": 533,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-19",
+      "game": "Andy Cruz vs Abraham Montoya",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Abraham Montoya",
+      "confidence": 0.5045,
+      "edge": 0.4101,
+      "odds": 960,
       "tier": "Elite",
       "notes": ""
     },
@@ -171,6 +147,30 @@
       "confidence": 0.3418,
       "edge": 0.2585,
       "odds": 1100,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-27",
+      "game": "Richardson Hitchins vs Ricardo Salas Rodriguez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ricardo Salas Rodriguez",
+      "confidence": 0.5,
+      "edge": 0.3571,
+      "odds": 600,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-27",
+      "game": "Edgar Berlanga vs Steven Butler",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Steven Butler",
+      "confidence": 0.4324,
+      "edge": 0.1467,
+      "odds": 250,
       "tier": "Elite",
       "notes": ""
     }
