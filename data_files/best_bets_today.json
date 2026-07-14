@@ -1,33 +1,21 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-13T09:09:00.962242+00:00",
+    "generated_at": "2026-07-14T08:46:49.434687+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
     {
-      "game_date": "2026-07-14",
-      "game": "Takara Kawaguchi vs Shota Kajino",
+      "game_date": "2026-07-18",
+      "game": "Harlem Eubank vs David Papot",
       "game_time": "",
       "bet_type": "moneyline",
-      "pick": "Shota Kajino",
-      "confidence": 0.5,
-      "edge": 0.0392,
-      "odds": 117,
+      "pick": "Harlem Eubank",
+      "confidence": 0.4891,
+      "edge": 0.0387,
+      "odds": 122,
       "tier": "Strong",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-14",
-      "game": "Hayato Tsutsumi vs Felix Batista San Juan",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Felix Batista San Juan",
-      "confidence": 0.5,
-      "edge": 0.4,
-      "odds": 900,
-      "tier": "Elite",
       "notes": ""
     },
     {
@@ -61,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Aar\u00f3n Alameda",
       "confidence": 0.5,
-      "edge": 0.3658,
-      "odds": 645,
+      "edge": 0.3889,
+      "odds": 800,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Jonathan Navarro",
       "confidence": 0.5,
-      "edge": 0.342,
-      "odds": 533,
+      "edge": 0.3285,
+      "odds": 483,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Abraham Montoya",
       "confidence": 0.5045,
-      "edge": 0.4101,
-      "odds": 960,
+      "edge": 0.4347,
+      "odds": 1333,
       "tier": "Elite",
       "notes": ""
     },
@@ -127,14 +115,26 @@
       "notes": ""
     },
     {
+      "game_date": "2026-07-20",
+      "game": "Riku Masuda vs Daigo Higa",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Daigo Higa",
+      "confidence": 0.5,
+      "edge": 0.2963,
+      "odds": 391,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-07-24",
       "game": "Tyson Fury vs Mariusz Wach",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Mariusz Wach",
       "confidence": 0.2944,
-      "edge": 0.2417,
-      "odds": 1800,
+      "edge": 0.2468,
+      "odds": 2000,
       "tier": "Elite",
       "notes": ""
     },
