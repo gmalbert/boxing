@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-14T08:46:49.434687+00:00",
+    "generated_at": "2026-07-15T08:49:38.186958+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Sean Noakes",
       "confidence": 0.5,
-      "edge": 0.1,
-      "odds": 150,
+      "edge": 0.0745,
+      "odds": 135,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Aar\u00f3n Alameda",
       "confidence": 0.5,
-      "edge": 0.3889,
-      "odds": 800,
+      "edge": 0.4,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Jonathan Navarro",
       "confidence": 0.5,
-      "edge": 0.3285,
-      "odds": 483,
+      "edge": 0.3824,
+      "odds": 750,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Abraham Montoya",
       "confidence": 0.5045,
-      "edge": 0.4347,
-      "odds": 1333,
+      "edge": 0.4136,
+      "odds": 1000,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Erik Badillo",
       "confidence": 0.5,
-      "edge": 0.1377,
-      "odds": 176,
+      "edge": 0.1183,
+      "odds": 162,
       "tier": "Elite",
       "notes": ""
     },
@@ -151,6 +151,42 @@
       "notes": ""
     },
     {
+      "game_date": "2026-07-25",
+      "game": "Josh Kelly vs Caoimhin Agyarko",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Caoimhin Agyarko",
+      "confidence": 0.5,
+      "edge": 0.229,
+      "odds": 269,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-26",
+      "game": "Jermell Charlo vs Koen Mazoudier",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Koen Mazoudier",
+      "confidence": 0.3815,
+      "edge": 0.2762,
+      "odds": 850,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-26",
+      "game": "Stephen Fulton vs Liam Wilson",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Liam Wilson",
+      "confidence": 0.4417,
+      "edge": 0.2118,
+      "odds": 335,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-07-27",
       "game": "Richardson Hitchins vs Ricardo Salas Rodriguez",
       "game_time": "",
@@ -169,8 +205,8 @@
       "bet_type": "moneyline",
       "pick": "Steven Butler",
       "confidence": 0.4324,
-      "edge": 0.1467,
-      "odds": 250,
+      "edge": 0.1546,
+      "odds": 260,
       "tier": "Elite",
       "notes": ""
     }
