@@ -1,35 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-16T08:49:44.851223+00:00",
+    "generated_at": "2026-07-17T08:46:41.903295+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-07-18",
-      "game": "Harlem Eubank vs David Papot",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Harlem Eubank",
-      "confidence": 0.4891,
-      "edge": 0.0387,
-      "odds": 122,
-      "tier": "Strong",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-18",
-      "game": "Kieran Molloy vs Sean Noakes",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Sean Noakes",
-      "confidence": 0.5,
-      "edge": 0.0556,
-      "odds": 125,
-      "tier": "Strong",
-      "notes": ""
-    },
     {
       "game_date": "2026-07-18",
       "game": "Joshua Kevin Anton vs Vladimir Hernandez",
@@ -37,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Vladimir Hernandez",
       "confidence": 0.5,
-      "edge": 0.2917,
-      "odds": 380,
+      "edge": 0.3,
+      "odds": 400,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Ryan Griffiths",
       "confidence": 0.5,
-      "edge": 0.2143,
-      "odds": 250,
+      "edge": 0.1656,
+      "odds": 199,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Glen Williams",
       "confidence": 0.5,
-      "edge": 0.45,
-      "odds": 1900,
+      "edge": 0.4333,
+      "odds": 1400,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Tre'Sean Wiggins",
       "confidence": 0.5,
-      "edge": 0.2143,
-      "odds": 250,
+      "edge": 0.2368,
+      "odds": 280,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,9 +97,21 @@
       "bet_type": "moneyline",
       "pick": "Bruno Rios",
       "confidence": 0.5,
-      "edge": 0.1032,
-      "odds": 152,
-      "tier": "Elite",
+      "edge": 0.0556,
+      "odds": 125,
+      "tier": "Strong",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-18",
+      "game": "Anthony Cuba vs Misael Cabrera",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Misael Cabrera",
+      "confidence": 0.5,
+      "edge": 0.0536,
+      "odds": 124,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -133,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Aar\u00f3n Alameda",
       "confidence": 0.5,
-      "edge": 0.4,
-      "odds": 900,
+      "edge": 0.3947,
+      "odds": 850,
       "tier": "Elite",
       "notes": ""
     },
@@ -145,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Immanuwel Aleem",
       "confidence": 0.1987,
-      "edge": 0.1078,
-      "odds": 1000,
+      "edge": 0.0876,
+      "odds": 800,
       "tier": "Elite",
       "notes": ""
     },
@@ -169,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Abraham Montoya",
       "confidence": 0.5045,
-      "edge": 0.4211,
-      "odds": 1100,
+      "edge": 0.4045,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
@@ -181,8 +169,8 @@
       "bet_type": "moneyline",
       "pick": "Manuel Avila",
       "confidence": 0.5,
-      "edge": 0.378,
-      "odds": 720,
+      "edge": 0.3795,
+      "odds": 730,
       "tier": "Elite",
       "notes": ""
     },
@@ -241,8 +229,8 @@
       "bet_type": "moneyline",
       "pick": "Kristian Prenga",
       "confidence": 0.3418,
-      "edge": 0.2585,
-      "odds": 1100,
+      "edge": 0.2649,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -265,8 +253,8 @@
       "bet_type": "moneyline",
       "pick": "Koen Mazoudier",
       "confidence": 0.3815,
-      "edge": 0.2762,
-      "odds": 850,
+      "edge": 0.2724,
+      "odds": 817,
       "tier": "Elite",
       "notes": ""
     },
@@ -277,8 +265,8 @@
       "bet_type": "moneyline",
       "pick": "Liam Wilson",
       "confidence": 0.4417,
-      "edge": 0.2118,
-      "odds": 335,
+      "edge": 0.2194,
+      "odds": 350,
       "tier": "Elite",
       "notes": ""
     },
