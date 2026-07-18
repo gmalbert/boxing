@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-17T08:46:41.903295+00:00",
+    "generated_at": "2026-07-18T08:36:48.005772+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -37,21 +37,9 @@
       "bet_type": "moneyline",
       "pick": "Ryan Griffiths",
       "confidence": 0.5,
-      "edge": 0.1656,
-      "odds": 199,
+      "edge": 0.2222,
+      "odds": 260,
       "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-18",
-      "game": "Joel Bartell vs Kyran Jones",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Kyran Jones",
-      "confidence": 0.5,
-      "edge": 0.037,
-      "odds": 116,
-      "tier": "Strong",
       "notes": ""
     },
     {
@@ -61,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Mikey Sakyi",
       "confidence": 0.5106,
-      "edge": 0.2249,
-      "odds": 250,
+      "edge": 0.2328,
+      "odds": 260,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,9 +97,81 @@
       "bet_type": "moneyline",
       "pick": "Misael Cabrera",
       "confidence": 0.5,
-      "edge": 0.0536,
-      "odds": 124,
-      "tier": "Strong",
+      "edge": 0.0902,
+      "odds": 144,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-18",
+      "game": "Matty Harris vs Ben Vickers",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ben Vickers",
+      "confidence": 0.5,
+      "edge": 0.378,
+      "odds": 720,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-18",
+      "game": "Charles Harris Jr vs Jason Limon",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jason Limon",
+      "confidence": 0.5,
+      "edge": 0.1721,
+      "odds": 205,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-18",
+      "game": "Luis Coria vs Yusniel Abrahante",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Yusniel Abrahante",
+      "confidence": 0.5,
+      "edge": 0.2222,
+      "odds": 260,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-18",
+      "game": "Hugo Amador Mendez vs William King",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "William King",
+      "confidence": 0.5,
+      "edge": 0.4412,
+      "odds": 1600,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-18",
+      "game": "Federico Pacheco Jr vs Nick Jones",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Nick Jones",
+      "confidence": 0.5,
+      "edge": 0.4412,
+      "odds": 1600,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-18",
+      "game": "Samuel Contreras vs Jorge Alberto Ayala Lopez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jorge Alberto Ayala Lopez",
+      "confidence": 0.5,
+      "edge": 0.4524,
+      "odds": 2000,
+      "tier": "Elite",
       "notes": ""
     },
     {
@@ -121,8 +181,8 @@
       "bet_type": "moneyline",
       "pick": "Aar\u00f3n Alameda",
       "confidence": 0.5,
-      "edge": 0.3947,
-      "odds": 850,
+      "edge": 0.3667,
+      "odds": 650,
       "tier": "Elite",
       "notes": ""
     },
@@ -205,8 +265,8 @@
       "bet_type": "moneyline",
       "pick": "Daigo Higa",
       "confidence": 0.5,
-      "edge": 0.3285,
-      "odds": 483,
+      "edge": 0.3571,
+      "odds": 600,
       "tier": "Elite",
       "notes": ""
     },
@@ -241,8 +301,20 @@
       "bet_type": "moneyline",
       "pick": "Caoimhin Agyarko",
       "confidence": 0.5,
-      "edge": 0.2436,
-      "odds": 290,
+      "edge": 0.2674,
+      "odds": 330,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-25",
+      "game": "Hamzah Sheeraz vs Simon Zachenhuber",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Simon Zachenhuber",
+      "confidence": 0.21,
+      "edge": 0.1001,
+      "odds": 810,
       "tier": "Elite",
       "notes": ""
     },
@@ -291,6 +363,54 @@
       "confidence": 0.4324,
       "edge": 0.1546,
       "odds": 260,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-01",
+      "game": "Pierce O'Leary vs Mark Chamberlain",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Mark Chamberlain",
+      "confidence": 0.5,
+      "edge": 0.1454,
+      "odds": 182,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-01",
+      "game": "Royston Barney-Smith vs Reece Bellotti",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Reece Bellotti",
+      "confidence": 0.5459,
+      "edge": 0.3509,
+      "odds": 413,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-01",
+      "game": "Steven Cairns vs Senan Kelly",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Senan Kelly",
+      "confidence": 0.5,
+      "edge": 0.3051,
+      "odds": 413,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-01",
+      "game": "Gary Cully vs Lee Reeves",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Lee Reeves",
+      "confidence": 0.5,
+      "edge": 0.0671,
+      "odds": 131,
       "tier": "Elite",
       "notes": ""
     }
