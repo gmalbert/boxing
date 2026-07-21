@@ -1,47 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-20T09:06:14.668100+00:00",
+    "generated_at": "2026-07-21T08:56:34.951237+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-07-20",
-      "game": "Shokichi Iwata vs Erik Badillo",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Erik Badillo",
-      "confidence": 0.5,
-      "edge": 0.0455,
-      "odds": 120,
-      "tier": "Strong",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-20",
-      "game": "Kenshiro Teraji vs Israel Gonzalez",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Israel Gonzalez",
-      "confidence": 0.4553,
-      "edge": 0.1611,
-      "odds": 240,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-20",
-      "game": "Riku Masuda vs Daigo Higa",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Daigo Higa",
-      "confidence": 0.5,
-      "edge": 0.3217,
-      "odds": 461,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-07-24",
       "game": "Tyson Fury vs Mariusz Wach",
@@ -85,8 +49,20 @@
       "bet_type": "moneyline",
       "pick": "Simon Zachenhuber",
       "confidence": 0.21,
-      "edge": 0.1001,
-      "odds": 810,
+      "edge": 0.111,
+      "odds": 910,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-25",
+      "game": "Reito Tsutsumi vs Alvino Herrera Meza",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Alvino Herrera Meza",
+      "confidence": 0.5,
+      "edge": 0.3485,
+      "odds": 560,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +73,20 @@
       "bet_type": "moneyline",
       "pick": "Liam Wilson",
       "confidence": 0.4417,
-      "edge": 0.1431,
-      "odds": 235,
+      "edge": 0.175,
+      "odds": 275,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-26",
+      "game": "Sergiy Derevyanchenko vs Jalil Hackett",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Sergiy Derevyanchenko",
+      "confidence": 0.4659,
+      "edge": 0.0707,
+      "odds": 153,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Vladyslav Sirenko",
       "confidence": 0.5,
-      "edge": 0.0935,
-      "odds": 146,
+      "edge": 0.131,
+      "odds": 171,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Ricardo Salas Rodriguez",
       "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
+      "edge": 0.375,
+      "odds": 700,
       "tier": "Elite",
       "notes": ""
     },
@@ -145,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Mark Chamberlain",
       "confidence": 0.5,
-      "edge": 0.1454,
-      "odds": 182,
+      "edge": 0.1516,
+      "odds": 187,
       "tier": "Elite",
       "notes": ""
     },
@@ -157,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Reece Bellotti",
       "confidence": 0.5459,
-      "edge": 0.3509,
-      "odds": 413,
+      "edge": 0.3554,
+      "odds": 425,
       "tier": "Elite",
       "notes": ""
     },
@@ -169,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Senan Kelly",
       "confidence": 0.5,
-      "edge": 0.3051,
-      "odds": 413,
+      "edge": 0.3095,
+      "odds": 425,
       "tier": "Elite",
       "notes": ""
     },
@@ -181,8 +169,8 @@
       "bet_type": "moneyline",
       "pick": "Lee Reeves",
       "confidence": 0.5,
-      "edge": 0.0671,
-      "odds": 131,
+      "edge": 0.0726,
+      "odds": 134,
       "tier": "Elite",
       "notes": ""
     },
