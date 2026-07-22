@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-21T08:56:34.951237+00:00",
+    "generated_at": "2026-07-22T08:55:42.888814+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -49,8 +49,20 @@
       "bet_type": "moneyline",
       "pick": "Simon Zachenhuber",
       "confidence": 0.21,
-      "edge": 0.111,
-      "odds": 910,
+      "edge": 0.1013,
+      "odds": 820,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-25",
+      "game": "Jacob Bank vs Pawel August",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Pawel August",
+      "confidence": 0.5,
+      "edge": 0.3767,
+      "odds": 711,
       "tier": "Elite",
       "notes": ""
     },
@@ -67,14 +79,62 @@
       "notes": ""
     },
     {
+      "game_date": "2026-07-25",
+      "game": "Nishant Dev vs Cesar Diaz",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Cesar Diaz",
+      "confidence": 0.5,
+      "edge": 0.4524,
+      "odds": 2000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-25",
+      "game": "Paul Fleming vs Ahmad Reda",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Paul Fleming",
+      "confidence": 0.5,
+      "edge": 0.2033,
+      "odds": 237,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-25",
+      "game": "Callum Peters vs Ivan Ricardo Actis",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ivan Ricardo Actis",
+      "confidence": 0.5,
+      "edge": 0.3889,
+      "odds": 800,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-25",
+      "game": "Paulo Aokuso vs Luis Antonio Tejeda",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Luis Antonio Tejeda",
+      "confidence": 0.5,
+      "edge": 0.2579,
+      "odds": 313,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-07-26",
       "game": "Stephen Fulton vs Liam Wilson",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Liam Wilson",
       "confidence": 0.4417,
-      "edge": 0.175,
-      "odds": 275,
+      "edge": 0.1714,
+      "odds": 270,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Vladyslav Sirenko",
       "confidence": 0.5,
-      "edge": 0.131,
-      "odds": 171,
+      "edge": 0.1296,
+      "odds": 170,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +169,8 @@
       "bet_type": "moneyline",
       "pick": "Ricardo Salas Rodriguez",
       "confidence": 0.5,
-      "edge": 0.375,
-      "odds": 700,
+      "edge": 0.3485,
+      "odds": 560,
       "tier": "Elite",
       "notes": ""
     },
