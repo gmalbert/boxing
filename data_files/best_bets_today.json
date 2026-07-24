@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-23T08:55:57.101319+00:00",
+    "generated_at": "2026-07-24T08:54:26.479949+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Mariusz Wach",
       "confidence": 0.2944,
-      "edge": 0.2355,
-      "odds": 1600,
+      "edge": 0.2559,
+      "odds": 2500,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Kristian Prenga",
       "confidence": 0.3418,
-      "edge": 0.2752,
-      "odds": 1400,
+      "edge": 0.2585,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Paul Fleming",
       "confidence": 0.5,
-      "edge": 0.1923,
-      "odds": 225,
+      "edge": 0.161,
+      "odds": 195,
       "tier": "Elite",
       "notes": ""
     },
@@ -133,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Ivan Ricardo Actis",
       "confidence": 0.5,
-      "edge": 0.387,
-      "odds": 785,
+      "edge": 0.4167,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -145,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Luis Antonio Tejeda",
       "confidence": 0.5,
-      "edge": 0.3319,
-      "odds": 495,
+      "edge": 0.3182,
+      "odds": 450,
       "tier": "Elite",
       "notes": ""
     },
@@ -157,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Liam Wilson",
       "confidence": 0.4417,
-      "edge": 0.1852,
-      "odds": 290,
+      "edge": 0.1292,
+      "odds": 220,
       "tier": "Elite",
       "notes": ""
     },
@@ -193,8 +193,44 @@
       "bet_type": "moneyline",
       "pick": "Ethan Perez",
       "confidence": 0.5,
-      "edge": 0.3285,
-      "odds": 483,
+      "edge": 0.3333,
+      "odds": 500,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-26",
+      "game": "Dominique Francis vs Hector Andres Sosa",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Hector Andres Sosa",
+      "confidence": 0.5,
+      "edge": 0.1,
+      "odds": 150,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-26",
+      "game": "Kashaun Davis vs Mihai Nistor",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Mihai Nistor",
+      "confidence": 0.5,
+      "edge": 0.1491,
+      "odds": 185,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-07-26",
+      "game": "Arnold Gonzalez vs Emiliano Moreno",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Arnold Gonzalez",
+      "confidence": 0.5,
+      "edge": 0.1667,
+      "odds": 200,
       "tier": "Elite",
       "notes": ""
     },
@@ -229,8 +265,8 @@
       "bet_type": "moneyline",
       "pick": "Mark Chamberlain",
       "confidence": 0.5,
-      "edge": 0.1516,
-      "odds": 187,
+      "edge": 0.1587,
+      "odds": 193,
       "tier": "Elite",
       "notes": ""
     },
