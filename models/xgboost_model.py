@@ -18,6 +18,7 @@ try:
 except ImportError:
     _XGB_AVAILABLE = False
 
+from sklearn.calibration import CalibratedClassifierCV
 from models.logistic_model import FEATURE_COLS, _heuristic_prob
 
 _MODEL_DIR = Path(__file__).parent.parent / "data_files" / "models"
@@ -49,12 +50,28 @@ def _build_model():
 
 
 def train(X: pd.DataFrame, y: pd.Series) -> object:
-    """Train and save the XGBoost model."""
+    """Train and save the XGBoost model with Platt scaling calibration."""
     _MODEL_DIR.mkdir(parents=True, exist_ok=True)
     available_cols = [c for c in EXTENDED_FEATURE_COLS if c in X.columns]
-    model = _build_model()
-    model.fit(X[available_cols], y)
-    joblib.dump({"model": model, "features": available_cols, "version": _VERSION}, _MODEL_PATH)
+    base_model = _build_model()
+
+    # Wrap with Platt scaling so predict_proba outputs are well-calibrated.
+    n_cv = min(5, len(X) // 4)
+    if n_cv >= 2:
+        model = CalibratedClassifierCV(base_model, method="sigmoid", cv=n_cv)
+        model.fit(X[available_cols], y)
+    else:
+        model = base_model
+        model.fit(X[available_cols], y)
+
+    # When using CalibratedClassifierCV, the wrapper's predict_proba returns
+    # calibrated probabilities but the raw base estimator is still accessible
+    # for confidence estimation via log-odds magnitude.
+    base_clf = model
+    if hasattr(model, "calibrated_classifiers_"):
+        base_clf = model.calibrated_classifiers_[0].base_estimator
+
+    joblib.dump({"model": model, "base_clf": base_clf, "features": available_cols, "version": _VERSION}, _MODEL_PATH)
     return model
 
 
@@ -71,19 +88,38 @@ def predict_proba(
 ) -> tuple[float, float]:
     """
     Return (win_prob, confidence) for fighter_a.
-    Confidence is based on how far the probability is from 0.5.
+
+    Confidence is based on the raw log-odds magnitude from the uncalibrated
+    XGBoost base classifier, mapped to [0, 1] via sigmoid. This captures
+    the model's conviction before Platt scaling flattens extreme predictions,
+    so a calibrated 85% with weak raw log-odds gets lower confidence than
+    one pushed by a genuinely wide margin.
     """
     if bundle is None:
         bundle = load()
 
     if bundle is None or not _XGB_AVAILABLE:
         prob = _heuristic_prob(features)
-        confidence = abs(prob - 0.5) * 2
+        confidence = 0.0
         return prob, confidence
 
     model = bundle["model"]
+    base_clf = bundle.get("base_clf", None)
     feat_cols = bundle["features"]
     row = pd.DataFrame([{col: features.get(col, 0.0) for col in feat_cols}])
     prob = float(model.predict_proba(row)[0][1])
-    confidence = abs(prob - 0.5) * 2
-    return float(np.clip(prob, 0.05, 0.95)), confidence
+
+    # Compute confidence from raw log-odds of the uncalibrated booster.
+    # CalibratedClassifierCV wraps predict_proba through Platt scaling, but the
+    # raw base model output reflects genuine model conviction.
+    if base_clf is not None:
+        raw_proba = base_clf.predict_proba(row[feat_cols])[0]
+        raw_prob_a = float(raw_proba[1])
+        raw_prob_a = np.clip(raw_prob_a, 1e-6, 1 - 1e-6)
+        raw_logodds = np.log(raw_prob_a / (1 - raw_prob_a))
+        L = 4.0  # log-odds scale; ±4 → ~0.98 confidence, ±2 → ~0.46
+        confidence = 2.0 / (1.0 + np.exp(-abs(raw_logodds) / L)) - 1.0
+    else:
+        confidence = abs(prob - 0.5) * 2
+
+    return float(np.clip(prob, 0.05, 0.95)), float(np.clip(confidence, 0.0, 1.0))

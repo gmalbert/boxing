@@ -435,7 +435,7 @@ pg = st.navigation(
             st.Page("pages/04_Odds_Tracker.py",     title="Odds Tracker",      icon="📈"),
         ],
         "Models & Betting": [
-            st.Page("pages/05_Model_Dashboard.py",  title="Model Dashboard",   icon="🤖"),
+            st.Page("pages/05_Model_Dashboard.py",  title="Model Dashboard",   icon="📊"),
             st.Page("pages/06_Bet_Tracker.py",      title="Bet Tracker & CLV", icon="💰"),
         ],
         "Data": [

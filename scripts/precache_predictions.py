@@ -18,35 +18,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from data.db import Fight, Fighter, ModelPrediction, get_engine, get_session
+from utils.feature_utils import build_features as _build_features_full
 import models.logistic_model as lm
 import models.xgboost_model as xgb
-
-
-def _win_pct(fighter: Fighter) -> float:
-    total = (fighter.wins or 0) + (fighter.losses or 0)
-    return (fighter.wins or 0) / total if total else 0.5
-
-
-def _ko_pct(fighter: Fighter) -> float:
-    wins = fighter.wins or 1
-    ko = (fighter.ko_wins or 0) + (fighter.tko_wins or 0)
-    return ko / wins
-
-
-def _build_features(fa: Fighter, fb: Fighter) -> dict:
-    return {
-        "reach_diff": (fa.reach_cm or 0) - (fb.reach_cm or 0),
-        "height_diff": (fa.height_cm or 0) - (fb.height_cm or 0),
-        "age_diff": 0,
-        "win_pct_diff": _win_pct(fa) - _win_pct(fb),
-        "ko_pct_diff": _ko_pct(fa) - _ko_pct(fb),
-        "elo_diff": (fa.elo_rating or 1500) - (fb.elo_rating or 1500),
-        "days_since_last_fight_diff": 0,
-        "opposition_quality_diff": 0,
-        "is_southpaw_matchup": int(
-            (fa.stance or "Orthodox").lower() != (fb.stance or "Orthodox").lower()
-        ),
-    }
 
 
 def precache_predictions() -> None:
@@ -89,12 +63,13 @@ def precache_predictions() -> None:
                 print(f"  [skip] {fa.name} vs {fb.name} — women's bout")
                 continue
 
-            features = _build_features(fa, fb)
+            features = _build_features_full(fa, fb, fight.fight_date, session,
+                title_fight=fight.title_fight, weight_class=fight.weight_class)
 
             lr_prob = lm.predict_proba(features)
             xgb_prob, confidence = xgb.predict_proba(features)
 
-            now = datetime.utcnow()
+            now = datetime.now(datetime.UTC)
 
             session.add(ModelPrediction(
                 fight_id=fight.id,
