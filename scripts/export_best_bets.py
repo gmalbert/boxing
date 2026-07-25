@@ -179,8 +179,22 @@ def main() -> None:
         print("[boxing export] DB not available — writing empty output")
         bets: list[dict] = []
     else:
-        with SessionLocal() as session:
-            bets = get_bets(session)
+        # Safety check: refuse to generate picks when no trained model exists.
+        # Without a trained model both precache_predictions.py and the Elo
+        # fallback below produce ~0.50 win probabilities, creating artificially
+        # inflated edges on every heavy underdog.
+        lr_pkl  = ROOT / "data_files" / "models" / "logistic_model.pkl"
+        xgb_pkl = ROOT / "data_files" / "models" / "xgboost_model.pkl"
+        if not lr_pkl.exists() and not xgb_pkl.exists():
+            print(
+                "[boxing export] WARNING: No trained models found at data_files/models/. "
+                "Run `python scripts/train_models.py` first. "
+                "Writing empty output to avoid publishing fake edges."
+            )
+            bets = []
+        else:
+            with SessionLocal() as session:
+                bets = get_bets(session)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -194,7 +208,7 @@ def main() -> None:
     }
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
-    print(f"[boxing export] Wrote {len(bets)} bets → {OUT_PATH}")
+    print(f"[boxing export] Wrote {len(bets)} bets -> {OUT_PATH}")
 
 
 if __name__ == "__main__":

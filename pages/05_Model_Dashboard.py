@@ -24,6 +24,7 @@ from utils.odds_utils import (
     fmt_american,
     no_vig_prob_from_american,
 )
+from utils.feature_utils import build_features as _build_features
 import models.logistic_model as lm
 import models.xgboost_model as xgb
 from sqlalchemy import or_
@@ -54,29 +55,9 @@ def load_model_signals() -> list[dict]:
             if getattr(fa, 'sex', 'M') == 'F' or getattr(fb, 'sex', 'M') == 'F':
                 continue
 
-            # Build features
-            def win_pct(f):
-                t = (f.wins or 0) + (f.losses or 0)
-                return (f.wins or 0) / t if t else 0.5
-
-            def ko_pct(f):
-                w = f.wins or 1
-                k = (f.ko_wins or 0) + (f.tko_wins or 0)
-                return k / w
-
-            features = {
-                "reach_diff": (fa.reach_cm or 0) - (fb.reach_cm or 0),
-                "height_diff": (fa.height_cm or 0) - (fb.height_cm or 0),
-                "age_diff": 0,
-                "win_pct_diff": win_pct(fa) - win_pct(fb),
-                "ko_pct_diff": ko_pct(fa) - ko_pct(fb),
-                "elo_diff": (fa.elo_rating or 1500) - (fb.elo_rating or 1500),
-                "days_since_last_fight_diff": 0,
-                "opposition_quality_diff": 0,
-                "is_southpaw_matchup": int(
-                    (fa.stance or "Orthodox").lower() != (fb.stance or "Orthodox").lower()
-                ),
-            }
+            # Build features using the shared utility (all dead features wired up)
+            features = _build_features(fa, fb, fight.fight_date, session,
+                title_fight=fight.title_fight, weight_class=fight.weight_class)
 
             prob_a = lm.predict_proba(features)
             xgb_prob_a, confidence = xgb.predict_proba(features)
@@ -245,7 +226,7 @@ def _demo_signals() -> list[dict]:
 
 def model_dashboard_page():
     sidebar_header()
-    st.title("🤖 Model Dashboard")
+    st.title("📊 Model Dashboard")
     st.caption("Upcoming fights ranked by edge · Model vs. DK implied probability · Accuracy metrics")
 
     signals = load_model_signals()
@@ -318,14 +299,23 @@ def _tab_accuracy():
         _demo_accuracy()
         return
 
+    from sklearn.metrics import brier_score_loss, log_loss as sk_log_loss
+
     total = len(df)
     correct = df["correct"].sum()
     acc = correct / total if total else 0
 
-    m1, m2, m3 = st.columns(3)
+    # Compute Brier score and log-loss across all versions
+    probs = df["predicted_prob"].fillna(0.5).clip(1e-6, 1 - 1e-6)
+    brier = brier_score_loss(df["correct"].astype(int), probs)
+    ll = sk_log_loss(df["correct"].astype(int), probs)
+
+    m1, m2, m3, m4, m5 = st.columns(5)
     m1.metric("Predictions Made", total)
     m2.metric("Accuracy", f"{acc:.1%}")
-    m3.metric("Win Rate vs. Random", f"{acc - 0.5:+.1%}")
+    m3.metric("vs. Random", f"{acc - 0.5:+.1%}")
+    m4.metric("Brier Score", f"{brier:.4f}", help="Lower is better. Perfect = 0.0, coin-flip = 0.25")
+    m5.metric("Log-Loss", f"{ll:.4f}", help="Lower is better. Perfect ≈ 0.0, coin-flip ≈ 0.693")
 
     st.plotly_chart(_calibration_chart(df), width="stretch")
 

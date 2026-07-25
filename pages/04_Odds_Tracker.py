@@ -146,7 +146,7 @@ def _multi_book_bar(row: dict) -> go.Figure:
 # ─── Demo Data ────────────────────────────────────────────────────────────────
 
 def _demo_line_movement() -> go.Figure:
-    now = datetime.utcnow()
+    now = datetime.now(datetime.UTC)
     times = [now - timedelta(hours=h) for h in range(48, 0, -6)]
     dk_odds = [-130, -128, -125, -125, -122, -120, -118, -115]
     pin_odds = [-140, -138, -135, -132, -130, -128, -125, -122]

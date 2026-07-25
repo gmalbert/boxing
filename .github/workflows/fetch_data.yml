@@ -62,6 +62,10 @@ jobs:
           MODE=${{ github.event.inputs.mode || 'daily' }}
           python scripts/fetch_historical_data.py $MODE
 
+      - name: Train prediction models
+        run: python scripts/train_models.py
+        continue-on-error: true
+
       - name: Pre-compute model predictions
         run: python scripts/precache_predictions.py
 
@@ -93,7 +97,8 @@ jobs:
         run: python scripts/export_best_bets.py
         continue-on-error: true
 
-      - name: Commit best_bets_today.json
+      - name: Commit best bets updates
+        continue-on-error: true
         run: |
           git add data_files/best_bets_today.json || true
           if git diff --staged --quiet; then
@@ -102,7 +107,6 @@ jobs:
             git commit -m "chore: update best_bets_today [skip ci]"
             git push origin HEAD:main
           fi
-        continue-on-error: true
 
   weekly-results-update:
     name: Weekly Results & Elo Recalculation
@@ -141,6 +145,10 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           ODDSPAPI_API_KEY: ${{ secrets.ODDSPAPI_API_KEY }}
         run: python scripts/fetch_historical_data.py weekly
+
+      - name: Train prediction models
+        run: python scripts/train_models.py
+        continue-on-error: true
 
       - name: Pre-compute model predictions
         run: python scripts/precache_predictions.py
