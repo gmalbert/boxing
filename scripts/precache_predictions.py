@@ -12,10 +12,11 @@ Usage:
 from __future__ import annotations
 
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.stdout.reconfigure(encoding="utf-8")
 
 from data.db import Fight, Fighter, ModelPrediction, get_engine, get_session
 from utils.feature_utils import build_features as _build_features_full
@@ -55,12 +56,12 @@ def precache_predictions() -> None:
             fa = session.get(Fighter, fight.fighter_a_id)
             fb = session.get(Fighter, fight.fighter_b_id)
             if not fa or not fb:
-                print(f"  [skip] fight_id={fight.id} — missing fighter record")
+                print(f"  [skip] fight_id={fight.id} -- missing fighter record")
                 continue
 
             # Skip women's bouts
             if getattr(fa, 'sex', 'M') == 'F' or getattr(fb, 'sex', 'M') == 'F':
-                print(f"  [skip] {fa.name} vs {fb.name} — women's bout")
+                print(f"  [skip] {fa.name} vs {fb.name} -- women's bout")
                 continue
 
             features = _build_features_full(fa, fb, fight.fight_date, session,
@@ -69,7 +70,7 @@ def precache_predictions() -> None:
             lr_prob = lm.predict_proba(features)
             xgb_prob, confidence = xgb.predict_proba(features)
 
-            now = datetime.now(datetime.timezone.utc)
+            now = datetime.now(timezone.utc)
 
             session.add(ModelPrediction(
                 fight_id=fight.id,
@@ -91,13 +92,13 @@ def precache_predictions() -> None:
             ))
 
             print(
-                f"  ✓ {fa.name} vs {fb.name} — "
+                f"  [OK] {fa.name} vs {fb.name} -- "
                 f"LR={lr_prob:.3f}  XGB={xgb_prob:.3f}  conf={confidence:.2f}"
             )
             count += 1
 
         session.commit()
-        print(f"[precache] Done — {count * 2} prediction rows written")
+        print(f"[precache] Done -- {count * 2} prediction rows written")
 
     finally:
         session.close()
