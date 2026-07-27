@@ -69,7 +69,7 @@ def precache_predictions() -> None:
             lr_prob = lm.predict_proba(features)
             xgb_prob, confidence = xgb.predict_proba(features)
 
-            now = datetime.now(datetime.UTC)
+            now = datetime.now(datetime.timezone.utc)
 
             session.add(ModelPrediction(
                 fight_id=fight.id,
