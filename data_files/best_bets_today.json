@@ -1,47 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-27T00:48:17.353218+00:00",
+    "generated_at": "2026-07-27T09:10:30.574788+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-07-27",
-      "game": "Richardson Hitchins vs Ricardo Salas Rodriguez",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Ricardo Salas Rodriguez",
-      "confidence": 0.5,
-      "edge": 0.3333,
-      "odds": 500,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-27",
-      "game": "Edgar Berlanga vs Steven Butler",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Steven Butler",
-      "confidence": 0.9634,
-      "edge": 0.6967,
-      "odds": 275,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-07-27",
-      "game": "Jalil Hackett vs Sergiy Derevyanchenko",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jalil Hackett",
-      "confidence": 0.963,
-      "edge": 0.3078,
-      "odds": -190,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-08-01",
       "game": "Pierce O'Leary vs Mark Chamberlain",
@@ -61,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Senan Kelly",
       "confidence": 0.5,
-      "edge": 0.3095,
-      "odds": 425,
+      "edge": 0.2963,
+      "odds": 391,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,9 +37,9 @@
       "bet_type": "moneyline",
       "pick": "Lee Reeves",
       "confidence": 0.5,
-      "edge": 0.0726,
-      "odds": 134,
-      "tier": "Elite",
+      "edge": 0.0305,
+      "odds": 113,
+      "tier": "Strong",
       "notes": ""
     },
     {
