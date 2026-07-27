@@ -82,16 +82,21 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           cp data_files/knockoutiq.db /tmp/knockoutiq_new.db
-          git fetch origin main
-          git reset --hard origin/main
-          cp /tmp/knockoutiq_new.db data_files/knockoutiq.db
-          git add data_files/knockoutiq.db
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh KnockOutIQ database snapshot [skip ci]"
-            git push origin HEAD:main
-          else
-            echo "No database changes to commit."
-          fi
+          for i in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/knockoutiq_new.db data_files/knockoutiq.db
+            git add data_files/knockoutiq.db
+            if ! git diff --cached --quiet; then
+              git commit -m "chore: refresh KnockOutIQ database snapshot [skip ci]"
+              git push origin HEAD:main && break
+            else
+              echo "No database changes to commit."
+              break
+            fi
+            echo "[retry] push failed (attempt $i), retrying..."
+            sleep 5
+          done
 
       - name: Export best bets for Sports Picks Grid
         run: python scripts/export_best_bets.py
@@ -105,7 +110,11 @@ jobs:
             echo "No best_bets changes to commit."
           else
             git commit -m "chore: update best_bets_today [skip ci]"
-            git push origin HEAD:main
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin HEAD:main && break
+              echo "[retry] push failed (attempt $i), retrying..."
+              sleep 5
+            done
           fi
 
   weekly-results-update:
@@ -166,16 +175,21 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           cp data_files/knockoutiq.db /tmp/knockoutiq_new.db
-          git fetch origin main
-          git reset --hard origin/main
-          cp /tmp/knockoutiq_new.db data_files/knockoutiq.db
-          git add data_files/knockoutiq.db
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh KnockOutIQ database snapshot [skip ci]"
-            git push origin HEAD:main
-          else
-            echo "No database changes to commit."
-          fi
+          for i in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/knockoutiq_new.db data_files/knockoutiq.db
+            git add data_files/knockoutiq.db
+            if ! git diff --cached --quiet; then
+              git commit -m "chore: refresh KnockOutIQ database snapshot [skip ci]"
+              git push origin HEAD:main && break
+            else
+              echo "No database changes to commit."
+              break
+            fi
+            echo "[retry] push failed (attempt $i), retrying..."
+            sleep 5
+          done
 
   backfill:
     name: Full 10-Year Backfill (manual only)
@@ -229,13 +243,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           cp data_files/knockoutiq.db /tmp/knockoutiq_new.db
-          git fetch origin main
-          git reset --hard origin/main
-          cp /tmp/knockoutiq_new.db data_files/knockoutiq.db
-          git add data_files/knockoutiq.db
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh KnockOutIQ database snapshot [skip ci]"
-            git push origin HEAD:main
-          else
-            echo "No database changes to commit."
-          fi
+          for i in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/knockoutiq_new.db data_files/knockoutiq.db
+            git add data_files/knockoutiq.db
+            if ! git diff --cached --quiet; then
+              git commit -m "chore: refresh KnockOutIQ database snapshot [skip ci]"
+              git push origin HEAD:main && break
+            else
+              echo "No database changes to commit."
+              break
+            fi
+            echo "[retry] push failed (attempt $i), retrying..."
+            sleep 5
+          done
