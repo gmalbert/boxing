@@ -43,7 +43,6 @@ def _build_model():
         learning_rate=0.05,
         subsample=0.8,
         colsample_bytree=0.8,
-        use_label_encoder=False,
         eval_metric="logloss",
         random_state=42,
     )
@@ -69,7 +68,8 @@ def train(X: pd.DataFrame, y: pd.Series) -> object:
     # for confidence estimation via log-odds magnitude.
     base_clf = model
     if hasattr(model, "calibrated_classifiers_"):
-        base_clf = model.calibrated_classifiers_[0].base_estimator
+        cc = model.calibrated_classifiers_[0]
+        base_clf = getattr(cc, "base_estimator", getattr(cc, "estimator", model))
 
     joblib.dump({"model": model, "base_clf": base_clf, "features": available_cols, "version": _VERSION}, _MODEL_PATH)
     return model
