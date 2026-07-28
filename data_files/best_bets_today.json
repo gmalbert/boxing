@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-27T09:10:30.574788+00:00",
+    "generated_at": "2026-07-28T08:58:52.043918+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Senan Kelly",
       "confidence": 0.5,
-      "edge": 0.2963,
-      "odds": 391,
+      "edge": 0.3144,
+      "odds": 439,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Etinosa Oliha",
       "confidence": 0.5,
-      "edge": 0.2142,
-      "odds": 250,
+      "edge": 0.2032,
+      "odds": 237,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Shurretta Metcalf",
       "confidence": 0.5,
-      "edge": 0.0868,
-      "odds": 142,
+      "edge": 0.0919,
+      "odds": 145,
       "tier": "Elite",
       "notes": ""
     },
