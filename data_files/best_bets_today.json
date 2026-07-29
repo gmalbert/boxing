@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-28T08:58:52.043918+00:00",
+    "generated_at": "2026-07-29T09:00:52.626569+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -37,9 +37,9 @@
       "bet_type": "moneyline",
       "pick": "Lee Reeves",
       "confidence": 0.5,
-      "edge": 0.0305,
-      "odds": 113,
-      "tier": "Strong",
+      "edge": 0.0689,
+      "odds": 132,
+      "tier": "Elite",
       "notes": ""
     },
     {
@@ -55,15 +55,51 @@
       "notes": ""
     },
     {
+      "game_date": "2026-08-01",
+      "game": "Ben Fail vs Craig O'Brien",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Craig O'Brien",
+      "confidence": 0.5,
+      "edge": 0.3626,
+      "odds": 628,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-01",
+      "game": "Dalis Kaleiopu vs Yeyery Castillo",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Yeyery Castillo",
+      "confidence": 0.5,
+      "edge": 0.4302,
+      "odds": 1333,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-01",
+      "game": "Gael Cabrera vs Francisco Pedroza",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Francisco Pedroza",
+      "confidence": 0.5,
+      "edge": 0.4523,
+      "odds": 2000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-08-02",
       "game": "Lamont Roach vs William Zepeda",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "William Zepeda",
       "confidence": 0.5,
-      "edge": 0.0726,
-      "odds": 134,
-      "tier": "Elite",
+      "edge": 0.0454,
+      "odds": 120,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -73,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Paul Kroll",
       "confidence": 0.5,
-      "edge": 0.2674,
-      "odds": 330,
+      "edge": 0.2777,
+      "odds": 350,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Shurretta Metcalf",
       "confidence": 0.5,
-      "edge": 0.0919,
-      "odds": 145,
+      "edge": 0.0868,
+      "odds": 142,
       "tier": "Elite",
       "notes": ""
     },
