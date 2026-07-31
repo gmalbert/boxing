@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-30T08:58:00.369343+00:00",
+    "generated_at": "2026-07-31T09:03:59.405225+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,21 +13,9 @@
       "bet_type": "moneyline",
       "pick": "Mark Chamberlain",
       "confidence": 0.5,
-      "edge": 0.131,
-      "odds": 171,
+      "edge": 0.1363,
+      "odds": 175,
       "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-01",
-      "game": "Royston Barney-Smith vs Reece Bellotti",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Reece Bellotti",
-      "confidence": 0.219,
-      "edge": 0.0371,
-      "odds": 450,
-      "tier": "Strong",
       "notes": ""
     },
     {
@@ -37,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Senan Kelly",
       "confidence": 0.5,
-      "edge": 0.2916,
-      "odds": 380,
+      "edge": 0.2777,
+      "odds": 350,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Lee Reeves",
       "confidence": 0.5,
-      "edge": 0.0555,
-      "odds": 125,
+      "edge": 0.0454,
+      "odds": 120,
       "tier": "Strong",
       "notes": ""
     },
@@ -61,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Craig O'Brien",
       "confidence": 0.5,
-      "edge": 0.3666,
-      "odds": 650,
+      "edge": 0.3461,
+      "odds": 550,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Juan Carlos Becerril",
       "confidence": 0.5,
-      "edge": 0.423,
-      "odds": 1200,
+      "edge": 0.4195,
+      "odds": 1143,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Francisco Pedroza",
       "confidence": 0.5,
-      "edge": 0.4473,
-      "odds": 1800,
+      "edge": 0.4411,
+      "odds": 1600,
       "tier": "Elite",
       "notes": ""
     },
@@ -133,20 +121,8 @@
       "bet_type": "moneyline",
       "pick": "William Zepeda",
       "confidence": 0.5,
-      "edge": 0.0454,
-      "odds": 120,
-      "tier": "Strong",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-02",
-      "game": "Raul Curiel vs Quinton Randall",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Raul Curiel",
-      "confidence": 0.963,
-      "edge": 0.0399,
-      "odds": -1200,
+      "edge": 0.0348,
+      "odds": 115,
       "tier": "Strong",
       "notes": ""
     },
@@ -205,8 +181,8 @@
       "bet_type": "moneyline",
       "pick": "Shurretta Metcalf",
       "confidence": 0.5,
-      "edge": 0.0868,
-      "odds": 142,
+      "edge": 0.0919,
+      "odds": 145,
       "tier": "Elite",
       "notes": ""
     },
