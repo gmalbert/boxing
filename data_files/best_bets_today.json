@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-07-31T09:03:59.405225+00:00",
+    "generated_at": "2026-08-01T08:49:25.246672+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Senan Kelly",
       "confidence": 0.5,
-      "edge": 0.2777,
-      "odds": 350,
+      "edge": 0.3,
+      "odds": 400,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Craig O'Brien",
       "confidence": 0.5,
-      "edge": 0.3461,
-      "odds": 550,
+      "edge": 0.3666,
+      "odds": 650,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Miguel Cesario Antin",
       "confidence": 0.5,
-      "edge": 0.4523,
-      "odds": 2000,
+      "edge": 0.45,
+      "odds": 1900,
       "tier": "Elite",
       "notes": ""
     },
@@ -133,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Paul Kroll",
       "confidence": 0.5,
-      "edge": 0.2916,
-      "odds": 380,
+      "edge": 0.3,
+      "odds": 400,
       "tier": "Elite",
       "notes": ""
     },
@@ -187,7 +187,7 @@
       "notes": ""
     },
     {
-      "game_date": "2026-08-08",
+      "game_date": "2026-08-09",
       "game": "Desley Robinson vs Tammara Thibeault",
       "game_time": "",
       "bet_type": "moneyline",
