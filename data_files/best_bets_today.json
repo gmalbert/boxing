@@ -1,143 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-01T08:49:25.246672+00:00",
+    "generated_at": "2026-08-02T08:50:17.495089+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-08-01",
-      "game": "Pierce O'Leary vs Mark Chamberlain",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Mark Chamberlain",
-      "confidence": 0.5,
-      "edge": 0.1363,
-      "odds": 175,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-01",
-      "game": "Steven Cairns vs Senan Kelly",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Senan Kelly",
-      "confidence": 0.5,
-      "edge": 0.3,
-      "odds": 400,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-01",
-      "game": "Gary Cully vs Lee Reeves",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Lee Reeves",
-      "confidence": 0.5,
-      "edge": 0.0454,
-      "odds": 120,
-      "tier": "Strong",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-01",
-      "game": "Ben Fail vs Craig O'Brien",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Craig O'Brien",
-      "confidence": 0.5,
-      "edge": 0.3666,
-      "odds": 650,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-01",
-      "game": "Dalis Kaleiopu vs Yeyery Castillo",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Yeyery Castillo",
-      "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-01",
-      "game": "Dylan Capetillo vs Juan Carlos Becerril",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Juan Carlos Becerril",
-      "confidence": 0.5,
-      "edge": 0.4195,
-      "odds": 1143,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-01",
-      "game": "Gael Cabrera vs Francisco Pedroza",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Francisco Pedroza",
-      "confidence": 0.5,
-      "edge": 0.4411,
-      "odds": 1600,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-01",
-      "game": "Joel Iriarte vs Jorge Arturo Lagunas Valencia",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jorge Arturo Lagunas Valencia",
-      "confidence": 0.5,
-      "edge": 0.4473,
-      "odds": 1800,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-01",
-      "game": "Sean McComb vs Miguel Cesario Antin",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Miguel Cesario Antin",
-      "confidence": 0.5,
-      "edge": 0.45,
-      "odds": 1900,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-02",
-      "game": "Lamont Roach vs William Zepeda",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "William Zepeda",
-      "confidence": 0.5,
-      "edge": 0.0348,
-      "odds": 115,
-      "tier": "Strong",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-02",
-      "game": "Charles Conwell vs Paul Kroll",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Paul Kroll",
-      "confidence": 0.5,
-      "edge": 0.3,
-      "odds": 400,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-08-08",
       "game": "Aaron Mckenna vs Etinosa Oliha",
@@ -187,6 +55,30 @@
       "notes": ""
     },
     {
+      "game_date": "2026-08-08",
+      "game": "David Nyika vs Floyd Masson",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Floyd Masson",
+      "confidence": 0.9757,
+      "edge": 0.7257,
+      "odds": 300,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-08",
+      "game": "Gradus Kraus vs Sean Hemphill",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Sean Hemphill",
+      "confidence": 0.5,
+      "edge": 0.3437,
+      "odds": 540,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-08-09",
       "game": "Desley Robinson vs Tammara Thibeault",
       "game_time": "",
@@ -195,6 +87,18 @@
       "confidence": 0.5,
       "edge": 0.2333,
       "odds": 275,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-16",
+      "game": "Claressa Shields vs Kaye Scott",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Kaye Scott",
+      "confidence": 0.5,
+      "edge": 0.3919,
+      "odds": 825,
       "tier": "Elite",
       "notes": ""
     }
