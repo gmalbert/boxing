@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-03T09:12:56.727841+00:00",
+    "generated_at": "2026-08-04T09:00:05.061181+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Etinosa Oliha",
       "confidence": 0.5,
-      "edge": 0.2175,
-      "odds": 254,
+      "edge": 0.2963,
+      "odds": 391,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Callum Walsh",
       "confidence": 0.975,
-      "edge": 0.1,
-      "odds": -700,
+      "edge": 0.0861,
+      "odds": -800,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,20 @@
       "bet_type": "moneyline",
       "pick": "Floyd Masson",
       "confidence": 0.9757,
-      "edge": 0.7152,
-      "odds": 284,
+      "edge": 0.7611,
+      "odds": 366,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-08",
+      "game": "Connor Coyle vs Mark Beuke",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Mark Beuke",
+      "confidence": 0.5,
+      "edge": 0.3144,
+      "odds": 439,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +85,32 @@
       "bet_type": "moneyline",
       "pick": "Sean Hemphill",
       "confidence": 0.5,
-      "edge": 0.3484,
-      "odds": 560,
+      "edge": 0.4,
+      "odds": 900,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-08",
+      "game": "Sam Hickey vs Brad Axe",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Brad Axe",
+      "confidence": 0.5,
+      "edge": 0.4411,
+      "odds": 1600,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-08",
+      "game": "Joseph Ward vs Artjom Kasparian",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Artjom Kasparian",
+      "confidence": 0.5,
+      "edge": 0.1825,
+      "odds": 215,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Desley Robinson",
       "confidence": 0.5,
-      "edge": 0.2033,
-      "odds": 237,
+      "edge": 0.2727,
+      "odds": 340,
       "tier": "Elite",
       "notes": ""
     },
