@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-04T09:00:05.061181+00:00",
+    "generated_at": "2026-08-05T08:59:08.641623+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Etinosa Oliha",
       "confidence": 0.5,
-      "edge": 0.2963,
-      "odds": 391,
+      "edge": 0.2854,
+      "odds": 366,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Floyd Masson",
       "confidence": 0.9757,
-      "edge": 0.7611,
-      "odds": 366,
+      "edge": 0.772,
+      "odds": 391,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Mark Beuke",
       "confidence": 0.5,
-      "edge": 0.3144,
-      "odds": 439,
+      "edge": 0.3333,
+      "odds": 500,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +109,20 @@
       "bet_type": "moneyline",
       "pick": "Artjom Kasparian",
       "confidence": 0.5,
-      "edge": 0.1825,
-      "odds": 215,
+      "edge": 0.1688,
+      "odds": 202,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-08",
+      "game": "Stephen Mckenna vs Owen O'Neill",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Owen O'Neill",
+      "confidence": 0.5,
+      "edge": 0.3919,
+      "odds": 825,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +133,20 @@
       "bet_type": "moneyline",
       "pick": "Desley Robinson",
       "confidence": 0.5,
-      "edge": 0.2727,
-      "odds": 340,
+      "edge": 0.2963,
+      "odds": 391,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-09",
+      "game": "Krystal Rosado vs Alondra Hernandez Mendoza",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Alondra Hernandez Mendoza",
+      "confidence": 0.5,
+      "edge": 0.3484,
+      "odds": 560,
       "tier": "Elite",
       "notes": ""
     },
