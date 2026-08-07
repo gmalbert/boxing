@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-06T08:59:10.749552+00:00",
+    "generated_at": "2026-08-07T08:27:00.128320+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Etinosa Oliha",
       "confidence": 0.5,
-      "edge": 0.2912,
-      "odds": 379,
+      "edge": 0.2854,
+      "odds": 366,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Callum Walsh",
       "confidence": 0.975,
-      "edge": 0.0861,
-      "odds": -800,
+      "edge": 0.075,
+      "odds": -900,
       "tier": "Elite",
       "notes": ""
     },
@@ -145,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Luke Siaki",
       "confidence": 0.5,
-      "edge": 0.3015,
-      "odds": 404,
+      "edge": 0.3217,
+      "odds": 461,
       "tier": "Elite",
       "notes": ""
     },
@@ -169,8 +169,8 @@
       "bet_type": "moneyline",
       "pick": "Jessica Messina",
       "confidence": 0.5,
-      "edge": 0.2395,
-      "odds": 284,
+      "edge": 0.3062,
+      "odds": 416,
       "tier": "Elite",
       "notes": ""
     },
@@ -229,8 +229,8 @@
       "bet_type": "moneyline",
       "pick": "Tyler Christopher",
       "confidence": 0.5,
-      "edge": 0.2797,
-      "odds": 354,
+      "edge": 0.2487,
+      "odds": 298,
       "tier": "Elite",
       "notes": ""
     },
@@ -265,8 +265,8 @@
       "bet_type": "moneyline",
       "pick": "Ashlee Eales",
       "confidence": 0.5,
-      "edge": 0.161,
-      "odds": 195,
+      "edge": 0.1794,
+      "odds": 212,
       "tier": "Elite",
       "notes": ""
     },
