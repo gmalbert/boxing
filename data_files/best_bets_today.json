@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-07T08:27:00.128320+00:00",
+    "generated_at": "2026-08-08T08:15:11.476059+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Etinosa Oliha",
       "confidence": 0.5,
-      "edge": 0.2854,
-      "odds": 366,
+      "edge": 0.2912,
+      "odds": 379,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Callum Simpson",
       "confidence": 0.9657,
-      "edge": 0.3431,
-      "odds": -165,
+      "edge": 0.3503,
+      "odds": -160,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Mark Beuke",
       "confidence": 0.5,
-      "edge": 0.3181,
-      "odds": 450,
+      "edge": 0.3333,
+      "odds": 500,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Sean Hemphill",
       "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
+      "edge": 0.3666,
+      "odds": 650,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Brad Axe",
       "confidence": 0.5,
-      "edge": 0.3889,
-      "odds": 800,
+      "edge": 0.4,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Artjom Kasparian",
       "confidence": 0.5,
-      "edge": 0.2222,
-      "odds": 260,
+      "edge": 0.1923,
+      "odds": 225,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,44 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Owen O'Neill",
       "confidence": 0.5,
-      "edge": 0.4,
-      "odds": 900,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-08",
-      "game": "Cassidy Thornberry vs Ross Malthus",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Ross Malthus",
-      "confidence": 0.5,
-      "edge": 0.4149,
-      "odds": 1075,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-08",
-      "game": "Liam Messam vs Luke Siaki",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Luke Siaki",
-      "confidence": 0.5,
-      "edge": 0.3217,
-      "odds": 461,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-08-08",
-      "game": "John Parker vs Nikolas Charalampous",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "John Parker",
-      "confidence": 0.5,
-      "edge": 0.1667,
-      "odds": 200,
+      "edge": 0.4091,
+      "odds": 1000,
       "tier": "Elite",
       "notes": ""
     },
@@ -169,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Jessica Messina",
       "confidence": 0.5,
-      "edge": 0.3062,
-      "odds": 416,
+      "edge": 0.3144,
+      "odds": 439,
       "tier": "Elite",
       "notes": ""
     },
@@ -193,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Ross McGuigan",
       "confidence": 0.5,
-      "edge": 0.4411,
-      "odds": 1600,
+      "edge": 0.4473,
+      "odds": 1800,
       "tier": "Elite",
       "notes": ""
     },
@@ -205,8 +169,8 @@
       "bet_type": "moneyline",
       "pick": "Max Curtis",
       "confidence": 0.5,
-      "edge": 0.0762,
-      "odds": 136,
+      "edge": 0.0689,
+      "odds": 132,
       "tier": "Elite",
       "notes": ""
     },
@@ -229,8 +193,8 @@
       "bet_type": "moneyline",
       "pick": "Tyler Christopher",
       "confidence": 0.5,
-      "edge": 0.2487,
-      "odds": 298,
+      "edge": 0.2578,
+      "odds": 313,
       "tier": "Elite",
       "notes": ""
     },
@@ -241,8 +205,8 @@
       "bet_type": "moneyline",
       "pick": "Jack Martin",
       "confidence": 0.5,
-      "edge": 0.3461,
-      "odds": 550,
+      "edge": 0.3333,
+      "odds": 500,
       "tier": "Elite",
       "notes": ""
     },
@@ -265,8 +229,8 @@
       "bet_type": "moneyline",
       "pick": "Ashlee Eales",
       "confidence": 0.5,
-      "edge": 0.1794,
-      "odds": 212,
+      "edge": 0.2142,
+      "odds": 250,
       "tier": "Elite",
       "notes": ""
     },
@@ -283,14 +247,26 @@
       "notes": ""
     },
     {
+      "game_date": "2026-08-08",
+      "game": "Ben Rees vs Marvin Tomlinson",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Marvin Tomlinson",
+      "confidence": 0.5,
+      "edge": 0.377,
+      "odds": 713,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-08-09",
       "game": "Desley Robinson vs Tammara Thibeault",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Desley Robinson",
       "confidence": 0.5,
-      "edge": 0.2333,
-      "odds": 275,
+      "edge": 0.2691,
+      "odds": 333,
       "tier": "Elite",
       "notes": ""
     },
@@ -301,8 +277,8 @@
       "bet_type": "moneyline",
       "pick": "Alondra Hernandez Mendoza",
       "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
+      "edge": 0.3,
+      "odds": 400,
       "tier": "Elite",
       "notes": ""
     },
@@ -313,8 +289,8 @@
       "bet_type": "moneyline",
       "pick": "Abraham Perfecto Valdez",
       "confidence": 0.5,
-      "edge": 0.4411,
-      "odds": 1600,
+      "edge": 0.4166,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -351,6 +327,18 @@
       "confidence": 0.5,
       "edge": 0.3919,
       "odds": 825,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-22",
+      "game": "Amanda Serrano vs Lucrecia Manzur",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Lucrecia Manzur",
+      "confidence": 0.5,
+      "edge": 0.377,
+      "odds": 713,
       "tier": "Elite",
       "notes": ""
     }
