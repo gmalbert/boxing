@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-09T08:15:55.597936+00:00",
+    "generated_at": "2026-08-10T08:35:03.962779+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Alejandro Ortiz",
       "confidence": 0.6238,
-      "edge": 0.4722,
-      "odds": 560,
+      "edge": 0.4809,
+      "odds": 600,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "DeAndre Savage",
       "confidence": 0.5,
-      "edge": 0.423,
-      "odds": 1200,
+      "edge": 0.4473,
+      "odds": 1800,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,20 @@
       "bet_type": "moneyline",
       "pick": "Kaye Scott",
       "confidence": 0.5,
-      "edge": 0.4166,
-      "odds": 1100,
+      "edge": 0.423,
+      "odds": 1200,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-16",
+      "game": "Troy Isley vs Joseph Hicks",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Joseph Hicks",
+      "confidence": 0.5,
+      "edge": 0.2436,
+      "odds": 290,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Lucrecia Manzur",
       "confidence": 0.5,
-      "edge": 0.377,
-      "odds": 713,
+      "edge": 0.3889,
+      "odds": 800,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Israel Mercado",
       "confidence": 0.5,
-      "edge": 0.3461,
-      "odds": 550,
+      "edge": 0.3484,
+      "odds": 560,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Victor Santillan",
       "confidence": 0.5,
-      "edge": 0.0392,
-      "odds": 117,
+      "edge": 0.0349,
+      "odds": 115,
       "tier": "Strong",
       "notes": ""
     }
