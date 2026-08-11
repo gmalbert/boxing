@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-10T08:35:03.962779+00:00",
+    "generated_at": "2026-08-11T08:23:25.564956+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -25,8 +25,44 @@
       "bet_type": "moneyline",
       "pick": "DeAndre Savage",
       "confidence": 0.5,
+      "edge": 0.423,
+      "odds": 1200,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-12",
+      "game": "Jack Bowen vs Mielifeier Dalielibieke",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Mielifeier Dalielibieke",
+      "confidence": 0.5,
       "edge": 0.4473,
       "odds": 1800,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-12",
+      "game": "Lekaysha Woodbridge vs Sothita Sitthichai",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Sothita Sitthichai",
+      "confidence": 0.5,
+      "edge": 0.4091,
+      "odds": 1000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-12",
+      "game": "Jasmine Parr vs Jemma Peart",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jemma Peart",
+      "confidence": 0.9667,
+      "edge": 0.7812,
+      "odds": 439,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Kaye Scott",
       "confidence": 0.5,
-      "edge": 0.423,
-      "odds": 1200,
+      "edge": 0.4473,
+      "odds": 1800,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +85,20 @@
       "bet_type": "moneyline",
       "pick": "Joseph Hicks",
       "confidence": 0.5,
-      "edge": 0.2436,
-      "odds": 290,
+      "edge": 0.2854,
+      "odds": 366,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-16",
+      "game": "Ernesto Mercado vs Emmanuel Tagoe",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Emmanuel Tagoe",
+      "confidence": 0.5,
+      "edge": 0.423,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +109,20 @@
       "bet_type": "moneyline",
       "pick": "Lucrecia Manzur",
       "confidence": 0.5,
-      "edge": 0.3889,
-      "odds": 800,
+      "edge": 0.4,
+      "odds": 900,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-22",
+      "game": "George Liddard vs Dario Morello",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Dario Morello",
+      "confidence": 0.5,
+      "edge": 0.3571,
+      "odds": 600,
       "tier": "Elite",
       "notes": ""
     },
