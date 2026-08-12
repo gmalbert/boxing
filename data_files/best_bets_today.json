@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-11T08:23:25.564956+00:00",
+    "generated_at": "2026-08-12T08:32:06.364463+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Alejandro Ortiz",
       "confidence": 0.6238,
-      "edge": 0.4809,
-      "odds": 600,
+      "edge": 0.5468,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,7 +61,19 @@
       "bet_type": "moneyline",
       "pick": "Jemma Peart",
       "confidence": 0.9667,
-      "edge": 0.7812,
+      "edge": 0.8152,
+      "odds": 560,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-15",
+      "game": "Danielle Perkins vs Olivia Curry",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Olivia Curry",
+      "confidence": 0.5,
+      "edge": 0.3144,
       "odds": 439,
       "tier": "Elite",
       "notes": ""
@@ -97,8 +109,20 @@
       "bet_type": "moneyline",
       "pick": "Emmanuel Tagoe",
       "confidence": 0.5,
-      "edge": 0.423,
-      "odds": 1200,
+      "edge": 0.4,
+      "odds": 900,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-16",
+      "game": "Caroline Veyre vs Bernice Ferreira",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Bernice Ferreira",
+      "confidence": 0.5,
+      "edge": 0.2175,
+      "odds": 254,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Dario Morello",
       "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
+      "edge": 0.323,
+      "odds": 465,
       "tier": "Elite",
       "notes": ""
     },
@@ -169,9 +193,21 @@
       "bet_type": "moneyline",
       "pick": "Victor Santillan",
       "confidence": 0.5,
-      "edge": 0.0349,
-      "odds": 115,
-      "tier": "Strong",
+      "edge": 0.0653,
+      "odds": 130,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-26",
+      "game": "Nikita Tszyu vs Ben Mahoney",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ben Mahoney",
+      "confidence": 0.5,
+      "edge": 0.2674,
+      "odds": 330,
+      "tier": "Elite",
       "notes": ""
     }
   ]
