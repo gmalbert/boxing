@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-13T08:33:16.945507+00:00",
+    "generated_at": "2026-08-14T08:30:30.406065+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Olivia Curry",
       "confidence": 0.5,
-      "edge": 0.3113,
-      "odds": 430,
+      "edge": 0.3181,
+      "odds": 450,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,20 @@
       "bet_type": "moneyline",
       "pick": "Roamer Alexis Angulo",
       "confidence": 0.5,
-      "edge": 0.3795,
-      "odds": 730,
+      "edge": 0.375,
+      "odds": 700,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-15",
+      "game": "Shannel Butler vs Marianela Soledad Ramirez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Marianela Soledad Ramirez",
+      "confidence": 0.5,
+      "edge": 0.423,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Emmanuel Tagoe",
       "confidence": 0.5,
-      "edge": 0.3823,
-      "odds": 750,
+      "edge": 0.3889,
+      "odds": 800,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Bernice Ferreira",
       "confidence": 0.5,
-      "edge": 0.2872,
-      "odds": 370,
+      "edge": 0.269,
+      "odds": 333,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Hakim Lopez",
       "confidence": 0.5,
-      "edge": 0.1923,
-      "odds": 225,
+      "edge": 0.1667,
+      "odds": 200,
       "tier": "Elite",
       "notes": ""
     },
@@ -111,6 +123,18 @@
       "confidence": 0.5,
       "edge": 0.3437,
       "odds": 540,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-16",
+      "game": "Jaquan McElroy vs Alexander Thiel",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Alexander Thiel",
+      "confidence": 0.5,
+      "edge": 0.3823,
+      "odds": 750,
       "tier": "Elite",
       "notes": ""
     },
