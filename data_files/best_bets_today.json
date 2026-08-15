@@ -1,23 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-14T08:30:30.406065+00:00",
+    "generated_at": "2026-08-15T08:07:54.684948+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-08-15",
-      "game": "Danielle Perkins vs Olivia Curry",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Olivia Curry",
-      "confidence": 0.5,
-      "edge": 0.3181,
-      "odds": 450,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-08-15",
       "game": "Casey Dixon vs Michael Nelson",
@@ -92,6 +80,18 @@
     },
     {
       "game_date": "2026-08-16",
+      "game": "Danielle Perkins vs Olivia Curry",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Olivia Curry",
+      "confidence": 0.5,
+      "edge": 0.3181,
+      "odds": 450,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-16",
       "game": "Caroline Veyre vs Bernice Ferreira",
       "game_time": "",
       "bet_type": "moneyline",
@@ -121,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Paulette Valenzuela Cuesta",
       "confidence": 0.5,
-      "edge": 0.3437,
-      "odds": 540,
+      "edge": 0.3461,
+      "odds": 550,
       "tier": "Elite",
       "notes": ""
     },
@@ -219,6 +219,42 @@
       "confidence": 0.5,
       "edge": 0.2674,
       "odds": 330,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-29",
+      "game": "Chantelle Cameron vs Mikaela Mayer",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Chantelle Cameron",
+      "confidence": 0.5,
+      "edge": 0.1826,
+      "odds": 215,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-29",
+      "game": "Terri Harper vs Miranda Reyes",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Miranda Reyes",
+      "confidence": 0.5,
+      "edge": 0.1894,
+      "odds": 222,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-29",
+      "game": "Caroline Dubois vs Amelia Moore",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Amelia Moore",
+      "confidence": 0.5,
+      "edge": 0.4097,
+      "odds": 1008,
       "tier": "Elite",
       "notes": ""
     }
