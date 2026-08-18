@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-17T08:16:12.505367+00:00",
+    "generated_at": "2026-08-18T08:12:00.891151+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Lucrecia Manzur",
       "confidence": 0.5,
-      "edge": 0.4,
-      "odds": 900,
+      "edge": 0.4167,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Jackson Marinez",
       "confidence": 0.5,
-      "edge": 0.3666,
-      "odds": 650,
+      "edge": 0.3823,
+      "odds": 750,
       "tier": "Elite",
       "notes": ""
     },
@@ -67,14 +67,38 @@
       "notes": ""
     },
     {
+      "game_date": "2026-08-22",
+      "game": "Jahmal Harvey vs Hammet Keb del Valle",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Hammet Keb del Valle",
+      "confidence": 0.5,
+      "edge": 0.4411,
+      "odds": 1600,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-22",
+      "game": "Emmanuel Buttigieg vs P A Gordon",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "P A Gordon",
+      "confidence": 0.5,
+      "edge": 0.3666,
+      "odds": 650,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-08-23",
       "game": "Rolando Romero vs Teofimo Lop\u00e9z",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Rolando Romero",
       "confidence": 0.5,
-      "edge": 0.1552,
-      "odds": 190,
+      "edge": 0.1923,
+      "odds": 225,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Israel Mercado",
       "confidence": 0.5,
-      "edge": 0.3461,
-      "odds": 550,
+      "edge": 0.3217,
+      "odds": 461,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Francisco Daniel Veron",
       "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
+      "edge": 0.3484,
+      "odds": 560,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,9 +133,9 @@
       "bet_type": "moneyline",
       "pick": "Victor Santillan",
       "confidence": 0.5,
-      "edge": 0.0653,
-      "odds": 130,
-      "tier": "Elite",
+      "edge": 0.0536,
+      "odds": 124,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -133,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Chantelle Cameron",
       "confidence": 0.5,
-      "edge": 0.1826,
-      "odds": 215,
+      "edge": 0.1552,
+      "odds": 190,
       "tier": "Elite",
       "notes": ""
     },
@@ -157,8 +181,8 @@
       "bet_type": "moneyline",
       "pick": "Amelia Moore",
       "confidence": 0.5,
-      "edge": 0.4097,
-      "odds": 1008,
+      "edge": 0.4091,
+      "odds": 1000,
       "tier": "Elite",
       "notes": ""
     },
@@ -181,8 +205,8 @@
       "bet_type": "moneyline",
       "pick": "Mike Perez",
       "confidence": 0.5,
-      "edge": 0.2674,
-      "odds": 330,
+      "edge": 0.25,
+      "odds": 300,
       "tier": "Elite",
       "notes": ""
     },
@@ -193,8 +217,8 @@
       "bet_type": "moneyline",
       "pick": "Denys Berinchyk",
       "confidence": 0.9434,
-      "edge": 0.7651,
-      "odds": 461,
+      "edge": 0.7434,
+      "odds": 400,
       "tier": "Elite",
       "notes": ""
     },
@@ -217,8 +241,8 @@
       "bet_type": "moneyline",
       "pick": "Luka Planti\u0107",
       "confidence": 0.5146,
-      "edge": 0.3376,
-      "odds": 465,
+      "edge": 0.3241,
+      "odds": 425,
       "tier": "Elite",
       "notes": ""
     }
