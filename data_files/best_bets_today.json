@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-18T08:12:00.891151+00:00",
+    "generated_at": "2026-08-19T08:12:08.099984+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Lucrecia Manzur",
       "confidence": 0.5,
-      "edge": 0.4167,
-      "odds": 1100,
+      "edge": 0.4231,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Dario Morello",
       "confidence": 0.5,
-      "edge": 0.375,
-      "odds": 700,
+      "edge": 0.3823,
+      "odds": 750,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Ellie Hellewell",
       "confidence": 0.5,
-      "edge": 0.3684,
-      "odds": 660,
+      "edge": 0.3889,
+      "odds": 800,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Tom Cowling",
       "confidence": 0.5,
-      "edge": 0.2368,
-      "odds": 280,
+      "edge": 0.25,
+      "odds": 300,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Hammet Keb del Valle",
       "confidence": 0.5,
-      "edge": 0.4411,
-      "odds": 1600,
+      "edge": 0.423,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "P A Gordon",
       "confidence": 0.5,
-      "edge": 0.3666,
-      "odds": 650,
+      "edge": 0.4473,
+      "odds": 1800,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Rolando Romero",
       "confidence": 0.5,
-      "edge": 0.1923,
-      "odds": 225,
+      "edge": 0.2143,
+      "odds": 250,
       "tier": "Elite",
       "notes": ""
     },
@@ -169,8 +169,8 @@
       "bet_type": "moneyline",
       "pick": "Miranda Reyes",
       "confidence": 0.5,
-      "edge": 0.1923,
-      "odds": 225,
+      "edge": 0.1969,
+      "odds": 230,
       "tier": "Elite",
       "notes": ""
     },
@@ -243,6 +243,18 @@
       "confidence": 0.5146,
       "edge": 0.3241,
       "odds": 425,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-02",
+      "game": "Daiya Kira vs Carlos Canizales",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Carlos Canizales",
+      "confidence": 0.5,
+      "edge": 0.135,
+      "odds": 174,
       "tier": "Elite",
       "notes": ""
     }
