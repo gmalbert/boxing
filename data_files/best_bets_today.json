@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-25T08:16:48.842524+00:00",
+    "generated_at": "2026-08-26T08:16:59.073123+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Ben Mahoney",
       "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
+      "edge": 0.3461,
+      "odds": 550,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Blake Wells",
       "confidence": 0.5,
-      "edge": 0.3947,
-      "odds": 850,
+      "edge": 0.3889,
+      "odds": 800,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Chantelle Cameron",
       "confidence": 0.5,
-      "edge": 0.1492,
-      "odds": 185,
+      "edge": 0.1552,
+      "odds": 190,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Miranda Reyes",
       "confidence": 0.5,
-      "edge": 0.226,
-      "odds": 265,
+      "edge": 0.2183,
+      "odds": 255,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Jordan White",
       "confidence": 0.5,
-      "edge": 0.2368,
-      "odds": 280,
+      "edge": 0.2058,
+      "odds": 240,
       "tier": "Elite",
       "notes": ""
     },
@@ -133,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Luka Planti\u0107",
       "confidence": 0.5146,
-      "edge": 0.3291,
-      "odds": 439,
+      "edge": 0.3146,
+      "odds": 400,
       "tier": "Elite",
       "notes": ""
     },
@@ -145,9 +145,33 @@
       "bet_type": "moneyline",
       "pick": "Bryant Jennings",
       "confidence": 0.9669,
-      "edge": 0.6892,
-      "odds": 260,
+      "edge": 0.6959,
+      "odds": 269,
       "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-30",
+      "game": "Brandon Mejia Mosqueda vs Edwin Palomares",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Edwin Palomares",
+      "confidence": 0.5,
+      "edge": 0.3561,
+      "odds": 595,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-08-30",
+      "game": "Mauricio Lara vs Carlos Ornelas",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Mauricio Lara",
+      "confidence": 0.9665,
+      "edge": 0.0574,
+      "odds": -1000,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -169,8 +193,8 @@
       "bet_type": "moneyline",
       "pick": "Carlos Canizales",
       "confidence": 0.5,
-      "edge": 0.135,
-      "odds": 174,
+      "edge": 0.1732,
+      "odds": 206,
       "tier": "Elite",
       "notes": ""
     },
@@ -193,8 +217,8 @@
       "bet_type": "moneyline",
       "pick": "Emmet Brennan",
       "confidence": 0.5,
-      "edge": 0.2368,
-      "odds": 280,
+      "edge": 0.2395,
+      "odds": 284,
       "tier": "Elite",
       "notes": ""
     },
@@ -217,8 +241,8 @@
       "bet_type": "moneyline",
       "pick": "Vito Mielnicki Jr",
       "confidence": 0.9752,
-      "edge": 0.499,
-      "odds": 110,
+      "edge": 0.5288,
+      "odds": 124,
       "tier": "Elite",
       "notes": ""
     },
