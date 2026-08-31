@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-30T08:13:39.170075+00:00",
+    "generated_at": "2026-08-31T08:17:49.908099+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Carlos Canizales",
       "confidence": 0.5,
-      "edge": 0.2142,
-      "odds": 250,
+      "edge": 0.1923,
+      "odds": 225,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Stephane Fondjo",
       "confidence": 0.5,
-      "edge": 0.3113,
-      "odds": 430,
+      "edge": 0.336,
+      "odds": 510,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,9 +49,9 @@
       "bet_type": "moneyline",
       "pick": "Antonio Moran",
       "confidence": 0.1719,
-      "edge": 0.081,
-      "odds": 1000,
-      "tier": "Elite",
+      "edge": 0.0543,
+      "odds": 750,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Flora Pili",
       "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
+      "edge": 0.4166,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "David Allen",
       "confidence": 0.9621,
-      "edge": 0.2121,
-      "odds": -300,
+      "edge": 0.206,
+      "odds": -310,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Vito Mielnicki Jr",
       "confidence": 0.9752,
-      "edge": 0.5568,
-      "odds": 139,
+      "edge": 0.5288,
+      "odds": 124,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Eridson Garcia",
       "confidence": 0.5,
-      "edge": 0.2894,
-      "odds": 375,
+      "edge": 0.3095,
+      "odds": 425,
       "tier": "Elite",
       "notes": ""
     },
