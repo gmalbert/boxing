@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-08-31T08:17:49.908099+00:00",
+    "generated_at": "2026-09-01T08:16:48.682603+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,44 @@
       "bet_type": "moneyline",
       "pick": "Carlos Canizales",
       "confidence": 0.5,
+      "edge": 0.2222,
+      "odds": 260,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-02",
+      "game": "Yuga Fujiki vs Jufel Salina",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jufel Salina",
+      "confidence": 0.5,
+      "edge": 0.423,
+      "odds": 1200,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-02",
+      "game": "Katsuki Mori vs Yoshi Sugiura",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Katsuki Mori",
+      "confidence": 0.5,
       "edge": 0.1923,
       "odds": 225,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-02",
+      "game": "Takeshi Ishii vs Wilfredo Mendez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Wilfredo Mendez",
+      "confidence": 0.5,
+      "edge": 0.2402,
+      "odds": 285,
       "tier": "Elite",
       "notes": ""
     },
@@ -55,6 +91,18 @@
       "notes": ""
     },
     {
+      "game_date": "2026-09-04",
+      "game": "Dennis Thompson vs Jose Casillas",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jose Casillas",
+      "confidence": 0.5,
+      "edge": 0.3666,
+      "odds": 650,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-09-05",
       "game": "Katie Taylor vs Flora Pili",
       "game_time": "",
@@ -85,8 +133,20 @@
       "bet_type": "moneyline",
       "pick": "David Allen",
       "confidence": 0.9621,
-      "edge": 0.206,
-      "odds": -310,
+      "edge": 0.2218,
+      "odds": -285,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-05",
+      "game": "Joe McGrail vs Matty Boreland",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Matty Boreland",
+      "confidence": 0.5,
+      "edge": 0.3461,
+      "odds": 550,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Vito Mielnicki Jr",
       "confidence": 0.9752,
-      "edge": 0.5288,
-      "odds": 124,
+      "edge": 0.4967,
+      "odds": 109,
       "tier": "Elite",
       "notes": ""
     },
@@ -145,8 +205,8 @@
       "bet_type": "moneyline",
       "pick": "Andres Cortes",
       "confidence": 0.9737,
-      "edge": 0.5086,
-      "odds": 115,
+      "edge": 0.5043,
+      "odds": 113,
       "tier": "Elite",
       "notes": ""
     }
