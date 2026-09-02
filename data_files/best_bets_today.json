@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-01T08:16:48.682603+00:00",
+    "generated_at": "2026-09-02T08:16:21.205936+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,32 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Carlos Canizales",
       "confidence": 0.5,
-      "edge": 0.2222,
-      "odds": 260,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-02",
-      "game": "Yuga Fujiki vs Jufel Salina",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jufel Salina",
-      "confidence": 0.5,
-      "edge": 0.423,
-      "odds": 1200,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-02",
-      "game": "Katsuki Mori vs Yoshi Sugiura",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Katsuki Mori",
-      "confidence": 0.5,
-      "edge": 0.1923,
-      "odds": 225,
+      "edge": 0.2333,
+      "odds": 275,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Wilfredo Mendez",
       "confidence": 0.5,
-      "edge": 0.2402,
-      "odds": 285,
+      "edge": 0.2872,
+      "odds": 370,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Costin Ion",
       "confidence": 0.5,
-      "edge": 0.3529,
-      "odds": 580,
+      "edge": 0.3654,
+      "odds": 643,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Stephane Fondjo",
       "confidence": 0.5,
-      "edge": 0.336,
-      "odds": 510,
+      "edge": 0.3484,
+      "odds": 560,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,9 +61,9 @@
       "bet_type": "moneyline",
       "pick": "Antonio Moran",
       "confidence": 0.1719,
-      "edge": 0.0543,
-      "odds": 750,
-      "tier": "Strong",
+      "edge": 0.0719,
+      "odds": 900,
+      "tier": "Elite",
       "notes": ""
     },
     {
@@ -97,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Jose Casillas",
       "confidence": 0.5,
-      "edge": 0.3666,
-      "odds": 650,
+      "edge": 0.3823,
+      "odds": 750,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Flora Pili",
       "confidence": 0.5,
-      "edge": 0.4166,
-      "odds": 1100,
+      "edge": 0.4091,
+      "odds": 1000,
       "tier": "Elite",
       "notes": ""
     },
@@ -157,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Vito Mielnicki Jr",
       "confidence": 0.9752,
-      "edge": 0.4967,
-      "odds": 109,
+      "edge": 0.4403,
+      "odds": -115,
       "tier": "Elite",
       "notes": ""
     },
@@ -169,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Andy Ruiz Jr",
       "confidence": 0.9001,
-      "edge": 0.1599,
-      "odds": -285,
+      "edge": 0.1859,
+      "odds": -250,
       "tier": "Elite",
       "notes": ""
     },
@@ -181,8 +157,20 @@
       "bet_type": "moneyline",
       "pick": "Eridson Garcia",
       "confidence": 0.5,
-      "edge": 0.3095,
-      "odds": 425,
+      "edge": 0.3181,
+      "odds": 450,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-05",
+      "game": "Molly McCann vs Sylwia Doligala",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Sylwia Doligala",
+      "confidence": 0.5,
+      "edge": 0.3823,
+      "odds": 750,
       "tier": "Elite",
       "notes": ""
     },
