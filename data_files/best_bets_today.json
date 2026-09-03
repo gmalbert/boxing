@@ -1,35 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-02T08:16:21.205936+00:00",
+    "generated_at": "2026-09-03T08:16:09.382455+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-09-02",
-      "game": "Daiya Kira vs Carlos Canizales",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Carlos Canizales",
-      "confidence": 0.5,
-      "edge": 0.2333,
-      "odds": 275,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-02",
-      "game": "Takeshi Ishii vs Wilfredo Mendez",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Wilfredo Mendez",
-      "confidence": 0.5,
-      "edge": 0.2872,
-      "odds": 370,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-09-03",
       "game": "Wyatt Sanford vs Costin Ion",
@@ -37,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Costin Ion",
       "confidence": 0.5,
-      "edge": 0.3654,
-      "odds": 643,
+      "edge": 0.375,
+      "odds": 700,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Stephane Fondjo",
       "confidence": 0.5,
-      "edge": 0.3484,
-      "odds": 560,
+      "edge": 0.3571,
+      "odds": 600,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +37,20 @@
       "bet_type": "moneyline",
       "pick": "Antonio Moran",
       "confidence": 0.1719,
-      "edge": 0.0719,
-      "odds": 900,
+      "edge": 0.0608,
+      "odds": 800,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-04",
+      "game": "Zaquin Moses vs Angel Antonio Contreras",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Angel Antonio Contreras",
+      "confidence": 0.5,
+      "edge": 0.4152,
+      "odds": 1080,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Jose Casillas",
       "confidence": 0.5,
-      "edge": 0.3823,
-      "odds": 750,
+      "edge": 0.3909,
+      "odds": 817,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Flora Pili",
       "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
+      "edge": 0.4166,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Emmet Brennan",
       "confidence": 0.5,
-      "edge": 0.2395,
-      "odds": 284,
+      "edge": 0.229,
+      "odds": 269,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "David Allen",
       "confidence": 0.9621,
-      "edge": 0.2218,
-      "odds": -285,
+      "edge": 0.2399,
+      "odds": -260,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Matty Boreland",
       "confidence": 0.5,
-      "edge": 0.3461,
-      "odds": 550,
+      "edge": 0.3113,
+      "odds": 430,
       "tier": "Elite",
       "notes": ""
     },
@@ -145,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Andy Ruiz Jr",
       "confidence": 0.9001,
-      "edge": 0.1859,
-      "odds": -250,
+      "edge": 0.2078,
+      "odds": -225,
       "tier": "Elite",
       "notes": ""
     },
@@ -164,13 +152,25 @@
     },
     {
       "game_date": "2026-09-05",
+      "game": "Paul Ryan vs Paddy Gallagher",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Paddy Gallagher",
+      "confidence": 0.5,
+      "edge": 0.326,
+      "odds": 475,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-05",
       "game": "Molly McCann vs Sylwia Doligala",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Sylwia Doligala",
       "confidence": 0.5,
-      "edge": 0.3823,
-      "odds": 750,
+      "edge": 0.377,
+      "odds": 713,
       "tier": "Elite",
       "notes": ""
     },
@@ -195,6 +195,18 @@
       "confidence": 0.9737,
       "edge": 0.5043,
       "odds": 113,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-13",
+      "game": "Damazion Vanhouter vs Raphael Akpejiori",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Raphael Akpejiori",
+      "confidence": 0.5,
+      "edge": 0.3823,
+      "odds": 750,
       "tier": "Elite",
       "notes": ""
     }
