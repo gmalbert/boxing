@@ -1,47 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-03T08:16:09.382455+00:00",
+    "generated_at": "2026-09-04T08:15:44.883738+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-09-03",
-      "game": "Wyatt Sanford vs Costin Ion",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Costin Ion",
-      "confidence": 0.5,
-      "edge": 0.375,
-      "odds": 700,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-04",
-      "game": "Moreno Fendero vs Stephane Fondjo",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Stephane Fondjo",
-      "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-04",
-      "game": "Jhon Orobio vs Antonio Moran",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Antonio Moran",
-      "confidence": 0.1719,
-      "edge": 0.0608,
-      "odds": 800,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-09-04",
       "game": "Zaquin Moses vs Angel Antonio Contreras",
@@ -49,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Angel Antonio Contreras",
       "confidence": 0.5,
-      "edge": 0.4152,
-      "odds": 1080,
+      "edge": 0.423,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +25,32 @@
       "bet_type": "moneyline",
       "pick": "Jose Casillas",
       "confidence": 0.5,
-      "edge": 0.3909,
-      "odds": 817,
+      "edge": 0.375,
+      "odds": 700,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-04",
+      "game": "Brooke Mullen vs Bria Miller",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Bria Miller",
+      "confidence": 0.5,
+      "edge": 0.3901,
+      "odds": 810,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-04",
+      "game": "Kahshad Elliott vs Jean Pierre Valencia",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jean Pierre Valencia",
+      "confidence": 0.5,
+      "edge": 0.3795,
+      "odds": 730,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Flora Pili",
       "confidence": 0.5,
-      "edge": 0.4166,
-      "odds": 1100,
+      "edge": 0.3823,
+      "odds": 750,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "David Allen",
       "confidence": 0.9621,
-      "edge": 0.2399,
-      "odds": -260,
+      "edge": 0.2478,
+      "odds": -250,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Vito Mielnicki Jr",
       "confidence": 0.9752,
-      "edge": 0.4403,
-      "odds": -115,
+      "edge": 0.4752,
+      "odds": 100,
       "tier": "Elite",
       "notes": ""
     },
@@ -133,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Andy Ruiz Jr",
       "confidence": 0.9001,
-      "edge": 0.2078,
-      "odds": -225,
+      "edge": 0.2126,
+      "odds": -220,
       "tier": "Elite",
       "notes": ""
     },
@@ -169,8 +157,20 @@
       "bet_type": "moneyline",
       "pick": "Sylwia Doligala",
       "confidence": 0.5,
-      "edge": 0.377,
-      "odds": 713,
+      "edge": 0.3889,
+      "odds": 800,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-05",
+      "game": "Bobbi Flood vs Jack Swallow",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jack Swallow",
+      "confidence": 0.5,
+      "edge": 0.4473,
+      "odds": 1800,
       "tier": "Elite",
       "notes": ""
     },
