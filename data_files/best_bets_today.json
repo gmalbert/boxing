@@ -1,59 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-04T08:15:44.883738+00:00",
+    "generated_at": "2026-09-05T08:13:43.373397+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-09-04",
-      "game": "Zaquin Moses vs Angel Antonio Contreras",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Angel Antonio Contreras",
-      "confidence": 0.5,
-      "edge": 0.423,
-      "odds": 1200,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-04",
-      "game": "Dennis Thompson vs Jose Casillas",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jose Casillas",
-      "confidence": 0.5,
-      "edge": 0.375,
-      "odds": 700,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-04",
-      "game": "Brooke Mullen vs Bria Miller",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Bria Miller",
-      "confidence": 0.5,
-      "edge": 0.3901,
-      "odds": 810,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-04",
-      "game": "Kahshad Elliott vs Jean Pierre Valencia",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jean Pierre Valencia",
-      "confidence": 0.5,
-      "edge": 0.3795,
-      "odds": 730,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-09-05",
       "game": "Katie Taylor vs Flora Pili",
@@ -73,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Emmet Brennan",
       "confidence": 0.5,
-      "edge": 0.229,
-      "odds": 269,
+      "edge": 0.25,
+      "odds": 300,
       "tier": "Elite",
       "notes": ""
     },
@@ -99,42 +51,6 @@
       "confidence": 0.5,
       "edge": 0.3113,
       "odds": 430,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-05",
-      "game": "Vito Mielnicki Jr vs Austin Williams",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Vito Mielnicki Jr",
-      "confidence": 0.9752,
-      "edge": 0.4752,
-      "odds": 100,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-05",
-      "game": "Andy Ruiz Jr vs Damian Knyba",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Andy Ruiz Jr",
-      "confidence": 0.9001,
-      "edge": 0.2126,
-      "odds": -220,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-05",
-      "game": "Alan Abel Chaves vs Eridson Garcia",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Eridson Garcia",
-      "confidence": 0.5,
-      "edge": 0.3181,
-      "odds": 450,
       "tier": "Elite",
       "notes": ""
     },
@@ -169,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Jack Swallow",
       "confidence": 0.5,
-      "edge": 0.4473,
-      "odds": 1800,
+      "edge": 0.45,
+      "odds": 1900,
       "tier": "Elite",
       "notes": ""
     },
@@ -205,9 +121,57 @@
       "bet_type": "moneyline",
       "pick": "Raphael Akpejiori",
       "confidence": 0.5,
-      "edge": 0.3823,
-      "odds": 750,
+      "edge": 0.378,
+      "odds": 720,
       "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-19",
+      "game": "Isaac Cruz vs Nestor Bravo",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Nestor Bravo",
+      "confidence": 0.5,
+      "edge": 0.3,
+      "odds": 400,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-19",
+      "game": "Shabaz Masoud vs Ckari Cani Mansilla",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ckari Cani Mansilla",
+      "confidence": 0.5,
+      "edge": 0.3654,
+      "odds": 643,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-19",
+      "game": "John Hedges vs Pat Brown",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "John Hedges",
+      "confidence": 0.5,
+      "edge": 0.2964,
+      "odds": 391,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-19",
+      "game": "Kieron Conway vs Mark Jeffers",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Mark Jeffers",
+      "confidence": 0.5,
+      "edge": 0.0391,
+      "odds": 117,
+      "tier": "Strong",
       "notes": ""
     }
   ]
