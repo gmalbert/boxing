@@ -1,92 +1,32 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-05T08:13:43.373397+00:00",
+    "generated_at": "2026-09-06T08:13:50.643093+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
     {
-      "game_date": "2026-09-05",
-      "game": "Katie Taylor vs Flora Pili",
+      "game_date": "2026-09-12",
+      "game": "Luis Alberto Lopez vs Daniel Lugo",
       "game_time": "",
       "bet_type": "moneyline",
-      "pick": "Flora Pili",
+      "pick": "Daniel Lugo",
       "confidence": 0.5,
-      "edge": 0.3823,
-      "odds": 750,
+      "edge": 0.3461,
+      "odds": 550,
       "tier": "Elite",
       "notes": ""
     },
     {
-      "game_date": "2026-09-05",
-      "game": "Taylor Bevan vs Emmet Brennan",
+      "game_date": "2026-09-12",
+      "game": "Giovani Santillan vs Abass Barou",
       "game_time": "",
       "bet_type": "moneyline",
-      "pick": "Emmet Brennan",
+      "pick": "Giovani Santillan",
       "confidence": 0.5,
-      "edge": 0.25,
-      "odds": 300,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-05",
-      "game": "David Allen vs Thomas Carty",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "David Allen",
-      "confidence": 0.9621,
-      "edge": 0.2478,
-      "odds": -250,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-05",
-      "game": "Joe McGrail vs Matty Boreland",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Matty Boreland",
-      "confidence": 0.5,
-      "edge": 0.3113,
-      "odds": 430,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-05",
-      "game": "Paul Ryan vs Paddy Gallagher",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Paddy Gallagher",
-      "confidence": 0.5,
-      "edge": 0.326,
-      "odds": 475,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-05",
-      "game": "Molly McCann vs Sylwia Doligala",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Sylwia Doligala",
-      "confidence": 0.5,
-      "edge": 0.3889,
-      "odds": 800,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-05",
-      "game": "Bobbi Flood vs Jack Swallow",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jack Swallow",
-      "confidence": 0.5,
-      "edge": 0.45,
-      "odds": 1900,
+      "edge": 0.2369,
+      "odds": 280,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Andres Cortes",
       "confidence": 0.9737,
-      "edge": 0.5043,
-      "odds": 113,
+      "edge": 0.4953,
+      "odds": 109,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Raphael Akpejiori",
       "confidence": 0.5,
-      "edge": 0.378,
-      "odds": 720,
+      "edge": 0.4,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
@@ -172,6 +112,18 @@
       "edge": 0.0391,
       "odds": 117,
       "tier": "Strong",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-20",
+      "game": "Jesus Alejandro Ramos Jr vs Meiirim Nursultanov",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Meiirim Nursultanov",
+      "confidence": 0.5,
+      "edge": 0.25,
+      "odds": 300,
+      "tier": "Elite",
       "notes": ""
     }
   ]
