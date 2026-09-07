@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-06T08:13:50.643093+00:00",
+    "generated_at": "2026-09-07T08:18:04.328911+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -31,6 +31,18 @@
       "notes": ""
     },
     {
+      "game_date": "2026-09-12",
+      "game": "Jose Ramirez vs Alexis Rocha",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Alexis Rocha",
+      "confidence": 0.9616,
+      "edge": 0.218,
+      "odds": -290,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-09-13",
       "game": "Ryan Garcia vs Conor Benn",
       "game_time": "",
@@ -49,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Andres Cortes",
       "confidence": 0.9737,
-      "edge": 0.4953,
-      "odds": 109,
+      "edge": 0.4859,
+      "odds": 105,
       "tier": "Elite",
       "notes": ""
     },
