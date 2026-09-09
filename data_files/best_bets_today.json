@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-08T08:16:16.330602+00:00",
+    "generated_at": "2026-09-09T08:16:12.816192+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Daniel Lugo",
       "confidence": 0.5,
-      "edge": 0.3333,
-      "odds": 500,
+      "edge": 0.3095,
+      "odds": 425,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Giovani Santillan",
       "confidence": 0.5,
-      "edge": 0.2334,
-      "odds": 275,
+      "edge": 0.2561,
+      "odds": 310,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,9 +37,45 @@
       "bet_type": "moneyline",
       "pick": "Alexis Rocha",
       "confidence": 0.9616,
-      "edge": 0.179,
-      "odds": -360,
+      "edge": 0.1616,
+      "odds": -400,
       "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-12",
+      "game": "Dominic Valle vs Francois Scarboro Jr",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Francois Scarboro Jr",
+      "confidence": 0.5,
+      "edge": 0.2578,
+      "odds": 313,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-12",
+      "game": "Vlad Panin vs Dakota Linger",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Dakota Linger",
+      "confidence": 0.5,
+      "edge": 0.2963,
+      "odds": 391,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-12",
+      "game": "Oswaldo Jes\u00fas Molina Jim\u00e9nez vs Pablo Rubio Jr",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Oswaldo Jes\u00fas Molina Jim\u00e9nez",
+      "confidence": 0.5,
+      "edge": 0.0536,
+      "odds": 124,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -61,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Andres Cortes",
       "confidence": 0.9737,
-      "edge": 0.4859,
-      "odds": 105,
+      "edge": 0.4222,
+      "odds": -123,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Ckari Cani Mansilla",
       "confidence": 0.5,
-      "edge": 0.3654,
-      "odds": 643,
+      "edge": 0.3666,
+      "odds": 650,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "John Hedges",
       "confidence": 0.5,
-      "edge": 0.2964,
-      "odds": 391,
+      "edge": 0.3,
+      "odds": 400,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Mark Jeffers",
       "confidence": 0.5,
-      "edge": 0.0391,
-      "odds": 117,
+      "edge": 0.0555,
+      "odds": 125,
       "tier": "Strong",
       "notes": ""
     },
