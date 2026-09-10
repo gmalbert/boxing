@@ -1,11 +1,23 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-09T08:16:12.816192+00:00",
+    "generated_at": "2026-09-10T08:15:48.030287+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
+    {
+      "game_date": "2026-09-11",
+      "game": "Mercito Gesta vs Jorge De Jesus",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Mercito Gesta",
+      "confidence": 0.5,
+      "edge": 0.0834,
+      "odds": 140,
+      "tier": "Elite",
+      "notes": ""
+    },
     {
       "game_date": "2026-09-12",
       "game": "Luis Alberto Lopez vs Daniel Lugo",
@@ -13,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Daniel Lugo",
       "confidence": 0.5,
-      "edge": 0.3095,
-      "odds": 425,
+      "edge": 0.3181,
+      "odds": 450,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Francois Scarboro Jr",
       "confidence": 0.5,
-      "edge": 0.2578,
-      "odds": 313,
+      "edge": 0.2222,
+      "odds": 260,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Dakota Linger",
       "confidence": 0.5,
-      "edge": 0.2963,
-      "odds": 391,
+      "edge": 0.3387,
+      "odds": 520,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,9 +85,9 @@
       "bet_type": "moneyline",
       "pick": "Oswaldo Jes\u00fas Molina Jim\u00e9nez",
       "confidence": 0.5,
-      "edge": 0.0536,
-      "odds": 124,
-      "tier": "Strong",
+      "edge": 0.1351,
+      "odds": 174,
+      "tier": "Elite",
       "notes": ""
     },
     {
@@ -85,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Conor Benn",
       "confidence": 0.9982,
-      "edge": 0.6649,
-      "odds": 200,
+      "edge": 0.6725,
+      "odds": 207,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Andres Cortes",
       "confidence": 0.9737,
-      "edge": 0.4222,
-      "odds": -123,
+      "edge": 0.3904,
+      "odds": -140,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Raphael Akpejiori",
       "confidence": 0.5,
-      "edge": 0.3889,
-      "odds": 800,
+      "edge": 0.4,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Nestor Bravo",
       "confidence": 0.5,
-      "edge": 0.3,
-      "odds": 400,
+      "edge": 0.2963,
+      "odds": 391,
       "tier": "Elite",
       "notes": ""
     },
