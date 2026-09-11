@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-10T08:15:48.030287+00:00",
+    "generated_at": "2026-09-11T08:15:41.580041+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Daniel Lugo",
       "confidence": 0.5,
-      "edge": 0.3181,
-      "odds": 450,
+      "edge": 0.3,
+      "odds": 400,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Giovani Santillan",
       "confidence": 0.5,
-      "edge": 0.2561,
-      "odds": 310,
+      "edge": 0.2436,
+      "odds": 290,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Alexis Rocha",
       "confidence": 0.9616,
-      "edge": 0.1616,
-      "odds": -400,
+      "edge": 0.1435,
+      "odds": -450,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Francois Scarboro Jr",
       "confidence": 0.5,
-      "edge": 0.2222,
-      "odds": 260,
+      "edge": 0.1666,
+      "odds": 200,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Dakota Linger",
       "confidence": 0.5,
-      "edge": 0.3387,
-      "odds": 520,
+      "edge": 0.3,
+      "odds": 400,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Oswaldo Jes\u00fas Molina Jim\u00e9nez",
       "confidence": 0.5,
-      "edge": 0.1351,
-      "odds": 174,
+      "edge": 0.0868,
+      "odds": 142,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Conor Benn",
       "confidence": 0.9982,
-      "edge": 0.6725,
-      "odds": 207,
+      "edge": 0.6905,
+      "odds": 225,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Andres Cortes",
       "confidence": 0.9737,
-      "edge": 0.3904,
-      "odds": -140,
+      "edge": 0.4283,
+      "odds": -120,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Raphael Akpejiori",
       "confidence": 0.5,
-      "edge": 0.4,
-      "odds": 900,
+      "edge": 0.3666,
+      "odds": 650,
       "tier": "Elite",
       "notes": ""
     },
