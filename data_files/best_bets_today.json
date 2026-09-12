@@ -1,47 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-11T08:15:41.580041+00:00",
+    "generated_at": "2026-09-12T08:13:28.824724+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-09-11",
-      "game": "Mercito Gesta vs Jorge De Jesus",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Mercito Gesta",
-      "confidence": 0.5,
-      "edge": 0.0834,
-      "odds": 140,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-12",
-      "game": "Luis Alberto Lopez vs Daniel Lugo",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Daniel Lugo",
-      "confidence": 0.5,
-      "edge": 0.3,
-      "odds": 400,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-12",
-      "game": "Giovani Santillan vs Abass Barou",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Giovani Santillan",
-      "confidence": 0.5,
-      "edge": 0.2436,
-      "odds": 290,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-09-12",
       "game": "Jose Ramirez vs Alexis Rocha",
@@ -51,18 +15,6 @@
       "confidence": 0.9616,
       "edge": 0.1435,
       "odds": -450,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-12",
-      "game": "Dominic Valle vs Francois Scarboro Jr",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Francois Scarboro Jr",
-      "confidence": 0.5,
-      "edge": 0.1666,
-      "odds": 200,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Conor Benn",
       "confidence": 0.9982,
-      "edge": 0.6905,
-      "odds": 225,
+      "edge": 0.6857,
+      "odds": 220,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Raphael Akpejiori",
       "confidence": 0.5,
-      "edge": 0.3666,
-      "odds": 650,
+      "edge": 0.3823,
+      "odds": 750,
       "tier": "Elite",
       "notes": ""
     },
@@ -181,8 +133,44 @@
       "bet_type": "moneyline",
       "pick": "Meiirim Nursultanov",
       "confidence": 0.5,
-      "edge": 0.25,
-      "odds": 300,
+      "edge": 0.2727,
+      "odds": 340,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-26",
+      "game": "Lee Cutler vs Louis Greene",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Louis Greene",
+      "confidence": 0.5,
+      "edge": 0.0884,
+      "odds": 143,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-26",
+      "game": "Craig Richards vs Radivoje Kalajdzic",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Craig Richards",
+      "confidence": 0.5,
+      "edge": 0.0868,
+      "odds": 142,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-26",
+      "game": "Johnny Fisher vs Michael Pirotton",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Michael Pirotton",
+      "confidence": 0.5,
+      "edge": 0.3654,
+      "odds": 643,
       "tier": "Elite",
       "notes": ""
     }
