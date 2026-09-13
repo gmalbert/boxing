@@ -1,95 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-12T08:13:28.824724+00:00",
+    "generated_at": "2026-09-13T08:14:05.207667+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-09-12",
-      "game": "Jose Ramirez vs Alexis Rocha",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Alexis Rocha",
-      "confidence": 0.9616,
-      "edge": 0.1435,
-      "odds": -450,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-12",
-      "game": "Vlad Panin vs Dakota Linger",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Dakota Linger",
-      "confidence": 0.5,
-      "edge": 0.3,
-      "odds": 400,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-12",
-      "game": "Oswaldo Jes\u00fas Molina Jim\u00e9nez vs Pablo Rubio Jr",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Oswaldo Jes\u00fas Molina Jim\u00e9nez",
-      "confidence": 0.5,
-      "edge": 0.0868,
-      "odds": 142,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-13",
-      "game": "Ryan Garcia vs Conor Benn",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Conor Benn",
-      "confidence": 0.9982,
-      "edge": 0.6857,
-      "odds": 220,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-13",
-      "game": "Mark Magsayo vs Andres Cortes",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Andres Cortes",
-      "confidence": 0.9737,
-      "edge": 0.4283,
-      "odds": -120,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-13",
-      "game": "Damazion Vanhouter vs Raphael Akpejiori",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Raphael Akpejiori",
-      "confidence": 0.5,
-      "edge": 0.3823,
-      "odds": 750,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-19",
-      "game": "Isaac Cruz vs Nestor Bravo",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Nestor Bravo",
-      "confidence": 0.5,
-      "edge": 0.2963,
-      "odds": 391,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-09-19",
       "game": "Shabaz Masoud vs Ckari Cani Mansilla",
@@ -104,7 +20,7 @@
     },
     {
       "game_date": "2026-09-19",
-      "game": "John Hedges vs Pat Brown",
+      "game": "Pat Brown vs John Hedges",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "John Hedges",
@@ -124,6 +40,18 @@
       "edge": 0.0555,
       "odds": 125,
       "tier": "Strong",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-20",
+      "game": "Isaac Cruz vs Nestor Bravo",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Nestor Bravo",
+      "confidence": 0.5,
+      "edge": 0.2963,
+      "odds": 391,
+      "tier": "Elite",
       "notes": ""
     },
     {
@@ -171,6 +99,42 @@
       "confidence": 0.5,
       "edge": 0.3654,
       "odds": 643,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-27",
+      "game": "Ryosuke Nishida vs Sam Goodman",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Sam Goodman",
+      "confidence": 0.9748,
+      "edge": 0.6058,
+      "odds": 171,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-27",
+      "game": "Takuma Inoue vs Tenshin Nasukawa",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Tenshin Nasukawa",
+      "confidence": 0.5,
+      "edge": 0.1666,
+      "odds": 200,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-27",
+      "game": "Tomoya Tsuboi vs Ricardo Malajika",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ricardo Malajika",
+      "confidence": 0.5,
+      "edge": 0.2619,
+      "odds": 320,
       "tier": "Elite",
       "notes": ""
     }
