@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-13T08:14:05.207667+00:00",
+    "generated_at": "2026-09-14T08:17:50.680147+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Nestor Bravo",
       "confidence": 0.5,
-      "edge": 0.2963,
-      "odds": 391,
+      "edge": 0.3062,
+      "odds": 416,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Meiirim Nursultanov",
       "confidence": 0.5,
-      "edge": 0.2727,
-      "odds": 340,
+      "edge": 0.2963,
+      "odds": 391,
       "tier": "Elite",
       "notes": ""
     },
