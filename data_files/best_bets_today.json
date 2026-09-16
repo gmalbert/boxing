@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-15T08:15:42.804182+00:00",
+    "generated_at": "2026-09-16T08:16:09.403036+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Ckari Cani Mansilla",
       "confidence": 0.5,
-      "edge": 0.3666,
-      "odds": 650,
+      "edge": 0.4,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "John Hedges",
       "confidence": 0.5,
-      "edge": 0.3,
-      "odds": 400,
+      "edge": 0.3333,
+      "odds": 500,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,9 +37,81 @@
       "bet_type": "moneyline",
       "pick": "Mark Jeffers",
       "confidence": 0.5,
-      "edge": 0.0555,
-      "odds": 125,
+      "edge": 0.0348,
+      "odds": 115,
       "tier": "Strong",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-19",
+      "game": "Alfie Middlemiss vs Gerard Hughes",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Gerard Hughes",
+      "confidence": 0.5,
+      "edge": 0.3284,
+      "odds": 483,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-19",
+      "game": "Garan Croft vs Mohammed Graich",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Mohammed Graich",
+      "confidence": 0.5,
+      "edge": 0.401,
+      "odds": 910,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-19",
+      "game": "Jack Power vs Victor Ionascu",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Victor Ionascu",
+      "confidence": 0.5,
+      "edge": 0.4166,
+      "odds": 1100,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-19",
+      "game": "Tom Rafferty vs Liam Walsh",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Liam Walsh",
+      "confidence": 0.5,
+      "edge": 0.3823,
+      "odds": 750,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-19",
+      "game": "Joe Howarth vs Josh Holmes",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Joe Howarth",
+      "confidence": 0.5,
+      "edge": 0.2176,
+      "odds": 254,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-19",
+      "game": "Eumir Marcial vs Omar Ulises Huerta",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Omar Ulises Huerta",
+      "confidence": 0.5,
+      "edge": 0.3461,
+      "odds": 550,
+      "tier": "Elite",
       "notes": ""
     },
     {
@@ -49,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Nestor Bravo",
       "confidence": 0.5,
-      "edge": 0.3062,
-      "odds": 416,
+      "edge": 0.2854,
+      "odds": 366,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +133,20 @@
       "bet_type": "moneyline",
       "pick": "Meiirim Nursultanov",
       "confidence": 0.5,
-      "edge": 0.2963,
-      "odds": 391,
+      "edge": 0.2854,
+      "odds": 366,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-20",
+      "game": "Daniel Blancas vs Sergio Rio Jimenez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Sergio Rio Jimenez",
+      "confidence": 0.5,
+      "edge": 0.4166,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,9 +169,9 @@
       "bet_type": "moneyline",
       "pick": "Craig Richards",
       "confidence": 0.5,
-      "edge": 0.0868,
-      "odds": 142,
-      "tier": "Elite",
+      "edge": 0.0455,
+      "odds": 120,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -109,8 +193,8 @@
       "bet_type": "moneyline",
       "pick": "Sam Goodman",
       "confidence": 0.9748,
-      "edge": 0.6058,
-      "odds": 171,
+      "edge": 0.5975,
+      "odds": 165,
       "tier": "Elite",
       "notes": ""
     },
