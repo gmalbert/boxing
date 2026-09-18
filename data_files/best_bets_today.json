@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-17T08:17:37.047167+00:00",
+    "generated_at": "2026-09-18T08:15:18.572147+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Ckari Cani Mansilla",
       "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
+      "edge": 0.4166,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Gerard Hughes",
       "confidence": 0.5,
-      "edge": 0.342,
-      "odds": 533,
+      "edge": 0.3214,
+      "odds": 460,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Mohammed Graich",
       "confidence": 0.5,
-      "edge": 0.4302,
-      "odds": 1333,
+      "edge": 0.3924,
+      "odds": 830,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Victor Ionascu",
       "confidence": 0.5,
-      "edge": 0.4302,
-      "odds": 1333,
+      "edge": 0.3969,
+      "odds": 870,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,20 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Liam Walsh",
       "confidence": 0.5,
-      "edge": 0.3909,
-      "odds": 817,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-19",
-      "game": "Joe Howarth vs Josh Holmes",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Joe Howarth",
-      "confidence": 0.5,
-      "edge": 0.2176,
-      "odds": 254,
+      "edge": 0.378,
+      "odds": 720,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Omar Ulises Huerta",
       "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
+      "edge": 0.3437,
+      "odds": 540,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Cory O'Regan",
       "confidence": 0.5,
-      "edge": 0.1139,
-      "odds": 159,
+      "edge": 0.1109,
+      "odds": 157,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Shawn Rall",
       "confidence": 0.5,
-      "edge": 0.4,
-      "odds": 900,
+      "edge": 0.3684,
+      "odds": 660,
       "tier": "Elite",
       "notes": ""
     },
@@ -145,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Nestor Bravo",
       "confidence": 0.5,
-      "edge": 0.2854,
-      "odds": 366,
+      "edge": 0.3062,
+      "odds": 416,
       "tier": "Elite",
       "notes": ""
     },
@@ -169,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Sergio Rio Jimenez",
       "confidence": 0.5,
-      "edge": 0.4302,
-      "odds": 1333,
+      "edge": 0.3901,
+      "odds": 810,
       "tier": "Elite",
       "notes": ""
     },
@@ -181,8 +169,8 @@
       "bet_type": "moneyline",
       "pick": "Guillermo Hernandez",
       "confidence": 0.5,
-      "edge": 0.4166,
-      "odds": 1100,
+      "edge": 0.399,
+      "odds": 890,
       "tier": "Elite",
       "notes": ""
     },
@@ -193,8 +181,8 @@
       "bet_type": "moneyline",
       "pick": "Kyonosuke Kameda",
       "confidence": 0.5,
-      "edge": 0.2261,
-      "odds": 265,
+      "edge": 0.25,
+      "odds": 300,
       "tier": "Elite",
       "notes": ""
     },
@@ -253,8 +241,8 @@
       "bet_type": "moneyline",
       "pick": "Tenshin Nasukawa",
       "confidence": 0.5,
-      "edge": 0.1666,
-      "odds": 200,
+      "edge": 0.1491,
+      "odds": 185,
       "tier": "Elite",
       "notes": ""
     },
