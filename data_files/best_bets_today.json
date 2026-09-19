@@ -1,11 +1,23 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-18T08:15:18.572147+00:00",
+    "generated_at": "2026-09-19T08:13:54.361708+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
+    {
+      "game_date": "2026-09-19",
+      "game": "Jesus Alejandro Ramos Jr vs Meiirim Nursultanov",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Meiirim Nursultanov",
+      "confidence": 0.5,
+      "edge": 0.3062,
+      "odds": 416,
+      "tier": "Elite",
+      "notes": ""
+    },
     {
       "game_date": "2026-09-19",
       "game": "Shabaz Masoud vs Ckari Cani Mansilla",
@@ -13,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Ckari Cani Mansilla",
       "confidence": 0.5,
-      "edge": 0.4166,
-      "odds": 1100,
+      "edge": 0.423,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -80,25 +92,13 @@
     },
     {
       "game_date": "2026-09-19",
-      "game": "Eumir Marcial vs Omar Ulises Huerta",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Omar Ulises Huerta",
-      "confidence": 0.5,
-      "edge": 0.3437,
-      "odds": 540,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-19",
       "game": "Joe Howarth vs Cory O'Regan",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Cory O'Regan",
       "confidence": 0.5,
-      "edge": 0.1109,
-      "odds": 157,
+      "edge": 0.0726,
+      "odds": 134,
       "tier": "Elite",
       "notes": ""
     },
@@ -127,6 +127,18 @@
       "notes": ""
     },
     {
+      "game_date": "2026-09-19",
+      "game": "Lorenzo Simpson vs Shawn McCalman",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Shawn McCalman",
+      "confidence": 0.6328,
+      "edge": 0.2263,
+      "odds": 146,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-09-20",
       "game": "Isaac Cruz vs Nestor Bravo",
       "game_time": "",
@@ -140,25 +152,25 @@
     },
     {
       "game_date": "2026-09-20",
-      "game": "Jesus Alejandro Ramos Jr vs Meiirim Nursultanov",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Meiirim Nursultanov",
-      "confidence": 0.5,
-      "edge": 0.2854,
-      "odds": 366,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-20",
       "game": "Daniel Blancas vs Sergio Rio Jimenez",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Sergio Rio Jimenez",
       "confidence": 0.5,
-      "edge": 0.3901,
-      "odds": 810,
+      "edge": 0.4107,
+      "odds": 1020,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-09-20",
+      "game": "Eumir Marcial vs Omar Ulises Huerta",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Omar Ulises Huerta",
+      "confidence": 0.5,
+      "edge": 0.3039,
+      "odds": 410,
       "tier": "Elite",
       "notes": ""
     },
@@ -181,8 +193,8 @@
       "bet_type": "moneyline",
       "pick": "Kyonosuke Kameda",
       "confidence": 0.5,
-      "edge": 0.25,
-      "odds": 300,
+      "edge": 0.2778,
+      "odds": 350,
       "tier": "Elite",
       "notes": ""
     },
@@ -255,6 +267,30 @@
       "confidence": 0.5,
       "edge": 0.2619,
       "odds": 320,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-03",
+      "game": "Ben Whittaker vs Conor Wallace",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Conor Wallace",
+      "confidence": 0.5,
+      "edge": 0.3333,
+      "odds": 500,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-03",
+      "game": "Omari Jones vs Alan Sanchez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Alan Sanchez",
+      "confidence": 0.5,
+      "edge": 0.4091,
+      "odds": 1000,
       "tier": "Elite",
       "notes": ""
     }
