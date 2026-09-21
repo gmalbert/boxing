@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-20T08:14:29.333695+00:00",
+    "generated_at": "2026-09-21T08:17:48.072413+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -97,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Nathaniel Collins",
       "confidence": 0.5,
-      "edge": 0.2402,
-      "odds": 285,
+      "edge": 0.2333,
+      "odds": 275,
       "tier": "Elite",
       "notes": ""
     },
