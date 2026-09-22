@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-21T08:17:48.072413+00:00",
+    "generated_at": "2026-09-22T08:16:12.995127+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Kyonosuke Kameda",
       "confidence": 0.5,
-      "edge": 0.2778,
-      "odds": 350,
+      "edge": 0.2895,
+      "odds": 375,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Michael Pirotton",
       "confidence": 0.5,
-      "edge": 0.3666,
-      "odds": 650,
+      "edge": 0.3889,
+      "odds": 800,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Nathaniel Collins",
       "confidence": 0.5,
-      "edge": 0.2333,
-      "odds": 275,
+      "edge": 0.2142,
+      "odds": 250,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Sam Goodman",
       "confidence": 0.9748,
-      "edge": 0.5902,
-      "odds": 160,
+      "edge": 0.5975,
+      "odds": 165,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Tenshin Nasukawa",
       "confidence": 0.5,
-      "edge": 0.1491,
-      "odds": 185,
+      "edge": 0.1226,
+      "odds": 165,
       "tier": "Elite",
       "notes": ""
     },
@@ -133,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Ricardo Malajika",
       "confidence": 0.5,
-      "edge": 0.2619,
-      "odds": 320,
+      "edge": 0.3095,
+      "odds": 425,
       "tier": "Elite",
       "notes": ""
     },
@@ -157,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Alan Sanchez",
       "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
+      "edge": 0.4166,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     }
