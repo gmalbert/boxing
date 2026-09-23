@@ -1,23 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-22T08:16:12.995127+00:00",
+    "generated_at": "2026-09-23T08:16:01.245124+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-09-23",
-      "game": "Kyonosuke Kameda vs Sebastian Hernandez",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Kyonosuke Kameda",
-      "confidence": 0.5,
-      "edge": 0.2895,
-      "odds": 375,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-09-26",
       "game": "Lee Cutler vs Louis Greene",
@@ -25,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Louis Greene",
       "confidence": 0.5,
-      "edge": 0.0833,
-      "odds": 140,
+      "edge": 0.1226,
+      "odds": 165,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Craig Richards",
       "confidence": 0.5,
-      "edge": 0.0455,
-      "odds": 120,
+      "edge": 0.0349,
+      "odds": 115,
       "tier": "Strong",
       "notes": ""
     },
@@ -61,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Lewis Morris",
       "confidence": 0.5,
-      "edge": 0.3901,
-      "odds": 810,
+      "edge": 0.4375,
+      "odds": 1500,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Amir Abubaker",
       "confidence": 0.5,
-      "edge": 0.3113,
-      "odds": 430,
+      "edge": 0.3181,
+      "odds": 450,
       "tier": "Elite",
       "notes": ""
     },
@@ -103,6 +91,18 @@
       "notes": ""
     },
     {
+      "game_date": "2026-09-26",
+      "game": "Cesar Mateo Tapia vs Leonardo Ruiz",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Leonardo Ruiz",
+      "confidence": 0.5,
+      "edge": 0.1666,
+      "odds": 200,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-09-27",
       "game": "Ryosuke Nishida vs Sam Goodman",
       "game_time": "",
@@ -121,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Tenshin Nasukawa",
       "confidence": 0.5,
-      "edge": 0.1226,
-      "odds": 165,
+      "edge": 0.1,
+      "odds": 150,
       "tier": "Elite",
       "notes": ""
     },
