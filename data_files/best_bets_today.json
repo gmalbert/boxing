@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-24T08:17:01.736617+00:00",
+    "generated_at": "2026-09-25T08:16:12.273298+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Louis Greene",
       "confidence": 0.5,
-      "edge": 0.1153,
-      "odds": 160,
+      "edge": 0.0762,
+      "odds": 136,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Jackson Jon England",
       "confidence": 0.5,
-      "edge": 0.3261,
-      "odds": 475,
+      "edge": 0.3276,
+      "odds": 480,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Aurel Ignat",
       "confidence": 0.5,
-      "edge": 0.1363,
-      "odds": 175,
+      "edge": 0.1732,
+      "odds": 206,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Hughie Wilson",
       "confidence": 0.5,
-      "edge": 0.4166,
-      "odds": 1100,
+      "edge": 0.3947,
+      "odds": 850,
       "tier": "Elite",
       "notes": ""
     },
@@ -133,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Ivan Trofimovich",
       "confidence": 0.5,
-      "edge": 0.4375,
-      "odds": 1500,
+      "edge": 0.4523,
+      "odds": 2000,
       "tier": "Elite",
       "notes": ""
     },
@@ -145,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Cain Lewis",
       "confidence": 0.5,
-      "edge": 0.3,
-      "odds": 400,
+      "edge": 0.2524,
+      "odds": 304,
       "tier": "Elite",
       "notes": ""
     },
@@ -157,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Leonardo Faretina",
       "confidence": 0.5,
-      "edge": 0.4333,
-      "odds": 1400,
+      "edge": 0.427,
+      "odds": 1270,
       "tier": "Elite",
       "notes": ""
     },
@@ -169,8 +169,8 @@
       "bet_type": "moneyline",
       "pick": "Elisabeth Mronsz",
       "confidence": 0.5,
-      "edge": 0.4333,
-      "odds": 1400,
+      "edge": 0.427,
+      "odds": 1270,
       "tier": "Elite",
       "notes": ""
     },
@@ -181,8 +181,8 @@
       "bet_type": "moneyline",
       "pick": "Kay Prospere",
       "confidence": 0.5,
-      "edge": 0.3889,
-      "odds": 800,
+      "edge": 0.375,
+      "odds": 700,
       "tier": "Elite",
       "notes": ""
     },
@@ -193,8 +193,8 @@
       "bet_type": "moneyline",
       "pick": "Michael Stephenson",
       "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
+      "edge": 0.3654,
+      "odds": 643,
       "tier": "Elite",
       "notes": ""
     },
@@ -205,8 +205,8 @@
       "bet_type": "moneyline",
       "pick": "Sam Goodman",
       "confidence": 0.9748,
-      "edge": 0.6239,
-      "odds": 185,
+      "edge": 0.6112,
+      "odds": 175,
       "tier": "Elite",
       "notes": ""
     },
@@ -217,8 +217,8 @@
       "bet_type": "moneyline",
       "pick": "Tenshin Nasukawa",
       "confidence": 0.5,
-      "edge": 0.1078,
-      "odds": 155,
+      "edge": 0.1666,
+      "odds": 200,
       "tier": "Elite",
       "notes": ""
     },
@@ -229,8 +229,8 @@
       "bet_type": "moneyline",
       "pick": "Ricardo Malajika",
       "confidence": 0.5,
-      "edge": 0.3,
-      "odds": 400,
+      "edge": 0.2777,
+      "odds": 350,
       "tier": "Elite",
       "notes": ""
     },
@@ -241,8 +241,8 @@
       "bet_type": "moneyline",
       "pick": "Russell Acosta",
       "confidence": 0.5,
-      "edge": 0.3095,
-      "odds": 425,
+      "edge": 0.3181,
+      "odds": 450,
       "tier": "Elite",
       "notes": ""
     },
@@ -265,8 +265,8 @@
       "bet_type": "moneyline",
       "pick": "Alan Sanchez",
       "confidence": 0.5,
-      "edge": 0.4166,
-      "odds": 1100,
+      "edge": 0.423,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     }
