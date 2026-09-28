@@ -1,59 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-27T08:15:04.763342+00:00",
+    "generated_at": "2026-09-28T08:22:35.658819+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-09-27",
-      "game": "Ryosuke Nishida vs Sam Goodman",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Sam Goodman",
-      "confidence": 0.9748,
-      "edge": 0.5748,
-      "odds": 150,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-27",
-      "game": "Takuma Inoue vs Tenshin Nasukawa",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Tenshin Nasukawa",
-      "confidence": 0.5,
-      "edge": 0.1296,
-      "odds": 170,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-27",
-      "game": "Tomoya Tsuboi vs Ricardo Malajika",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Ricardo Malajika",
-      "confidence": 0.5,
-      "edge": 0.3,
-      "odds": 400,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-09-27",
-      "game": "Ryusei Matsumoto vs Russell Acosta",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Russell Acosta",
-      "confidence": 0.5,
-      "edge": 0.3461,
-      "odds": 550,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-10-03",
       "game": "Ben Whittaker vs Conor Wallace",
