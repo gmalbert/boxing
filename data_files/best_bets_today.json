@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-28T08:22:35.658819+00:00",
+    "generated_at": "2026-09-29T08:16:52.780619+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -39,6 +39,18 @@
       "confidence": 0.5,
       "edge": 0.3284,
       "odds": 483,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-03",
+      "game": "Ibraheem Sulaimaan vs Sonny Hardy",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Sonny Hardy",
+      "confidence": 0.5,
+      "edge": 0.3529,
+      "odds": 580,
       "tier": "Elite",
       "notes": ""
     },
