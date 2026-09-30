@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-29T08:16:52.780619+00:00",
+    "generated_at": "2026-09-30T08:16:44.537187+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Conor Wallace",
       "confidence": 0.5,
-      "edge": 0.3484,
-      "odds": 560,
+      "edge": 0.3889,
+      "odds": 800,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Alan Sanchez",
       "confidence": 0.5,
-      "edge": 0.4195,
-      "odds": 1143,
+      "edge": 0.427,
+      "odds": 1270,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Eithan James",
       "confidence": 0.5,
-      "edge": 0.3284,
-      "odds": 483,
+      "edge": 0.3461,
+      "odds": 550,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,32 @@
       "bet_type": "moneyline",
       "pick": "Sonny Hardy",
       "confidence": 0.5,
-      "edge": 0.3529,
-      "odds": 580,
+      "edge": 0.3823,
+      "odds": 750,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-03",
+      "game": "Ronny Alvarez vs Narciso Carmona",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Narciso Carmona",
+      "confidence": 0.5,
+      "edge": 0.4523,
+      "odds": 2000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-03",
+      "game": "Jordan Orozco vs Yusniel Abrahante",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Yusniel Abrahante",
+      "confidence": 0.5,
+      "edge": 0.3227,
+      "odds": 464,
       "tier": "Elite",
       "notes": ""
     },
