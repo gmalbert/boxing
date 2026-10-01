@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-09-30T08:16:44.537187+00:00",
+    "generated_at": "2026-10-01T08:17:11.226794+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -73,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Yusniel Abrahante",
       "confidence": 0.5,
-      "edge": 0.3227,
-      "odds": 464,
+      "edge": 0.342,
+      "odds": 533,
       "tier": "Elite",
       "notes": ""
     },
