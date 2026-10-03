@@ -1,71 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-02T14:28:04.793950+00:00",
+    "generated_at": "2026-10-03T13:02:50.615566+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-10-02",
-      "game": "Jordan Orozco vs Yusniel Abrahante",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Yusniel Abrahante",
-      "confidence": 0.5,
-      "edge": 0.3,
-      "odds": 400,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-02",
-      "game": "Diego Yaniel Ortiz Nieves vs Fidencio Hernandez",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Fidencio Hernandez",
-      "confidence": 0.5,
-      "edge": 0.1226,
-      "odds": 165,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-02",
-      "game": "Donte Layne vs Keithland King",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Keithland King",
-      "confidence": 0.5,
-      "edge": 0.355,
-      "odds": 590,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-02",
-      "game": "Joshua John vs Harvey Smith",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Harvey Smith",
-      "confidence": 0.5,
-      "edge": 0.0967,
-      "odds": 148,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-02",
-      "game": "Jusiyah Shirley vs Kevin Castillo",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Kevin Castillo",
-      "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-10-03",
       "game": "Ben Whittaker vs Conor Wallace",
@@ -75,18 +15,6 @@
       "confidence": 0.5,
       "edge": 0.34,
       "odds": 525,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-03",
-      "game": "Omari Jones vs Alan Sanchez",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Alan Sanchez",
-      "confidence": 0.5,
-      "edge": 0.423,
-      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -116,37 +44,13 @@
     },
     {
       "game_date": "2026-10-03",
-      "game": "Ronny Alvarez vs Narciso Carmona",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Narciso Carmona",
-      "confidence": 0.5,
-      "edge": 0.4523,
-      "odds": 2000,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-03",
-      "game": "Miguel Angel Hernandez vs Dulio Jaramillo Barboza",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Dulio Jaramillo Barboza",
-      "confidence": 0.5,
-      "edge": 0.4523,
-      "odds": 2000,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-03",
       "game": "Aaron Alhambra vs Anas Messaoudi",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Aaron Alhambra",
       "confidence": 0.5,
-      "edge": 0.1667,
-      "odds": 200,
+      "edge": 0.154,
+      "odds": 189,
       "tier": "Elite",
       "notes": ""
     },
@@ -181,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Linzi Buczynskyj",
       "confidence": 0.5,
-      "edge": 0.3863,
-      "odds": 780,
+      "edge": 0.4091,
+      "odds": 1000,
       "tier": "Elite",
       "notes": ""
     },
@@ -193,9 +97,9 @@
       "bet_type": "moneyline",
       "pick": "Damian Biacho",
       "confidence": 0.5,
-      "edge": 0.0816,
-      "odds": 139,
-      "tier": "Elite",
+      "edge": 0.0535,
+      "odds": 124,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -205,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Padraig McCrory",
       "confidence": 0.5,
-      "edge": 0.3793,
-      "odds": 729,
+      "edge": 0.3716,
+      "odds": 679,
       "tier": "Elite",
       "notes": ""
     },
@@ -217,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Luis E. Santana Figueroa",
       "confidence": 0.5,
-      "edge": 0.3421,
-      "odds": 533,
+      "edge": 0.3208,
+      "odds": 458,
       "tier": "Elite",
       "notes": ""
     },
@@ -231,6 +135,18 @@
       "confidence": 0.5,
       "edge": 0.3333,
       "odds": 500,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-17",
+      "game": "Daniel Dubois vs Fabio Wardley",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Fabio Wardley",
+      "confidence": 0.6131,
+      "edge": 0.3806,
+      "odds": 330,
       "tier": "Elite",
       "notes": ""
     }
