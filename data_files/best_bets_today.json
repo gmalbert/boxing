@@ -1,107 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-03T13:02:50.615566+00:00",
+    "generated_at": "2026-10-04T13:42:20.042749+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-10-03",
-      "game": "Ben Whittaker vs Conor Wallace",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Conor Wallace",
-      "confidence": 0.5,
-      "edge": 0.34,
-      "odds": 525,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-03",
-      "game": "Bilal Fawaz vs Eithan James",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Eithan James",
-      "confidence": 0.5,
-      "edge": 0.3181,
-      "odds": 450,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-03",
-      "game": "Ibraheem Sulaimaan vs Sonny Hardy",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Sonny Hardy",
-      "confidence": 0.5,
-      "edge": 0.3461,
-      "odds": 550,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-03",
-      "game": "Aaron Alhambra vs Anas Messaoudi",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Aaron Alhambra",
-      "confidence": 0.5,
-      "edge": 0.154,
-      "odds": 189,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-03",
-      "game": "Klinton Baptiste vs Aaron Bowen",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Klinton Baptiste",
-      "confidence": 0.5,
-      "edge": 0.3334,
-      "odds": 500,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-03",
-      "game": "Sean Bruce vs Hamza Uddin",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Sean Bruce",
-      "confidence": 0.5,
-      "edge": 0.3334,
-      "odds": 500,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-03",
-      "game": "Paige Murney vs Linzi Buczynskyj",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Linzi Buczynskyj",
-      "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-03",
-      "game": "Jose Luis Navarro Jr vs Damian Biacho",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Damian Biacho",
-      "confidence": 0.5,
-      "edge": 0.0535,
-      "odds": 124,
-      "tier": "Strong",
-      "notes": ""
-    },
     {
       "game_date": "2026-10-09",
       "game": "Imam Khatev vs Padraig McCrory",
@@ -147,6 +51,30 @@
       "confidence": 0.6131,
       "edge": 0.3806,
       "odds": 330,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-18",
+      "game": "Jermell Charlo vs Koen Mazoudier",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Koen Mazoudier",
+      "confidence": 0.1865,
+      "edge": 0.0672,
+      "odds": 738,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-18",
+      "game": "Sebastian Fundora vs Ermal Hadribeaj",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ermal Hadribeaj",
+      "confidence": 0.4782,
+      "edge": 0.3492,
+      "odds": 675,
       "tier": "Elite",
       "notes": ""
     }
