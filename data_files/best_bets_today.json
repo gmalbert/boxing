@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-04T13:42:20.042749+00:00",
+    "generated_at": "2026-10-05T16:49:04.211892+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Padraig McCrory",
       "confidence": 0.5,
-      "edge": 0.3716,
-      "odds": 679,
+      "edge": 0.3889,
+      "odds": 800,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Luis E. Santana Figueroa",
       "confidence": 0.5,
-      "edge": 0.3208,
-      "odds": 458,
+      "edge": 0.3182,
+      "odds": 450,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Fabio Wardley",
       "confidence": 0.6131,
-      "edge": 0.3806,
-      "odds": 330,
+      "edge": 0.3567,
+      "odds": 290,
       "tier": "Elite",
       "notes": ""
     },
