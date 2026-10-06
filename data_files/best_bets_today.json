@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-05T16:49:04.211892+00:00",
+    "generated_at": "2026-10-06T14:45:31.503887+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Luis E. Santana Figueroa",
       "confidence": 0.5,
-      "edge": 0.3182,
-      "odds": 450,
+      "edge": 0.3667,
+      "odds": 650,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Fabio Wardley",
       "confidence": 0.6131,
-      "edge": 0.3567,
-      "odds": 290,
+      "edge": 0.3631,
+      "odds": 300,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Koen Mazoudier",
       "confidence": 0.1865,
-      "edge": 0.0672,
-      "odds": 738,
+      "edge": 0.0865,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Ermal Hadribeaj",
       "confidence": 0.4782,
-      "edge": 0.3492,
-      "odds": 675,
+      "edge": 0.3532,
+      "odds": 700,
       "tier": "Elite",
       "notes": ""
     }
