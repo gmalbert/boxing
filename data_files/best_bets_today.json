@@ -1,35 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-08T15:13:53.579488+00:00",
+    "generated_at": "2026-10-09T14:59:19.496731+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-10-09",
-      "game": "Imam Khatev vs Padraig McCrory",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Padraig McCrory",
-      "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-09",
-      "game": "Luis E. Santana Figueroa vs Dzmitry Asanau",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Luis E. Santana Figueroa",
-      "confidence": 0.5,
-      "edge": 0.3572,
-      "odds": 600,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-10-10",
       "game": "Joshua Edwards vs Craig Lewis",
@@ -37,8 +13,32 @@
       "bet_type": "moneyline",
       "pick": "Craig Lewis",
       "confidence": 0.5,
-      "edge": 0.4394,
-      "odds": 1550,
+      "edge": 0.4473,
+      "odds": 1800,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-10",
+      "game": "Grant Flores vs Mikey Dahlman",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Mikey Dahlman",
+      "confidence": 0.5,
+      "edge": 0.4074,
+      "odds": 980,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-10",
+      "game": "Asa Stevens vs Cristian Williams",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Cristian Williams",
+      "confidence": 0.5,
+      "edge": 0.2916,
+      "odds": 380,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,32 @@
       "bet_type": "moneyline",
       "pick": "Lucas Bahdi",
       "confidence": 0.5,
-      "edge": 0.3461,
-      "odds": 550,
+      "edge": 0.3666,
+      "odds": 650,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-11",
+      "game": "Tristan Kalkreuth vs Ivan Rosado",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ivan Rosado",
+      "confidence": 0.5,
+      "edge": 0.3437,
+      "odds": 540,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-11",
+      "game": "Jahmal Harvey vs Pedro Castaneda",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Pedro Castaneda",
+      "confidence": 0.5,
+      "edge": 0.4411,
+      "odds": 1600,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Fabio Wardley",
       "confidence": 0.6131,
-      "edge": 0.3631,
-      "odds": 300,
+      "edge": 0.3567,
+      "odds": 290,
       "tier": "Elite",
       "notes": ""
     },
