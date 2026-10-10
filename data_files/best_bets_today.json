@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-09T14:59:19.496731+00:00",
+    "generated_at": "2026-10-10T14:14:38.213607+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -43,19 +43,7 @@
       "notes": ""
     },
     {
-      "game_date": "2026-10-11",
-      "game": "Floyd Scholfield vs Lucas Bahdi",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Lucas Bahdi",
-      "confidence": 0.5,
-      "edge": 0.3666,
-      "odds": 650,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-11",
+      "game_date": "2026-10-10",
       "game": "Tristan Kalkreuth vs Ivan Rosado",
       "game_time": "",
       "bet_type": "moneyline",
@@ -68,13 +56,37 @@
     },
     {
       "game_date": "2026-10-11",
+      "game": "Floyd Scholfield vs Lucas Bahdi",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Lucas Bahdi",
+      "confidence": 0.5,
+      "edge": 0.3571,
+      "odds": 600,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-11",
       "game": "Jahmal Harvey vs Pedro Castaneda",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Pedro Castaneda",
       "confidence": 0.5,
-      "edge": 0.4411,
-      "odds": 1600,
+      "edge": 0.4473,
+      "odds": 1800,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-11",
+      "game": "Jan Paul Rivera vs Abraham Perfecto Valdez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Abraham Perfecto Valdez",
+      "confidence": 0.5,
+      "edge": 0.4166,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +97,20 @@
       "bet_type": "moneyline",
       "pick": "Fabio Wardley",
       "confidence": 0.6131,
-      "edge": 0.3567,
-      "odds": 290,
+      "edge": 0.3464,
+      "odds": 275,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-17",
+      "game": "Bakhodir Jalolov vs Solomon Dacres",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Bakhodir Jalolov",
+      "confidence": 0.967,
+      "edge": 0.1798,
+      "odds": -370,
       "tier": "Elite",
       "notes": ""
     },
@@ -111,6 +135,42 @@
       "confidence": 0.4782,
       "edge": 0.3532,
       "odds": 700,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-24",
+      "game": "Dalton Smith vs Alberto Puello",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Dalton Smith",
+      "confidence": 0.8927,
+      "edge": 0.2436,
+      "odds": -185,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-24",
+      "game": "Shannon Ryan vs Emma Dolan",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Emma Dolan",
+      "confidence": 0.5,
+      "edge": 0.1587,
+      "odds": 193,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-24",
+      "game": "Giorgio Visoli vs Maxi Hughes",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Maxi Hughes",
+      "confidence": 0.5,
+      "edge": 0.3442,
+      "odds": 542,
       "tier": "Elite",
       "notes": ""
     }
