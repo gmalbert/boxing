@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-11T14:39:16.667919+00:00",
+    "generated_at": "2026-10-12T17:23:03.138187+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Louie O'Doherty",
       "confidence": 0.9383,
-      "edge": 0.1511,
-      "odds": -370,
+      "edge": 0.2015,
+      "odds": -280,
       "tier": "Elite",
       "notes": ""
     },
