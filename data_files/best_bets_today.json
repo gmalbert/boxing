@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-12T17:23:03.138187+00:00",
+    "generated_at": "2026-10-13T15:35:29.019773+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Bakhodir Jalolov",
       "confidence": 0.967,
-      "edge": 0.1798,
-      "odds": -370,
+      "edge": 0.1489,
+      "odds": -450,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,20 +37,20 @@
       "bet_type": "moneyline",
       "pick": "Louie O'Doherty",
       "confidence": 0.9383,
-      "edge": 0.2015,
-      "odds": -280,
+      "edge": 0.2413,
+      "odds": -230,
       "tier": "Elite",
       "notes": ""
     },
     {
-      "game_date": "2026-10-18",
-      "game": "Jermell Charlo vs Koen Mazoudier",
+      "game_date": "2026-10-17",
+      "game": "Nelson Birchall vs Levi Giles",
       "game_time": "",
       "bet_type": "moneyline",
-      "pick": "Koen Mazoudier",
-      "confidence": 0.1865,
-      "edge": 0.0812,
-      "odds": 850,
+      "pick": "Nelson Birchall",
+      "confidence": 0.9657,
+      "edge": 0.1037,
+      "odds": -625,
       "tier": "Elite",
       "notes": ""
     },
@@ -63,6 +63,18 @@
       "confidence": 0.4782,
       "edge": 0.3873,
       "odds": 1000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-18",
+      "game": "Jose Armando Resendiz vs Koen Mazoudier",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Koen Mazoudier",
+      "confidence": 0.5,
+      "edge": 0.2912,
+      "odds": 379,
       "tier": "Elite",
       "notes": ""
     },
