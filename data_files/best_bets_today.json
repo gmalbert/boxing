@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-13T15:35:29.019773+00:00",
+    "generated_at": "2026-10-14T13:19:20.433726+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Louie O'Doherty",
       "confidence": 0.9383,
-      "edge": 0.2413,
-      "odds": -230,
+      "edge": 0.2662,
+      "odds": -205,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,32 @@
       "bet_type": "moneyline",
       "pick": "Nelson Birchall",
       "confidence": 0.9657,
-      "edge": 0.1037,
-      "odds": -625,
+      "edge": 0.0729,
+      "odds": -833,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-17",
+      "game": "Marco Romero vs Braulio Matias Ferreira",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Braulio Matias Ferreira",
+      "confidence": 0.5,
+      "edge": 0.4473,
+      "odds": 1800,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-17",
+      "game": "Joshua Kevin Anton vs Freudis Rojas Jr",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Freudis Rojas Jr",
+      "confidence": 0.5,
+      "edge": 0.3333,
+      "odds": 500,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Emma Dolan",
       "confidence": 0.5,
-      "edge": 0.1587,
-      "odds": 193,
+      "edge": 0.1363,
+      "odds": 175,
       "tier": "Elite",
       "notes": ""
     },
