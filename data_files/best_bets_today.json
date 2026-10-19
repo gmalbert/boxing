@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-18T12:27:21.123727+00:00",
+    "generated_at": "2026-10-19T15:17:47.771213+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Emma Dolan",
       "confidence": 0.5,
-      "edge": 0.1363,
-      "odds": 175,
+      "edge": 0.131,
+      "odds": 171,
       "tier": "Elite",
       "notes": ""
     },
@@ -55,14 +55,38 @@
       "notes": ""
     },
     {
+      "game_date": "2026-10-25",
+      "game": "Albert Gonzalez vs Edward Vazquez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Albert Gonzalez",
+      "confidence": 0.9735,
+      "edge": 0.0644,
+      "odds": -1000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-10-31",
       "game": "Canelo \u00c1lvarez vs Christian Mbilli",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Christian Mbilli",
       "confidence": 0.5017,
-      "edge": 0.1812,
-      "odds": 212,
+      "edge": 0.2076,
+      "odds": 240,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-31",
+      "game": "Lindolfo Delgado vs Arthur Biyarslanov",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Lindolfo Delgado",
+      "confidence": 0.5,
+      "edge": 0.0935,
+      "odds": 146,
       "tier": "Elite",
       "notes": ""
     }
