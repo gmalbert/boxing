@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-20T13:21:28.296896+00:00",
+    "generated_at": "2026-10-21T13:27:09.320252+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Dalton Smith",
       "confidence": 0.8927,
-      "edge": 0.2052,
-      "odds": -220,
+      "edge": 0.226,
+      "odds": -200,
       "tier": "Elite",
       "notes": ""
     },
@@ -43,6 +43,18 @@
       "notes": ""
     },
     {
+      "game_date": "2026-10-24",
+      "game": "Leo Atang vs Jonathan Exequiel Vergara",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jonathan Exequiel Vergara",
+      "confidence": 0.5,
+      "edge": 0.45,
+      "odds": 1900,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-10-25",
       "game": "Emanuel Navarrete vs O'Shaquie Foster",
       "game_time": "",
@@ -63,6 +75,18 @@
       "confidence": 0.9735,
       "edge": 0.0644,
       "odds": -1000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-25",
+      "game": "Archie Sharp vs Ross Driscoll",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ross Driscoll",
+      "confidence": 0.9659,
+      "edge": 0.6524,
+      "odds": 219,
       "tier": "Elite",
       "notes": ""
     },
