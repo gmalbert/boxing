@@ -1,59 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-25T12:58:02.899342+00:00",
+    "generated_at": "2026-10-26T14:51:33.356117+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-10-25",
-      "game": "Archie Sharp vs Ross Driscoll",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Ross Driscoll",
-      "confidence": 0.9659,
-      "edge": 0.5659,
-      "odds": 150,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-25",
-      "game": "Jermaine Dhliwayo vs Jacob Robinson",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jacob Robinson",
-      "confidence": 0.5,
-      "edge": 0.3666,
-      "odds": 650,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-25",
-      "game": "Tiago Muxanga vs Muzamiru Kakande",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Muzamiru Kakande",
-      "confidence": 0.5,
-      "edge": 0.1969,
-      "odds": 230,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-25",
-      "game": "Shauna Browne vs Jade Burden",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jade Burden",
-      "confidence": 0.5,
-      "edge": 0.2368,
-      "odds": 280,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-10-29",
       "game": "Sho Nogami vs Shogo Tanaka",
@@ -61,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Sho Nogami",
       "confidence": 0.5,
-      "edge": 0.0935,
-      "odds": 146,
+      "edge": 0.0885,
+      "odds": 143,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Ryuya Nihei",
       "confidence": 0.5,
-      "edge": 0.3054,
-      "odds": 414,
+      "edge": 0.3144,
+      "odds": 439,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Yuta Sakai",
       "confidence": 0.9674,
-      "edge": 0.0746,
-      "odds": -833,
+      "edge": 0.1007,
+      "odds": -650,
       "tier": "Elite",
       "notes": ""
     },
@@ -159,6 +111,42 @@
       "confidence": 0.6094,
       "edge": 0.3317,
       "odds": 260,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-09",
+      "game": "Elif Nur Turhan vs Alycia Baumgardner",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Elif Nur Turhan",
+      "confidence": 0.5,
+      "edge": 0.2728,
+      "odds": 340,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-09",
+      "game": "Ramla Ali vs Mikiah Kreps",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ramla Ali",
+      "confidence": 0.5,
+      "edge": 0.2176,
+      "odds": 254,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-09",
+      "game": "Skye Nicolson vs Miyo Yoshida",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Miyo Yoshida",
+      "confidence": 0.5,
+      "edge": 0.3806,
+      "odds": 738,
       "tier": "Elite",
       "notes": ""
     }
