@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-27T13:58:46.719508+00:00",
+    "generated_at": "2026-10-28T14:52:01.667638+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -63,6 +63,18 @@
       "confidence": 0.5017,
       "edge": 0.224,
       "odds": 260,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-31",
+      "game": "Bek Nurmaganbet vs Marcos Vazquez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Marcos Vazquez",
+      "confidence": 0.5,
+      "edge": 0.4336,
+      "odds": 1408,
       "tier": "Elite",
       "notes": ""
     },
