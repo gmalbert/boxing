@@ -1,59 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-28T14:52:01.667638+00:00",
+    "generated_at": "2026-10-29T14:57:48.749079+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-10-29",
-      "game": "Sho Nogami vs Shogo Tanaka",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Sho Nogami",
-      "confidence": 0.5,
-      "edge": 0.0834,
-      "odds": 140,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-29",
-      "game": "Toshiya Ishii vs Ryuya Nihei",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Ryuya Nihei",
-      "confidence": 0.5,
-      "edge": 0.3181,
-      "odds": 450,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-29",
-      "game": "Tasana Salapat vs Yuta Sakai",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Yuta Sakai",
-      "confidence": 0.9674,
-      "edge": 0.1007,
-      "odds": -650,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-29",
-      "game": "Arar Andales vs Raito Kataoka",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Arar Andales",
-      "confidence": 0.5,
-      "edge": 0.2917,
-      "odds": 380,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-10-31",
       "game": "Canelo \u00c1lvarez vs Christian Mbilli",
@@ -61,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Christian Mbilli",
       "confidence": 0.5017,
-      "edge": 0.224,
-      "odds": 260,
+      "edge": 0.194,
+      "odds": 225,
       "tier": "Elite",
       "notes": ""
     },
@@ -75,6 +27,78 @@
       "confidence": 0.5,
       "edge": 0.4336,
       "odds": 1408,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-31",
+      "game": "Sultan Almohammed vs Erick Jahir Urvina Villegas",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Erick Jahir Urvina Villegas",
+      "confidence": 0.5,
+      "edge": 0.4473,
+      "odds": 1800,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-31",
+      "game": "Emiliano Rojo vs Flavius Biea",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Flavius Biea",
+      "confidence": 0.5,
+      "edge": 0.3919,
+      "odds": 825,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-31",
+      "game": "Brayan Leon vs Hector Aguirre",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Hector Aguirre",
+      "confidence": 0.5,
+      "edge": 0.4166,
+      "odds": 1100,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-31",
+      "game": "Jaime Munguia vs Nikita Zon",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Nikita Zon",
+      "confidence": 0.9629,
+      "edge": 0.8629,
+      "odds": 900,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-31",
+      "game": "Reito Tsutsumi vs Raymundo Rojas Garcia",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Raymundo Rojas Garcia",
+      "confidence": 0.5,
+      "edge": 0.4333,
+      "odds": 1400,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-10-31",
+      "game": "David Picasso vs Carl Jammes Martin",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Carl Jammes Martin",
+      "confidence": 0.9741,
+      "edge": 0.7468,
+      "odds": 340,
       "tier": "Elite",
       "notes": ""
     },
