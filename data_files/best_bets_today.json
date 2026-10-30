@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-29T14:57:48.749079+00:00",
+    "generated_at": "2026-10-30T14:50:12.136153+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -73,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Nikita Zon",
       "confidence": 0.9629,
-      "edge": 0.8629,
-      "odds": 900,
+      "edge": 0.8576,
+      "odds": 850,
       "tier": "Elite",
       "notes": ""
     },
@@ -183,6 +183,18 @@
       "confidence": 0.5,
       "edge": 0.3806,
       "odds": 738,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-13",
+      "game": "Jhon Orobio vs Hendri Cedeno",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Hendri Cedeno",
+      "confidence": 0.5,
+      "edge": 0.3333,
+      "odds": 500,
       "tier": "Elite",
       "notes": ""
     }
