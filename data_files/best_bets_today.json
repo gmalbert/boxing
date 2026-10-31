@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-10-30T14:50:12.136153+00:00",
+    "generated_at": "2026-10-31T14:18:09.135592+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Christian Mbilli",
       "confidence": 0.5017,
-      "edge": 0.194,
-      "odds": 225,
+      "edge": 0.2076,
+      "odds": 240,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Marcos Vazquez",
       "confidence": 0.5,
-      "edge": 0.4336,
-      "odds": 1408,
+      "edge": 0.4473,
+      "odds": 1800,
       "tier": "Elite",
       "notes": ""
     },
@@ -48,18 +48,6 @@
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Flavius Biea",
-      "confidence": 0.5,
-      "edge": 0.3919,
-      "odds": 825,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-10-31",
-      "game": "Brayan Leon vs Hector Aguirre",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Hector Aguirre",
       "confidence": 0.5,
       "edge": 0.4166,
       "odds": 1100,
@@ -85,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Raymundo Rojas Garcia",
       "confidence": 0.5,
-      "edge": 0.4333,
-      "odds": 1400,
+      "edge": 0.4411,
+      "odds": 1600,
       "tier": "Elite",
       "notes": ""
     },
