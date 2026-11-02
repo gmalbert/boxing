@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-01T14:45:25.451348+00:00",
+    "generated_at": "2026-11-02T17:49:51.638273+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Nelson Asofa-Solomona",
       "confidence": 0.9663,
-      "edge": 0.3494,
-      "odds": -161,
+      "edge": 0.3509,
+      "odds": -160,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Zach Parker",
       "confidence": 0.5,
-      "edge": 0.1923,
-      "odds": 225,
+      "edge": 0.2033,
+      "odds": 237,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Shane Mosley Jr",
       "confidence": 0.5,
-      "edge": 0.0555,
-      "odds": 125,
+      "edge": 0.0454,
+      "odds": 120,
       "tier": "Strong",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Cheavon Clarke",
       "confidence": 0.6094,
-      "edge": 0.3594,
-      "odds": 300,
+      "edge": 0.3625,
+      "odds": 305,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Adan Palma",
       "confidence": 0.5,
-      "edge": 0.1527,
-      "odds": 188,
+      "edge": 0.1666,
+      "odds": 200,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Ivan Balaz",
       "confidence": 0.5,
-      "edge": 0.4411,
-      "odds": 1600,
+      "edge": 0.45,
+      "odds": 1900,
       "tier": "Elite",
       "notes": ""
     },
