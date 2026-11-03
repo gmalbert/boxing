@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-02T17:49:51.638273+00:00",
+    "generated_at": "2026-11-03T15:49:45.799988+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Nelson Asofa-Solomona",
       "confidence": 0.9663,
-      "edge": 0.3509,
-      "odds": -160,
+      "edge": 0.3918,
+      "odds": -135,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Zach Parker",
       "confidence": 0.5,
-      "edge": 0.2033,
-      "odds": 237,
+      "edge": 0.2151,
+      "odds": 251,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Cheavon Clarke",
       "confidence": 0.6094,
-      "edge": 0.3625,
-      "odds": 305,
+      "edge": 0.3594,
+      "odds": 300,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Adan Palma",
       "confidence": 0.5,
-      "edge": 0.1666,
-      "odds": 200,
+      "edge": 0.1774,
+      "odds": 210,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Troy Coleman",
       "confidence": 0.5,
-      "edge": 0.3666,
-      "odds": 650,
+      "edge": 0.375,
+      "odds": 700,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +97,32 @@
       "bet_type": "moneyline",
       "pick": "Ivan Balaz",
       "confidence": 0.5,
-      "edge": 0.45,
-      "odds": 1900,
+      "edge": 0.4473,
+      "odds": 1800,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-07",
+      "game": "Jack Rafferty vs Hovhannes Martirosyan",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Hovhannes Martirosyan",
+      "confidence": 0.5,
+      "edge": 0.3654,
+      "odds": 643,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-08",
+      "game": "Abraham R Perez vs Yankiel Rivera Figueroa",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Yankiel Rivera Figueroa",
+      "confidence": 0.5,
+      "edge": 0.0935,
+      "odds": 146,
       "tier": "Elite",
       "notes": ""
     },
@@ -133,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Miyo Yoshida",
       "confidence": 0.5,
-      "edge": 0.3823,
-      "odds": 750,
+      "edge": 0.4,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
