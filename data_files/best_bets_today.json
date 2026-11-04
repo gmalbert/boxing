@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-03T15:49:45.799988+00:00",
+    "generated_at": "2026-11-04T15:58:19.130635+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Nelson Asofa-Solomona",
       "confidence": 0.9663,
-      "edge": 0.3918,
-      "odds": -135,
+      "edge": 0.3585,
+      "odds": -155,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,21 +37,9 @@
       "bet_type": "moneyline",
       "pick": "Zach Parker",
       "confidence": 0.5,
-      "edge": 0.2151,
-      "odds": 251,
+      "edge": 0.2085,
+      "odds": 243,
       "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-07",
-      "game": "Denzel Bentley vs Shane Mosley Jr",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Shane Mosley Jr",
-      "confidence": 0.5,
-      "edge": 0.0454,
-      "odds": 120,
-      "tier": "Strong",
       "notes": ""
     },
     {
@@ -61,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Cheavon Clarke",
       "confidence": 0.6094,
-      "edge": 0.3594,
-      "odds": 300,
+      "edge": 0.3685,
+      "odds": 315,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Adan Palma",
       "confidence": 0.5,
-      "edge": 0.1774,
-      "odds": 210,
+      "edge": 0.1491,
+      "odds": 185,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +97,32 @@
       "bet_type": "moneyline",
       "pick": "Hovhannes Martirosyan",
       "confidence": 0.5,
-      "edge": 0.3654,
-      "odds": 643,
+      "edge": 0.3666,
+      "odds": 650,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-07",
+      "game": "Tumi Phillips vs Angelo Dragone",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Angelo Dragone",
+      "confidence": 0.5,
+      "edge": 0.45,
+      "odds": 1900,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-07",
+      "game": "Alex Arthur Jr vs Jose Aguirre",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jose Aguirre",
+      "confidence": 0.5,
+      "edge": 0.4411,
+      "odds": 1600,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Yankiel Rivera Figueroa",
       "confidence": 0.5,
-      "edge": 0.0935,
-      "odds": 146,
+      "edge": 0.131,
+      "odds": 171,
       "tier": "Elite",
       "notes": ""
     },
