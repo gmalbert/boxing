@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-04T15:58:19.130635+00:00",
+    "generated_at": "2026-11-05T16:09:32.309059+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Nelson Asofa-Solomona",
       "confidence": 0.9663,
-      "edge": 0.3585,
-      "odds": -155,
+      "edge": 0.3172,
+      "odds": -185,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Zak Miller",
       "confidence": 0.5,
-      "edge": 0.0834,
-      "odds": 140,
+      "edge": 0.0653,
+      "odds": 130,
       "tier": "Elite",
       "notes": ""
     },
@@ -44,13 +44,25 @@
     },
     {
       "game_date": "2026-11-07",
+      "game": "Denzel Bentley vs Shane Mosley Jr",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Shane Mosley Jr",
+      "confidence": 0.5,
+      "edge": 0.0454,
+      "odds": 120,
+      "tier": "Strong",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-07",
       "game": "Chris Billam-Smith vs Cheavon Clarke",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Cheavon Clarke",
       "confidence": 0.6094,
-      "edge": 0.3685,
-      "odds": 315,
+      "edge": 0.3625,
+      "odds": 305,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Adan Palma",
       "confidence": 0.5,
-      "edge": 0.1491,
-      "odds": 185,
+      "edge": 0.1226,
+      "odds": 165,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Troy Coleman",
       "confidence": 0.5,
-      "edge": 0.375,
-      "odds": 700,
+      "edge": 0.3823,
+      "odds": 750,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Hovhannes Martirosyan",
       "confidence": 0.5,
-      "edge": 0.3666,
-      "odds": 650,
+      "edge": 0.3846,
+      "odds": 767,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +121,8 @@
       "bet_type": "moneyline",
       "pick": "Angelo Dragone",
       "confidence": 0.5,
-      "edge": 0.45,
-      "odds": 1900,
+      "edge": 0.4411,
+      "odds": 1600,
       "tier": "Elite",
       "notes": ""
     },
@@ -127,14 +139,38 @@
       "notes": ""
     },
     {
+      "game_date": "2026-11-07",
+      "game": "Lucas Roehrig vs Connal McDonald",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Connal McDonald",
+      "confidence": 0.5,
+      "edge": 0.3901,
+      "odds": 810,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-07",
+      "game": "Kayla Allen vs Julia Igel",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Julia Igel",
+      "confidence": 0.5,
+      "edge": 0.378,
+      "odds": 720,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-11-08",
       "game": "Abraham R Perez vs Yankiel Rivera Figueroa",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Yankiel Rivera Figueroa",
       "confidence": 0.5,
-      "edge": 0.131,
-      "odds": 171,
+      "edge": 0.1212,
+      "odds": 164,
       "tier": "Elite",
       "notes": ""
     },
@@ -145,8 +181,8 @@
       "bet_type": "moneyline",
       "pick": "Elif Nur Turhan",
       "confidence": 0.5,
-      "edge": 0.2728,
-      "odds": 340,
+      "edge": 0.2778,
+      "odds": 350,
       "tier": "Elite",
       "notes": ""
     },
@@ -172,6 +208,18 @@
       "edge": 0.4,
       "odds": 900,
       "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-09",
+      "game": "Irma Garcia vs Nataly Delgado",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Nataly Delgado",
+      "confidence": 0.5,
+      "edge": 0.0555,
+      "odds": 125,
+      "tier": "Strong",
       "notes": ""
     },
     {
