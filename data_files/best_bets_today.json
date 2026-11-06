@@ -1,23 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-05T16:09:32.309059+00:00",
+    "generated_at": "2026-11-06T15:40:04.327631+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-11-06",
-      "game": "Paul Gallen vs Nelson Asofa-Solomona",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Nelson Asofa-Solomona",
-      "confidence": 0.9663,
-      "edge": 0.3172,
-      "odds": -185,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-11-07",
       "game": "Zak Miller vs Gully Powar",
@@ -37,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Zach Parker",
       "confidence": 0.5,
-      "edge": 0.2085,
-      "odds": 243,
+      "edge": 0.1895,
+      "odds": 222,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Shane Mosley Jr",
       "confidence": 0.5,
-      "edge": 0.0454,
-      "odds": 120,
+      "edge": 0.0555,
+      "odds": 125,
       "tier": "Strong",
       "notes": ""
     },
@@ -61,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Cheavon Clarke",
       "confidence": 0.6094,
-      "edge": 0.3625,
-      "odds": 305,
+      "edge": 0.3685,
+      "odds": 315,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,20 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Adan Palma",
       "confidence": 0.5,
-      "edge": 0.1226,
-      "odds": 165,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-07",
-      "game": "Sam Hickey vs Troy Coleman",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Troy Coleman",
-      "confidence": 0.5,
-      "edge": 0.3823,
-      "odds": 750,
+      "edge": 0.1078,
+      "odds": 155,
       "tier": "Elite",
       "notes": ""
     },
@@ -163,15 +139,159 @@
       "notes": ""
     },
     {
+      "game_date": "2026-11-07",
+      "game": "Yamato Hata vs Ryo Sagawa",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ryo Sagawa",
+      "confidence": 0.5,
+      "edge": 0.1969,
+      "odds": 230,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-07",
+      "game": "Javokhir Ummataliev vs Atacayte Santana",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Atacayte Santana",
+      "confidence": 0.5,
+      "edge": 0.4523,
+      "odds": 2000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-07",
+      "game": "Billy Deniz vs Joe O'Sullivan",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Joe O'Sullivan",
+      "confidence": 0.5,
+      "edge": 0.4333,
+      "odds": 1400,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-07",
+      "game": "John Joe Carrigan vs Cheikh Diop",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Cheikh Diop",
+      "confidence": 0.5,
+      "edge": 0.45,
+      "odds": 1900,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-07",
+      "game": "Ryan Macmillan vs Grant Dennis",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Grant Dennis",
+      "confidence": 0.5,
+      "edge": 0.423,
+      "odds": 1200,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-07",
+      "game": "Stephen Clarke vs Harley Collison",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Harley Collison",
+      "confidence": 0.5,
+      "edge": 0.4375,
+      "odds": 1500,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-07",
+      "game": "Mourad Aliev vs Umut Camkiran",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Umut Camkiran",
+      "confidence": 0.5,
+      "edge": 0.0652,
+      "odds": 130,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-07",
+      "game": "Sam Hickey vs Amaury Massenaux",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Amaury Massenaux",
+      "confidence": 0.5,
+      "edge": 0.4,
+      "odds": 900,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-11-08",
       "game": "Abraham R Perez vs Yankiel Rivera Figueroa",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Yankiel Rivera Figueroa",
       "confidence": 0.5,
-      "edge": 0.1212,
-      "odds": 164,
+      "edge": 0.1774,
+      "odds": 210,
       "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-08",
+      "game": "Pryce Taylor vs Tsotne Rogava",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Tsotne Rogava",
+      "confidence": 0.5,
+      "edge": 0.1551,
+      "odds": 190,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-08",
+      "game": "Atif Oberlton vs Deon Nicholson",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Deon Nicholson",
+      "confidence": 0.5,
+      "edge": 0.3571,
+      "odds": 600,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-08",
+      "game": "Pedro Taduran vs Brandon Moreno",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Brandon Moreno",
+      "confidence": 0.5,
+      "edge": 0.3666,
+      "odds": 650,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-08",
+      "game": "Brittany Sims vs Shera Mae Patricio",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Shera Mae Patricio",
+      "confidence": 0.5,
+      "edge": 0.0454,
+      "odds": 120,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -212,14 +332,14 @@
     },
     {
       "game_date": "2026-11-09",
-      "game": "Irma Garcia vs Nataly Delgado",
+      "game": "Albina Moldazhanova vs Kirstie Bavington",
       "game_time": "",
       "bet_type": "moneyline",
-      "pick": "Nataly Delgado",
+      "pick": "Kirstie Bavington",
       "confidence": 0.5,
-      "edge": 0.0555,
-      "odds": 125,
-      "tier": "Strong",
+      "edge": 0.4394,
+      "odds": 1550,
+      "tier": "Elite",
       "notes": ""
     },
     {
@@ -231,6 +351,18 @@
       "confidence": 0.5,
       "edge": 0.2894,
       "odds": 375,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-13",
+      "game": "Steven Butler vs Erik Bazinyan",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Erik Bazinyan",
+      "confidence": 0.5,
+      "edge": 0.1587,
+      "odds": 193,
       "tier": "Elite",
       "notes": ""
     },
@@ -255,6 +387,18 @@
       "confidence": 0.5942,
       "edge": 0.4275,
       "odds": 500,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-20",
+      "game": "Lauren Price vs Michaela Kotaskova",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Michaela Kotaskova",
+      "confidence": 0.5,
+      "edge": 0.4091,
+      "odds": 1000,
       "tier": "Elite",
       "notes": ""
     }
