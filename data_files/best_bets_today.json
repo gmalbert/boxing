@@ -1,59 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-08T14:46:53.517327+00:00",
+    "generated_at": "2026-11-09T18:20:05.398280+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-11-09",
-      "game": "Elif Nur Turhan vs Alycia Baumgardner",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Elif Nur Turhan",
-      "confidence": 0.5,
-      "edge": 0.2778,
-      "odds": 350,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-09",
-      "game": "Ramla Ali vs Mikiah Kreps",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Ramla Ali",
-      "confidence": 0.5,
-      "edge": 0.1611,
-      "odds": 195,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-09",
-      "game": "Skye Nicolson vs Miyo Yoshida",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Miyo Yoshida",
-      "confidence": 0.5,
-      "edge": 0.4,
-      "odds": 900,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-09",
-      "game": "Albina Moldazhanova vs Kirstie Bavington",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Kirstie Bavington",
-      "confidence": 0.5,
-      "edge": 0.4473,
-      "odds": 1800,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-11-13",
       "game": "Jhon Orobio vs Hendri Cedeno",
@@ -61,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Hendri Cedeno",
       "confidence": 0.5,
-      "edge": 0.2894,
-      "odds": 375,
+      "edge": 0.3341,
+      "odds": 503,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Erik Bazinyan",
       "confidence": 0.5,
-      "edge": 0.1587,
-      "odds": 193,
+      "edge": 0.1551,
+      "odds": 190,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Zelfa Barrett",
       "confidence": 0.9658,
-      "edge": 0.3361,
-      "odds": -170,
+      "edge": 0.2991,
+      "odds": -200,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Gerome Warburton",
       "confidence": 0.5827,
-      "edge": 0.4837,
-      "odds": 910,
+      "edge": 0.4918,
+      "odds": 1000,
       "tier": "Elite",
       "notes": ""
     },
@@ -115,14 +67,38 @@
       "notes": ""
     },
     {
+      "game_date": "2026-11-14",
+      "game": "Bruno Surace vs Kamil Bednarek",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Kamil Bednarek",
+      "confidence": 0.5,
+      "edge": 0.2142,
+      "odds": 250,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-14",
+      "game": "Kyosuke Takami vs Angel Geovanny Meza Morales",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Angel Geovanny Meza Morales",
+      "confidence": 0.5,
+      "edge": 0.3795,
+      "odds": 730,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-11-15",
       "game": "Charlie Sheehy vs Gabriel Flores Jr",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Charlie Sheehy",
       "confidence": 0.966,
-      "edge": 0.1787,
-      "odds": -370,
+      "edge": 0.1722,
+      "odds": -385,
       "tier": "Elite",
       "notes": ""
     },
@@ -147,6 +123,30 @@
       "confidence": 0.5,
       "edge": 0.3901,
       "odds": 810,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-15",
+      "game": "David Adeleye vs Alexander Flores",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Alexander Flores",
+      "confidence": 0.1888,
+      "edge": 0.0555,
+      "odds": 650,
+      "tier": "Strong",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-15",
+      "game": "Anthony Olascuaga vs Yuberjen Martinez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Yuberjen Martinez",
+      "confidence": 0.5,
+      "edge": 0.3,
+      "odds": 400,
       "tier": "Elite",
       "notes": ""
     },
