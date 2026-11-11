@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-10T16:06:26.857314+00:00",
+    "generated_at": "2026-11-11T15:52:23.615029+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Gerome Warburton",
       "confidence": 0.5827,
-      "edge": 0.5058,
-      "odds": 1200,
+      "edge": 0.5202,
+      "odds": 1500,
       "tier": "Elite",
       "notes": ""
     },
@@ -63,6 +63,66 @@
       "confidence": 0.5,
       "edge": 0.1923,
       "odds": 225,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-14",
+      "game": "Ruben Eduardo Aguilar vs Guido Emmanuel Schramm",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Guido Emmanuel Schramm",
+      "confidence": 0.5,
+      "edge": 0.3484,
+      "odds": 560,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-14",
+      "game": "Tsendbaatar Erdenbat vs Muhammadkhuja Yaqubov",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Muhammadkhuja Yaqubov",
+      "confidence": 0.5,
+      "edge": 0.1254,
+      "odds": 167,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-14",
+      "game": "Bryan Flores vs Jose Nunez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jose Nunez",
+      "confidence": 0.5,
+      "edge": 0.0689,
+      "odds": 132,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-14",
+      "game": "Jakhongir Zokirov vs Brandon Colantonio",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Brandon Colantonio",
+      "confidence": 0.5,
+      "edge": 0.3919,
+      "odds": 825,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-14",
+      "game": "Yaser Al Ghena vs Ben Marksby",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Ben Marksby",
+      "confidence": 0.5,
+      "edge": 0.1363,
+      "odds": 175,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Manuel Lerma",
       "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
+      "edge": 0.4195,
+      "odds": 1143,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Alexander Flores",
       "confidence": 0.1888,
-      "edge": 0.0638,
-      "odds": 700,
+      "edge": 0.0979,
+      "odds": 1000,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +169,8 @@
       "bet_type": "moneyline",
       "pick": "Yuberjen Martinez",
       "confidence": 0.5,
-      "edge": 0.2777,
-      "odds": 350,
+      "edge": 0.2727,
+      "odds": 340,
       "tier": "Elite",
       "notes": ""
     },
@@ -123,6 +183,18 @@
       "confidence": 0.5,
       "edge": 0.4091,
       "odds": 1000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-21",
+      "game": "Gabriela Fundora vs Jasmina Zapotoczna",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jasmina Zapotoczna",
+      "confidence": 0.5,
+      "edge": 0.378,
+      "odds": 720,
       "tier": "Elite",
       "notes": ""
     }
