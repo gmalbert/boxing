@@ -1,35 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-12T16:35:15.645574+00:00",
+    "generated_at": "2026-11-13T15:55:56.397423+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-11-13",
-      "game": "Jhon Orobio vs Hendri Cedeno",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Hendri Cedeno",
-      "confidence": 0.5,
-      "edge": 0.3889,
-      "odds": 800,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-13",
-      "game": "Steven Butler vs Erik Bazinyan",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Erik Bazinyan",
-      "confidence": 0.5,
-      "edge": 0.0555,
-      "odds": 125,
-      "tier": "Strong",
-      "notes": ""
-    },
     {
       "game_date": "2026-11-13",
       "game": "Bilel Jkitou vs Gabriel Alberto Corzo",
@@ -37,8 +13,20 @@
       "bet_type": "moneyline",
       "pick": "Gabriel Alberto Corzo",
       "confidence": 0.5,
-      "edge": 0.3461,
-      "odds": 550,
+      "edge": 0.4091,
+      "odds": 1000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-14",
+      "game": "Jason Moloney vs Jose Andres Teran",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jose Andres Teran",
+      "confidence": 0.9743,
+      "edge": 0.3998,
+      "odds": -135,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Guido Emmanuel Schramm",
       "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
+      "edge": 0.4166,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Muhammadkhuja Yaqubov",
       "confidence": 0.5,
-      "edge": 0.1551,
-      "odds": 190,
+      "edge": 0.1805,
+      "odds": 213,
       "tier": "Elite",
       "notes": ""
     },
@@ -109,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Jose Nunez",
       "confidence": 0.5,
-      "edge": 0.0744,
-      "odds": 135,
+      "edge": 0.1,
+      "odds": 150,
       "tier": "Elite",
       "notes": ""
     },
@@ -121,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Brandon Colantonio",
       "confidence": 0.5,
-      "edge": 0.3919,
-      "odds": 825,
+      "edge": 0.423,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -133,9 +121,9 @@
       "bet_type": "moneyline",
       "pick": "Ben Marksby",
       "confidence": 0.5,
-      "edge": 0.0744,
-      "odds": 135,
-      "tier": "Elite",
+      "edge": 0.0454,
+      "odds": 120,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -145,8 +133,8 @@
       "bet_type": "moneyline",
       "pick": "Diego Zuniga",
       "confidence": 0.5,
-      "edge": 0.4,
-      "odds": 900,
+      "edge": 0.375,
+      "odds": 700,
       "tier": "Elite",
       "notes": ""
     },
@@ -157,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Axl Melendez Salgado",
       "confidence": 0.5,
-      "edge": 0.3461,
-      "odds": 550,
+      "edge": 0.3571,
+      "odds": 600,
       "tier": "Elite",
       "notes": ""
     },
@@ -169,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Ivan Ortiz",
       "confidence": 0.5,
-      "edge": 0.1587,
-      "odds": 193,
+      "edge": 0.17,
+      "odds": 203,
       "tier": "Elite",
       "notes": ""
     },
@@ -193,8 +181,20 @@
       "bet_type": "moneyline",
       "pick": "Jak Corrie",
       "confidence": 0.5,
-      "edge": 0.1296,
-      "odds": 170,
+      "edge": 0.1363,
+      "odds": 175,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-14",
+      "game": "Bakary Samake vs Uisma Lima",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Bakary Samake",
+      "confidence": 0.9719,
+      "edge": 0.4349,
+      "odds": -116,
       "tier": "Elite",
       "notes": ""
     },
@@ -205,8 +205,8 @@
       "bet_type": "moneyline",
       "pick": "Darius Fulghum",
       "confidence": 0.5942,
-      "edge": 0.4513,
-      "odds": 600,
+      "edge": 0.4403,
+      "odds": 550,
       "tier": "Elite",
       "notes": ""
     },
@@ -217,8 +217,8 @@
       "bet_type": "moneyline",
       "pick": "Manuel Lerma",
       "confidence": 0.5,
-      "edge": 0.4195,
-      "odds": 1143,
+      "edge": 0.4,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     },
@@ -229,9 +229,9 @@
       "bet_type": "moneyline",
       "pick": "Alexander Flores",
       "confidence": 0.1888,
-      "edge": 0.0979,
-      "odds": 1000,
-      "tier": "Elite",
+      "edge": 0.0555,
+      "odds": 650,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -277,8 +277,8 @@
       "bet_type": "moneyline",
       "pick": "Jasmina Zapotoczna",
       "confidence": 0.5,
-      "edge": 0.378,
-      "odds": 720,
+      "edge": 0.4,
+      "odds": 900,
       "tier": "Elite",
       "notes": ""
     }
