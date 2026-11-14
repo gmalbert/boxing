@@ -1,23 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-13T15:55:56.397423+00:00",
+    "generated_at": "2026-11-14T14:46:24.955490+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-11-13",
-      "game": "Bilel Jkitou vs Gabriel Alberto Corzo",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Gabriel Alberto Corzo",
-      "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-11-14",
       "game": "Jason Moloney vs Jose Andres Teran",
@@ -25,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Jose Andres Teran",
       "confidence": 0.9743,
-      "edge": 0.3998,
-      "odds": -135,
+      "edge": 0.4865,
+      "odds": 105,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Gerome Warburton",
       "confidence": 0.5827,
-      "edge": 0.5202,
-      "odds": 1500,
+      "edge": 0.5161,
+      "odds": 1400,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,56 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Kamil Bednarek",
       "confidence": 0.5,
-      "edge": 0.1923,
-      "odds": 225,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Ruben Eduardo Aguilar vs Guido Emmanuel Schramm",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Guido Emmanuel Schramm",
-      "confidence": 0.5,
-      "edge": 0.4166,
-      "odds": 1100,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Tsendbaatar Erdenbat vs Muhammadkhuja Yaqubov",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Muhammadkhuja Yaqubov",
-      "confidence": 0.5,
-      "edge": 0.1805,
-      "odds": 213,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Bryan Flores vs Jose Nunez",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jose Nunez",
-      "confidence": 0.5,
-      "edge": 0.1,
-      "odds": 150,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Jakhongir Zokirov vs Brandon Colantonio",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Brandon Colantonio",
-      "confidence": 0.5,
-      "edge": 0.423,
-      "odds": 1200,
+      "edge": 0.1363,
+      "odds": 175,
       "tier": "Elite",
       "notes": ""
     },
@@ -128,49 +68,13 @@
     },
     {
       "game_date": "2026-11-14",
-      "game": "Emilio Garcia vs Diego Zuniga",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Diego Zuniga",
-      "confidence": 0.5,
-      "edge": 0.375,
-      "odds": 700,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Elijah Flores vs Axl Melendez Salgado",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Axl Melendez Salgado",
-      "confidence": 0.5,
-      "edge": 0.3571,
-      "odds": 600,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Ivan Ortiz vs Dariial Kuchmenov",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Ivan Ortiz",
-      "confidence": 0.5,
-      "edge": 0.17,
-      "odds": 203,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
       "game": "Tom Welland vs Jack Dillingham",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Jack Dillingham",
       "confidence": 0.5,
-      "edge": 0.259,
-      "odds": 315,
+      "edge": 0.2395,
+      "odds": 284,
       "tier": "Elite",
       "notes": ""
     },
@@ -193,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Bakary Samake",
       "confidence": 0.9719,
-      "edge": 0.4349,
-      "odds": -116,
+      "edge": 0.3291,
+      "odds": -180,
       "tier": "Elite",
       "notes": ""
     },
@@ -229,9 +133,9 @@
       "bet_type": "moneyline",
       "pick": "Alexander Flores",
       "confidence": 0.1888,
-      "edge": 0.0555,
-      "odds": 650,
-      "tier": "Strong",
+      "edge": 0.0712,
+      "odds": 750,
+      "tier": "Elite",
       "notes": ""
     },
     {
@@ -241,8 +145,8 @@
       "bet_type": "moneyline",
       "pick": "Yuberjen Martinez",
       "confidence": 0.5,
-      "edge": 0.2777,
-      "odds": 350,
+      "edge": 0.2727,
+      "odds": 340,
       "tier": "Elite",
       "notes": ""
     },
@@ -253,8 +157,8 @@
       "bet_type": "moneyline",
       "pick": "Hemi Ahio",
       "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
+      "edge": 0.4215,
+      "odds": 1175,
       "tier": "Elite",
       "notes": ""
     },
@@ -267,6 +171,18 @@
       "confidence": 0.5,
       "edge": 0.4091,
       "odds": 1000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-20",
+      "game": "Rhys Edwards vs Lee McGregor",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Rhys Edwards",
+      "confidence": 0.9744,
+      "edge": 0.1546,
+      "odds": -455,
       "tier": "Elite",
       "notes": ""
     },
