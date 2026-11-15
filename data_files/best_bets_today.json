@@ -1,155 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-14T14:46:24.955490+00:00",
+    "generated_at": "2026-11-15T15:21:28.390909+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-11-14",
-      "game": "Jason Moloney vs Jose Andres Teran",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jose Andres Teran",
-      "confidence": 0.9743,
-      "edge": 0.4865,
-      "odds": 105,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Zelfa Barrett vs Gavin Gwynne",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Zelfa Barrett",
-      "confidence": 0.9658,
-      "edge": 0.2991,
-      "odds": -200,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Carlos Adames vs Gerome Warburton",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Gerome Warburton",
-      "confidence": 0.5827,
-      "edge": 0.5161,
-      "odds": 1400,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Bruno Surace vs Kamil Bednarek",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Kamil Bednarek",
-      "confidence": 0.5,
-      "edge": 0.1363,
-      "odds": 175,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Yaser Al Ghena vs Ben Marksby",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Ben Marksby",
-      "confidence": 0.5,
-      "edge": 0.0454,
-      "odds": 120,
-      "tier": "Strong",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Tom Welland vs Jack Dillingham",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jack Dillingham",
-      "confidence": 0.5,
-      "edge": 0.2395,
-      "odds": 284,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Dan Toward vs Jak Corrie",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jak Corrie",
-      "confidence": 0.5,
-      "edge": 0.1363,
-      "odds": 175,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-14",
-      "game": "Bakary Samake vs Uisma Lima",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Bakary Samake",
-      "confidence": 0.9719,
-      "edge": 0.3291,
-      "odds": -180,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-15",
-      "game": "Diego Pacheco vs Darius Fulghum",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Darius Fulghum",
-      "confidence": 0.5942,
-      "edge": 0.4403,
-      "odds": 550,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-15",
-      "game": "Zaquin Moses vs Manuel Lerma",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Manuel Lerma",
-      "confidence": 0.5,
-      "edge": 0.4,
-      "odds": 900,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-15",
-      "game": "David Adeleye vs Alexander Flores",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Alexander Flores",
-      "confidence": 0.1888,
-      "edge": 0.0712,
-      "odds": 750,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-15",
-      "game": "Anthony Olascuaga vs Yuberjen Martinez",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Yuberjen Martinez",
-      "confidence": 0.5,
-      "edge": 0.2727,
-      "odds": 340,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-11-18",
       "game": "Teremoana Junior vs Hemi Ahio",
@@ -187,6 +43,30 @@
       "notes": ""
     },
     {
+      "game_date": "2026-11-20",
+      "game": "Willy Gilheaney vs Alberto Ignacio Palmetta",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Alberto Ignacio Palmetta",
+      "confidence": 0.5,
+      "edge": 0.1254,
+      "odds": 167,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-20",
+      "game": "Kyran Jones vs Sean Arkwright",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Sean Arkwright",
+      "confidence": 0.5,
+      "edge": 0.0867,
+      "odds": 142,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-11-21",
       "game": "Gabriela Fundora vs Jasmina Zapotoczna",
       "game_time": "",
@@ -195,6 +75,42 @@
       "confidence": 0.5,
       "edge": 0.4,
       "odds": 900,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-29",
+      "game": "David Jimenez vs Seigo Yuri Akui",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "David Jimenez",
+      "confidence": 0.9813,
+      "edge": 0.4886,
+      "odds": 103,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-29",
+      "game": "Riku Masuda vs Seiya Tsutsumi",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Seiya Tsutsumi",
+      "confidence": 0.5,
+      "edge": 0.1254,
+      "odds": 167,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-29",
+      "game": "Kenshiro Teraji vs Jassiel Amador",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jassiel Amador",
+      "confidence": 0.8155,
+      "edge": 0.644,
+      "odds": 483,
       "tier": "Elite",
       "notes": ""
     }
