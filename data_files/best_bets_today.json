@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-15T15:21:28.390909+00:00",
+    "generated_at": "2026-11-16T17:57:33.958982+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Hemi Ahio",
       "confidence": 0.5,
-      "edge": 0.4215,
-      "odds": 1175,
+      "edge": 0.3701,
+      "odds": 670,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Michaela Kotaskova",
       "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
+      "edge": 0.4166,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Rhys Edwards",
       "confidence": 0.9744,
-      "edge": 0.1546,
-      "odds": -455,
+      "edge": 0.1563,
+      "odds": -450,
       "tier": "Elite",
       "notes": ""
     },
@@ -55,26 +55,14 @@
       "notes": ""
     },
     {
-      "game_date": "2026-11-20",
-      "game": "Kyran Jones vs Sean Arkwright",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Sean Arkwright",
-      "confidence": 0.5,
-      "edge": 0.0867,
-      "odds": 142,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
       "game_date": "2026-11-21",
       "game": "Gabriela Fundora vs Jasmina Zapotoczna",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "Jasmina Zapotoczna",
       "confidence": 0.5,
-      "edge": 0.4,
-      "odds": 900,
+      "edge": 0.4091,
+      "odds": 1000,
       "tier": "Elite",
       "notes": ""
     },
