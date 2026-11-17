@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-16T17:57:33.958982+00:00",
+    "generated_at": "2026-11-17T17:23:45.352518+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Hemi Ahio",
       "confidence": 0.5,
-      "edge": 0.3701,
-      "odds": 670,
+      "edge": 0.4166,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Alberto Ignacio Palmetta",
       "confidence": 0.5,
-      "edge": 0.1254,
-      "odds": 167,
+      "edge": 0.1363,
+      "odds": 175,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Jasmina Zapotoczna",
       "confidence": 0.5,
-      "edge": 0.4091,
-      "odds": 1000,
+      "edge": 0.423,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
