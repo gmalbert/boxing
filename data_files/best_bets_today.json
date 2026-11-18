@@ -1,23 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-17T17:23:45.352518+00:00",
+    "generated_at": "2026-11-18T16:57:42.493251+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-11-18",
-      "game": "Teremoana Junior vs Hemi Ahio",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Hemi Ahio",
-      "confidence": 0.5,
-      "edge": 0.4166,
-      "odds": 1100,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-11-20",
       "game": "Lauren Price vs Michaela Kotaskova",
@@ -25,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Michaela Kotaskova",
       "confidence": 0.5,
-      "edge": 0.4166,
-      "odds": 1100,
+      "edge": 0.4333,
+      "odds": 1400,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Rhys Edwards",
       "confidence": 0.9744,
-      "edge": 0.1563,
-      "odds": -450,
+      "edge": 0.1411,
+      "odds": -500,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +37,44 @@
       "bet_type": "moneyline",
       "pick": "Alberto Ignacio Palmetta",
       "confidence": 0.5,
-      "edge": 0.1363,
-      "odds": 175,
+      "edge": 0.1491,
+      "odds": 185,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-20",
+      "game": "David Lopez vs Alan Crisosto",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Alan Crisosto",
+      "confidence": 0.5,
+      "edge": 0.4285,
+      "odds": 1300,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-20",
+      "game": "Cayden Griffiths vs Jean Rivera-Pacheco",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jean Rivera-Pacheco",
+      "confidence": 0.8662,
+      "edge": 0.7829,
+      "odds": 1100,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-20",
+      "game": "Leonardo Sanchez vs Victor Morales Jr",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Victor Morales Jr",
+      "confidence": 0.5,
+      "edge": 0.25,
+      "odds": 300,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Jasmina Zapotoczna",
       "confidence": 0.5,
-      "edge": 0.423,
-      "odds": 1200,
+      "edge": 0.4333,
+      "odds": 1400,
       "tier": "Elite",
       "notes": ""
     },
