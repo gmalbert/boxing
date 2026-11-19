@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-18T16:57:42.493251+00:00",
+    "generated_at": "2026-11-19T17:04:08.459876+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Michaela Kotaskova",
       "confidence": 0.5,
-      "edge": 0.4333,
-      "odds": 1400,
+      "edge": 0.423,
+      "odds": 1200,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Rhys Edwards",
       "confidence": 0.9744,
-      "edge": 0.1411,
-      "odds": -500,
+      "edge": 0.1173,
+      "odds": -600,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Alberto Ignacio Palmetta",
       "confidence": 0.5,
-      "edge": 0.1491,
-      "odds": 185,
+      "edge": 0.1666,
+      "odds": 200,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Alan Crisosto",
       "confidence": 0.5,
-      "edge": 0.4285,
-      "odds": 1300,
+      "edge": 0.4375,
+      "odds": 1500,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +73,20 @@
       "bet_type": "moneyline",
       "pick": "Victor Morales Jr",
       "confidence": 0.5,
-      "edge": 0.25,
-      "odds": 300,
+      "edge": 0.2368,
+      "odds": 280,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-20",
+      "game": "Sean Arkwright vs Jake Goodwin",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jake Goodwin",
+      "confidence": 0.5,
+      "edge": 0.2963,
+      "odds": 391,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Jasmina Zapotoczna",
       "confidence": 0.5,
-      "edge": 0.4333,
-      "odds": 1400,
+      "edge": 0.4473,
+      "odds": 1800,
       "tier": "Elite",
       "notes": ""
     },
