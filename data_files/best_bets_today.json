@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-19T17:04:08.459876+00:00",
+    "generated_at": "2026-11-20T16:43:11.203074+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,8 @@
       "bet_type": "moneyline",
       "pick": "Michaela Kotaskova",
       "confidence": 0.5,
-      "edge": 0.423,
-      "odds": 1200,
+      "edge": 0.3889,
+      "odds": 800,
       "tier": "Elite",
       "notes": ""
     },
@@ -25,8 +25,8 @@
       "bet_type": "moneyline",
       "pick": "Rhys Edwards",
       "confidence": 0.9744,
-      "edge": 0.1173,
-      "odds": -600,
+      "edge": 0.1744,
+      "odds": -400,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "Alan Crisosto",
       "confidence": 0.5,
-      "edge": 0.4375,
-      "odds": 1500,
+      "edge": 0.4166,
+      "odds": 1100,
       "tier": "Elite",
       "notes": ""
     },
@@ -73,8 +73,8 @@
       "bet_type": "moneyline",
       "pick": "Victor Morales Jr",
       "confidence": 0.5,
-      "edge": 0.2368,
-      "odds": 280,
+      "edge": 0.2826,
+      "odds": 360,
       "tier": "Elite",
       "notes": ""
     },
@@ -85,8 +85,8 @@
       "bet_type": "moneyline",
       "pick": "Jake Goodwin",
       "confidence": 0.5,
-      "edge": 0.2963,
-      "odds": 391,
+      "edge": 0.1794,
+      "odds": 212,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Jasmina Zapotoczna",
       "confidence": 0.5,
-      "edge": 0.4473,
-      "odds": 1800,
+      "edge": 0.3889,
+      "odds": 800,
       "tier": "Elite",
       "notes": ""
     },
@@ -136,6 +136,18 @@
       "edge": 0.644,
       "odds": 483,
       "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-12-04",
+      "game": "Adam Azim vs Gabriel Gollaz Valenzuela",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Adam Azim",
+      "confidence": 0.9264,
+      "edge": 0.0375,
+      "odds": -800,
+      "tier": "Strong",
       "notes": ""
     }
   ]
