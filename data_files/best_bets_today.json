@@ -1,104 +1,20 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-20T16:43:11.203074+00:00",
+    "generated_at": "2026-11-21T15:55:16.015154+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
     {
-      "game_date": "2026-11-20",
-      "game": "Lauren Price vs Michaela Kotaskova",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Michaela Kotaskova",
-      "confidence": 0.5,
-      "edge": 0.3889,
-      "odds": 800,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-20",
-      "game": "Rhys Edwards vs Lee McGregor",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Rhys Edwards",
-      "confidence": 0.9744,
-      "edge": 0.1744,
-      "odds": -400,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-20",
-      "game": "Willy Gilheaney vs Alberto Ignacio Palmetta",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Alberto Ignacio Palmetta",
-      "confidence": 0.5,
-      "edge": 0.1666,
-      "odds": 200,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-20",
-      "game": "David Lopez vs Alan Crisosto",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Alan Crisosto",
-      "confidence": 0.5,
-      "edge": 0.4166,
-      "odds": 1100,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-20",
-      "game": "Cayden Griffiths vs Jean Rivera-Pacheco",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jean Rivera-Pacheco",
-      "confidence": 0.8662,
-      "edge": 0.7829,
-      "odds": 1100,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-20",
-      "game": "Leonardo Sanchez vs Victor Morales Jr",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Victor Morales Jr",
-      "confidence": 0.5,
-      "edge": 0.2826,
-      "odds": 360,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-20",
-      "game": "Sean Arkwright vs Jake Goodwin",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Jake Goodwin",
-      "confidence": 0.5,
-      "edge": 0.1794,
-      "odds": 212,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
       "game_date": "2026-11-21",
-      "game": "Gabriela Fundora vs Jasmina Zapotoczna",
+      "game": "Adian Williamson vs Regan Glackin",
       "game_time": "",
       "bet_type": "moneyline",
-      "pick": "Jasmina Zapotoczna",
-      "confidence": 0.5,
-      "edge": 0.3889,
-      "odds": 800,
+      "pick": "Adian Williamson",
+      "confidence": 0.9667,
+      "edge": 0.4667,
+      "odds": 100,
       "tier": "Elite",
       "notes": ""
     },
@@ -148,6 +64,18 @@
       "edge": 0.0375,
       "odds": -800,
       "tier": "Strong",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-12-05",
+      "game": "Conah Walker vs Alexis Rocha",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Conah Walker",
+      "confidence": 0.5,
+      "edge": 0.17,
+      "odds": 203,
+      "tier": "Elite",
       "notes": ""
     }
   ]
