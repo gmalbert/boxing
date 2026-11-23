@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-22T15:56:17.174173+00:00",
+    "generated_at": "2026-11-23T19:51:25.728889+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "Seiya Tsutsumi",
       "confidence": 0.5,
-      "edge": 0.1254,
-      "odds": 167,
+      "edge": 0.1047,
+      "odds": 153,
       "tier": "Elite",
       "notes": ""
     },
