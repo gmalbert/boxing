@@ -1,7 +1,7 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-24T19:20:35.067255+00:00",
+    "generated_at": "2026-11-25T18:26:11.600095+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
@@ -13,8 +13,32 @@
       "bet_type": "moneyline",
       "pick": "Zyvyr John Medecilo",
       "confidence": 0.5,
-      "edge": 0.2777,
-      "odds": 350,
+      "edge": 0.2916,
+      "odds": 380,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-27",
+      "game": "Slawa Spomer vs Eddy Colmenares",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Eddy Colmenares",
+      "confidence": 0.455,
+      "edge": 0.0953,
+      "odds": 178,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-28",
+      "game": "Charlie Senior vs James Chereji",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "James Chereji",
+      "confidence": 0.5,
+      "edge": 0.3919,
+      "odds": 825,
       "tier": "Elite",
       "notes": ""
     },
@@ -55,18 +79,6 @@
       "notes": ""
     },
     {
-      "game_date": "2026-12-04",
-      "game": "Adam Azim vs Gabriel Gollaz Valenzuela",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Adam Azim",
-      "confidence": 0.9264,
-      "edge": 0.0375,
-      "odds": -800,
-      "tier": "Strong",
-      "notes": ""
-    },
-    {
       "game_date": "2026-12-05",
       "game": "Conah Walker vs Alexis Rocha",
       "game_time": "",
@@ -85,8 +97,8 @@
       "bet_type": "moneyline",
       "pick": "Roberto Valenzuela Jr",
       "confidence": 0.5,
-      "edge": 0.2727,
-      "odds": 340,
+      "edge": 0.3,
+      "odds": 400,
       "tier": "Elite",
       "notes": ""
     },
@@ -97,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Omar Juarez",
       "confidence": 0.5793,
-      "edge": 0.4543,
-      "odds": 700,
+      "edge": 0.418,
+      "odds": 520,
       "tier": "Elite",
       "notes": ""
     }
