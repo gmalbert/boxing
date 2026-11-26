@@ -1,23 +1,11 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-25T18:26:11.600095+00:00",
+    "generated_at": "2026-11-26T18:08:18.136290+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
-    {
-      "game_date": "2026-11-26",
-      "game": "Takeshi Ishii vs Zyvyr John Medecilo",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Zyvyr John Medecilo",
-      "confidence": 0.5,
-      "edge": 0.2916,
-      "odds": 380,
-      "tier": "Elite",
-      "notes": ""
-    },
     {
       "game_date": "2026-11-27",
       "game": "Slawa Spomer vs Eddy Colmenares",
@@ -25,8 +13,20 @@
       "bet_type": "moneyline",
       "pick": "Eddy Colmenares",
       "confidence": 0.455,
-      "edge": 0.0953,
-      "odds": 178,
+      "edge": 0.0846,
+      "odds": 170,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-27",
+      "game": "Emanuel Odiase vs Mike Perez",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Emanuel Odiase",
+      "confidence": 0.9302,
+      "edge": 0.1655,
+      "odds": -325,
       "tier": "Elite",
       "notes": ""
     },
@@ -37,8 +37,8 @@
       "bet_type": "moneyline",
       "pick": "James Chereji",
       "confidence": 0.5,
-      "edge": 0.3919,
-      "odds": 825,
+      "edge": 0.4215,
+      "odds": 1175,
       "tier": "Elite",
       "notes": ""
     },
@@ -49,8 +49,8 @@
       "bet_type": "moneyline",
       "pick": "David Jimenez",
       "confidence": 0.9813,
-      "edge": 0.4813,
-      "odds": 100,
+      "edge": 0.5427,
+      "odds": 128,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +61,8 @@
       "bet_type": "moneyline",
       "pick": "Seiya Tsutsumi",
       "confidence": 0.5,
-      "edge": 0.0816,
-      "odds": 139,
+      "edge": 0.1,
+      "odds": 150,
       "tier": "Elite",
       "notes": ""
     },
