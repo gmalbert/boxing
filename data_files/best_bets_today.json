@@ -1,33 +1,21 @@
 {
   "meta": {
     "sport": "Boxing",
-    "generated_at": "2026-11-27T17:51:11.668041+00:00",
+    "generated_at": "2026-11-28T16:38:44.962939+00:00",
     "model_version": "1.0.0",
     "season": "2026"
   },
   "bets": [
     {
-      "game_date": "2026-11-27",
-      "game": "Slawa Spomer vs Eddy Colmenares",
+      "game_date": "2026-11-28",
+      "game": "Agit Kabayel vs Nelson Hysa",
       "game_time": "",
       "bet_type": "moneyline",
-      "pick": "Eddy Colmenares",
-      "confidence": 0.455,
-      "edge": 0.0846,
-      "odds": 170,
-      "tier": "Elite",
-      "notes": ""
-    },
-    {
-      "game_date": "2026-11-27",
-      "game": "Emanuel Odiase vs Mike Perez",
-      "game_time": "",
-      "bet_type": "moneyline",
-      "pick": "Emanuel Odiase",
-      "confidence": 0.9302,
-      "edge": 0.0902,
-      "odds": -525,
-      "tier": "Elite",
+      "pick": "Agit Kabayel",
+      "confidence": 0.9328,
+      "edge": 0.0328,
+      "odds": -900,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -43,14 +31,74 @@
       "notes": ""
     },
     {
+      "game_date": "2026-11-28",
+      "game": "Daniel Baer vs Arman Khudoyan",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Daniel Baer",
+      "confidence": 0.5,
+      "edge": 0.17,
+      "odds": 203,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-28",
+      "game": "Serkay Comert vs Willi Knorpp",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Willi Knorpp",
+      "confidence": 0.5,
+      "edge": 0.3054,
+      "odds": 414,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-28",
+      "game": "Granit Shala vs Kolbeinn Kristinsson",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Kolbeinn Kristinsson",
+      "confidence": 0.5,
+      "edge": 0.2142,
+      "odds": 250,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-28",
+      "game": "Aloys Youmbi vs Artur Mann",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Artur Mann",
+      "confidence": 0.5,
+      "edge": 0.4091,
+      "odds": 1000,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-11-28",
+      "game": "Gleb Bakshi vs Serhat Parlak",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Serhat Parlak",
+      "confidence": 0.5,
+      "edge": 0.4215,
+      "odds": 1175,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
       "game_date": "2026-11-29",
       "game": "David Jimenez vs Seigo Yuri Akui",
       "game_time": "",
       "bet_type": "moneyline",
       "pick": "David Jimenez",
       "confidence": 0.9813,
-      "edge": 0.5348,
-      "odds": 124,
+      "edge": 0.4935,
+      "odds": 105,
       "tier": "Elite",
       "notes": ""
     },
@@ -61,8 +109,8 @@
       "bet_type": "moneyline",
       "pick": "Seiya Tsutsumi",
       "confidence": 0.5,
-      "edge": 0.1,
-      "odds": 150,
+      "edge": 0.0935,
+      "odds": 146,
       "tier": "Elite",
       "notes": ""
     },
@@ -76,6 +124,42 @@
       "edge": 0.644,
       "odds": 483,
       "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-12-04",
+      "game": "Max McIntyre vs Francis Waitai",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Francis Waitai",
+      "confidence": 0.5,
+      "edge": 0.3529,
+      "odds": 580,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-12-04",
+      "game": "Jack Massey vs Andrew Tabiti",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jack Massey",
+      "confidence": 0.5324,
+      "edge": 0.0799,
+      "odds": 121,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-12-04",
+      "game": "Zak Chelli vs Jesse Hart",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Jesse Hart",
+      "confidence": 0.5,
+      "edge": 0.0391,
+      "odds": 117,
+      "tier": "Strong",
       "notes": ""
     },
     {
@@ -121,8 +205,20 @@
       "bet_type": "moneyline",
       "pick": "Martin Bakole",
       "confidence": 0.9748,
-      "edge": 0.3138,
-      "odds": -195,
+      "edge": 0.2923,
+      "odds": -215,
+      "tier": "Elite",
+      "notes": ""
+    },
+    {
+      "game_date": "2026-12-12",
+      "game": "Tyson Fury vs Anthony Joshua",
+      "game_time": "",
+      "bet_type": "moneyline",
+      "pick": "Tyson Fury",
+      "confidence": 0.8417,
+      "edge": 0.1865,
+      "odds": -190,
       "tier": "Elite",
       "notes": ""
     }
